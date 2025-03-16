@@ -1,0 +1,28 @@
+{
+  "name": "yoyo_paps",
+  "des": "this is paps",
+  "time": 1741858331672,
+  "types": [
+    {
+      "typename": "mama"
+    },
+    {
+      "typename": "mama2"
+    }
+  ],
+  "use_list": [
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1741873021502,
+      "target": "ask name",
+      "nolvl": 1
+    }
+  ],
+  "task_list": [
+    {
+      "name": "task2.py"
+    }
+  ],
+  "recommendation_list": []
+}

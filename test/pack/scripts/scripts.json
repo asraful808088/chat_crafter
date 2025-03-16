@@ -1,0 +1,351 @@
+{
+  "script":[
+    {
+      "id": 1741944259506,
+      "type": "init",
+      "target": "greeting",
+      "list_of_response": [
+        {
+          "type": "response",
+          "target": "texts1"
+        },
+        {
+          "type": "actions",
+          "target": "uoos"
+        }
+      ],
+      "list_of_store": [
+        {
+          "id": 1741944270985,
+          "type": "t_next",
+          "target": "ask name",
+          "list_of_response": [
+            {
+              "type": "response",
+              "target": "asda12"
+            },
+            {
+              "type": "actions",
+              "target": "uoos"
+            }
+          ],
+          "list_of_store": [
+            {
+              "id": 1741944350258,
+              "type": "add_condition",
+              "target": "greeting",
+              "list_of_response": [
+                {
+                  "type": "response",
+                  "target": "test"
+                }
+              ],
+              "list_of_store": [],
+              "store_id": [],
+              "target_id": null,
+              "condition_type": "mama",
+              "condition": "yoyo_paps",
+              "nolvl": 2,
+              "list_of_next_stap": [
+                {
+                  "type": "next_add",
+                  "label": "next-intents"
+                },
+                {
+                  "type": "backward_add",
+                  "label": "backwards-add"
+                },
+                {
+                  "type": "serial_break_add",
+                  "val": false,
+                  "label": "serial-break"
+                },
+                {
+                  "type": "serial_break_err_add",
+                  "label": "serial break fallout"
+                },
+                {
+                  "type": "add_condition",
+                  "label": "add-condition"
+                }
+              ],
+              "list_store_id": [
+                {
+                  "id": 1741944259506,
+                  "target": "greeting"
+                },
+                {
+                  "id": 1741944270985,
+                  "target": "ask name"
+                }
+              ]
+            },
+            {
+              "id": 1741944360264,
+              "type": "add_condition",
+              "target": "bye",
+              "list_of_response": [
+                {
+                  "type": "response",
+                  "target": "texts1"
+                }
+              ],
+              "list_of_store": [
+                {
+                  "id": 1741944398407,
+                  "type": "t_next",
+                  "target": "ask name",
+                  "list_of_response": [
+                    {
+                      "type": "response",
+                      "target": "asda12"
+                    }
+                  ],
+                  "list_of_store": [],
+                  "store_id": [],
+                  "target_id": null,
+                  "condition_type": null,
+                  "condition": null,
+                  "nolvl": 3,
+                  "list_of_next_stap": [
+                    {
+                      "type": "next_add",
+                      "label": "next-intents"
+                    },
+                    {
+                      "type": "backward_add",
+                      "label": "backwards-add"
+                    },
+                    {
+                      "type": "serial_break_add",
+                      "val": false,
+                      "label": "serial-break"
+                    },
+                    {
+                      "type": "serial_break_err_add",
+                      "label": "serial break fallout"
+                    },
+                    {
+                      "type": "add_condition",
+                      "label": "add-condition"
+                    }
+                  ],
+                  "list_store_id": [
+                    {
+                      "id": 1741944259506,
+                      "target": "greeting"
+                    },
+                    {
+                      "id": 1741944270985,
+                      "target": "ask name"
+                    },
+                    {
+                      "id": 1741944360264,
+                      "target": "bye"
+                    }
+                  ]
+                }
+              ],
+              "store_id": [],
+              "target_id": null,
+              "condition_type": "mama2",
+              "condition": "yoyo_paps",
+              "nolvl": 2,
+              "list_of_next_stap": [
+                {
+                  "type": "next_add",
+                  "label": "next-intents"
+                },
+                {
+                  "type": "backward_add",
+                  "label": "backwards-add"
+                },
+                {
+                  "type": "serial_break_add",
+                  "val": false,
+                  "label": "serial-break"
+                },
+                {
+                  "type": "serial_break_err_add",
+                  "label": "serial break fallout"
+                },
+                {
+                  "type": "add_condition",
+                  "label": "add-condition"
+                }
+              ],
+              "list_store_id": [
+                {
+                  "id": 1741944259506,
+                  "target": "greeting"
+                },
+                {
+                  "id": 1741944270985,
+                  "target": "ask name"
+                }
+              ]
+            },
+            {
+              "id": 1741977771294,
+              "type": "fallback",
+              "target": "ask name",
+              "list_of_response": [
+                {
+                  "type": "response",
+                  "target": "texts1"
+                }
+              ],
+              "list_of_store": [],
+              "store_id": [],
+              "target_id": null,
+              "condition_type": null,
+              "condition": null,
+              "nolvl": 2,
+              "list_of_next_stap": [
+                {
+                  "type": "next_add",
+                  "label": "next-intents"
+                },
+                {
+                  "type": "backward_add",
+                  "label": "backwards-add"
+                },
+                {
+                  "type": "serial_break_add",
+                  "val": false,
+                  "label": "serial-break"
+                },
+                {
+                  "type": "serial_break_err_add",
+                  "label": "serial break fallout"
+                },
+                {
+                  "type": "add_condition",
+                  "label": "add-condition"
+                }
+              ],
+              "list_store_id": [
+                {
+                  "id": 1741944259506,
+                  "target": "greeting"
+                },
+                {
+                  "id": 1741944270985,
+                  "target": "ask name"
+                }
+              ]
+            }
+          ],
+          "store_id": [],
+          "target_id": null,
+          "condition_type": null,
+          "condition": null,
+          "nolvl": 1,
+          "list_of_next_stap": [
+            {
+              "type": "next_add",
+              "label": "next-intents"
+            },
+            {
+              "type": "backward_add",
+              "label": "backwards-add"
+            },
+            {
+              "type": "serial_break_add",
+              "val": false,
+              "label": "serial-break"
+            },
+            {
+              "type": "serial_break_err_add",
+              "label": "serial break fallout"
+            },
+            {
+              "type": "add_condition",
+              "label": "add-condition"
+            }
+          ],
+          "list_store_id": [
+            {
+              "id": 1741944259506,
+              "target": "greeting"
+            }
+          ]
+        }
+      ],
+      "store_id": [],
+      "target_id": null,
+      "condition_type": null,
+      "condition": null,
+      "nolvl": 0,
+      "list_of_next_stap": [
+        {
+          "type": "next_add",
+          "label": "next-intents"
+        },
+        {
+          "type": "backward_add",
+          "label": "backwards-add"
+        },
+        {
+          "type": "serial_break_add",
+          "val": false,
+          "label": "serial-break"
+        },
+        {
+          "type": "serial_break_err_add",
+          "label": "serial break fallout"
+        },
+        {
+          "type": "add_condition",
+          "label": "add-condition"
+        }
+      ],
+      "list_store_id": []
+    },
+    {
+      "id": 1742059052812,
+      "type": "init",
+      "target": "bye",
+      "list_of_response": [
+        {
+          "type": "response",
+          "target": "test"
+        },
+        {
+          "type": "actions",
+          "target": "uoos"
+        }
+      ],
+      "list_of_store": [],
+      "store_id": [],
+      "target_id": null,
+      "condition_type": null,
+      "condition": null,
+      "nolvl": 0,
+      "list_of_next_stap": [
+        {
+          "type": "next_add",
+          "label": "next-intents"
+        },
+        {
+          "type": "backward_add",
+          "label": "backwards-add"
+        },
+        {
+          "type": "serial_break_add",
+          "val": false,
+          "label": "serial-break"
+        },
+        {
+          "type": "serial_break_err_add",
+          "label": "serial break fallout"
+        },
+        {
+          "type": "add_condition",
+          "label": "add-condition"
+        }
+      ],
+      "list_store_id": []
+    }
+  ]
+}

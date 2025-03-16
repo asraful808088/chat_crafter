@@ -1,0 +1,211 @@
+.Layer-main {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.507);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}
+.Layer-main > .box {
+  height: 500px;
+  aspect-ratio: 2/1;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 5px 5px 25px 10px rgba(0, 0, 0, 0.279);
+  border-radius: 5px;
+}
+.Layer-main > .box .back-box {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Layer-main > .box .back-box .button {
+  height: 25px;
+  aspect-ratio: 2/1.8;
+  position: relative;
+  transform: scale(0.81);
+  cursor: pointer;
+}
+.Layer-main > .box .layer-box {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  overflow-y:auto ;
+  flex-wrap: wrap;
+  height: calc(100% - 35px);
+}
+
+
+
+
+.Layer-main > .box .layer-box .layer {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Layer-main > .box .layer-box .layer .head {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  align-items: center;
+}
+.Layer-main > .box .layer-box .layer .head div {
+  font-size: 16px;
+}
+.Layer-main > .box .layer-box .layer .head .apply {
+  font-size: 16px;
+}
+.Layer-main > .box .layer-box .layer .head .apply:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Layer-main > .box .layer-box .layer .head .arrow {
+  width: 120px;
+  height: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Layer-main > .box .layer-box .layer .head .arrow .icon {
+  height: 30px;
+  aspect-ratio: 1/1;
+  padding: 5px 0;
+  transform: scale(0.9);
+  position: relative;
+}
+.Layer-main > .box .layer-box .layer .head .arrow .icon:nth-child(1) {
+  transform: rotate(-90deg) scale(0.6);
+  cursor: pointer;
+}
+.Layer-main > .box .layer-box .layer .head .arrow .icon:nth-child(2) {
+  transform: rotate(90deg) scale(0.6);
+  cursor: pointer;
+  
+}
+
+/* .Layer-main > .box .layer-box .layer .select-box {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+} */
+/* .Layer-main > .box .layer-box .layer .select-box .part {
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Layer-main > .box .layer-box .layer .select-box .part .input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 35px;
+} */
+/* .Layer-main > .box .layer-box .layer .select-box .part .input-box input {
+  flex-grow: 1;
+  margin-right: 5px;
+  border: none;
+  border-bottom: 2px solid rgb(255, 111, 0);
+  outline: none;
+  height: 100%;
+  padding: 0 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  background-color: transparent;
+} */
+/* .Layer-main > .box .layer-box .layer .select-box .part .input-box .button {
+  position: relative;
+  aspect-ratio: 2.1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  height: 35px;
+  background-color: rgb(255, 111, 0);
+  border-radius: 5px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.Layer-main > .box .layer-box .layer .select-box .part .input-items {
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.Layer-main
+  > .box
+  .layer-box
+  .layer
+  .select-box
+  .part
+  .input-items
+  .input-items-item {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Layer-main
+  > .box
+  .layer-box
+  .layer
+  .select-box
+  .part
+  .input-items
+  .input-items-item
+  .icon {
+  height: 30px;
+  aspect-ratio: 1/1;
+  padding: 3px;
+}
+.Layer-main
+  > .box
+  .layer-box
+  .layer
+  .select-box
+  .part
+  .input-items
+  .input-items-item
+  .delete-icon{
+    padding: 5px;
+  }
+.Layer-main
+  > .box
+  .layer-box
+  .layer
+  .select-box
+  .part
+  .input-items
+  .input-items-item
+.txt{
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 14px;
+} */

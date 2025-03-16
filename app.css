@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Fugaz One";
+  src: url("@/assets/fonts/FugazOne-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Spicy Rice";
+  src: url("@/assets/fonts/SpicyRiceRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lemon";
+  src: url("@/assets/fonts/Lemon-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lilita One";
+  src: url("@/assets/fonts/LilitaOne-Regular.ttf") format("truetype");
+}
+/* font-family: "Lilita One", sans-serif; */
+/* font-family: "Fugaz One", sans-serif; */
+/* font-family: "Spicy Rice", serif; */
+/* font-family: "Lemon", cursive; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.route-view {
+  width: 100%;
+  height: calc(100vh - 150px);
+  margin-top: 10px;
+  position: relative;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

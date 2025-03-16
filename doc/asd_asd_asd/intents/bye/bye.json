@@ -1,0 +1,3362 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "\"See you tomorrow!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "tomorrow!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m logging off!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "logging",
+        "off!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Until we chat again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Until",
+        "we",
+        "chat",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll catch you soon!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "catch",
+        "you",
+        "soon!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Time to head out!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Time",
+        "to",
+        "head",
+        "out!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Gotta bounce!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Gotta",
+        "bounce!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay chill!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "chill!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be safe out there!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "safe",
+        "out",
+        "there!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take care, friend!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "care,",
+        "friend!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a wonderful evening!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "wonderful",
+        "evening!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t work too hard!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "work",
+        "too",
+        "hard!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll see you on the other side!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "see",
+        "you",
+        "on",
+        "the",
+        "other",
+        "side!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep rocking!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "rocking!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay motivated!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "motivated!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay inspired!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "inspired!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Time to say goodbye!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Time",
+        "to",
+        "say",
+        "goodbye!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Enjoy the rest of your day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Enjoy",
+        "the",
+        "rest",
+        "of",
+        "your",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll miss you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "miss",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Bye, see you next time!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Bye,",
+        "see",
+        "you",
+        "next",
+        "time!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a restful night!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "restful",
+        "night!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay lovely!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "lovely!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay bright!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "bright!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you in a bit!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "in",
+        "a",
+        "bit!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m out for now!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "out",
+        "for",
+        "now!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you in a while!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "in",
+        "a",
+        "while!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take it easy, buddy!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "it",
+        "easy,",
+        "buddy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you later, dude!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "later,",
+        "dude!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Time to roll!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Time",
+        "to",
+        "roll!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m clocking out!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "clocking",
+        "out!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay out of trouble!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "out",
+        "of",
+        "trouble!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hope to see you again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hope",
+        "to",
+        "see",
+        "you",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Good journey!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Good",
+        "journey!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Safe travels!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Safe",
+        "travels!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep the faith!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "the",
+        "faith!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Enjoy yourself!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Enjoy",
+        "yourself!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"May the force be with you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"May",
+        "the",
+        "force",
+        "be",
+        "with",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m off to bed!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "off",
+        "to",
+        "bed!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you next round!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "next",
+        "round!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you at the usual spot!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "at",
+        "the",
+        "usual",
+        "spot!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t forget me!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "forget",
+        "me!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay out of mischief!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "out",
+        "of",
+        "mischief!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll see you on the flip side!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "see",
+        "you",
+        "on",
+        "the",
+        "flip",
+        "side!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"May we meet soon!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"May",
+        "we",
+        "meet",
+        "soon!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a peaceful night!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "peaceful",
+        "night!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Sweet rest to you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Sweet",
+        "rest",
+        "to",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep in touch, okay?\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "in",
+        "touch,",
+        "okay?\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hope you have a good one!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hope",
+        "you",
+        "have",
+        "a",
+        "good",
+        "one!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m heading offline!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "heading",
+        "offline!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll be seeing you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "be",
+        "seeing",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Parting ways for now!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Parting",
+        "ways",
+        "for",
+        "now!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll catch up with you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "catch",
+        "up",
+        "with",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hope our paths cross again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hope",
+        "our",
+        "paths",
+        "cross",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you on the rebound!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "on",
+        "the",
+        "rebound!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep being great!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "being",
+        "great!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take a break, you deserve it!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "a",
+        "break,",
+        "you",
+        "deserve",
+        "it!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hope to see you smiling again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hope",
+        "to",
+        "see",
+        "you",
+        "smiling",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep chasing dreams!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "chasing",
+        "dreams!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m stepping away now!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "stepping",
+        "away",
+        "now!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll be off now!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "be",
+        "off",
+        "now!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a safe journey home!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "safe",
+        "journey",
+        "home!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you on the next adventure!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "on",
+        "the",
+        "next",
+        "adventure!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Time to call it a day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Time",
+        "to",
+        "call",
+        "it",
+        "a",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be seeing you around!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "seeing",
+        "you",
+        "around!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll text you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "text",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay curious!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "curious!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay strong!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "strong!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Time to vanish!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Time",
+        "to",
+        "vanish!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be happy!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "happy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take a rest, champ!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "a",
+        "rest,",
+        "champ!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Make today awesome!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Make",
+        "today",
+        "awesome!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Good luck with everything!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Good",
+        "luck",
+        "with",
+        "everything!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Until our next conversation!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Until",
+        "our",
+        "next",
+        "conversation!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you somewhere down the line!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "somewhere",
+        "down",
+        "the",
+        "line!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hope the day treats you well!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hope",
+        "the",
+        "day",
+        "treats",
+        "you",
+        "well!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"May your day be bright!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"May",
+        "your",
+        "day",
+        "be",
+        "bright!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Enjoy your evening!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Enjoy",
+        "your",
+        "evening!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take good care of yourself!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "good",
+        "care",
+        "of",
+        "yourself!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you in dreamland!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "in",
+        "dreamland!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t forget to rest!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "forget",
+        "to",
+        "rest!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Rest up!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Rest",
+        "up!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay sharp!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "sharp!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take care till we meet again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "care",
+        "till",
+        "we",
+        "meet",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a chill day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "chill",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay comfy!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "comfy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you after a while!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "after",
+        "a",
+        "while!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a laid-back evening!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "laid-back",
+        "evening!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay entertained!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "entertained!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep it real!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "it",
+        "real!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t change!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "change!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you on the sunny side!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "on",
+        "the",
+        "sunny",
+        "side!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you with a smile!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "with",
+        "a",
+        "smile!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Wishing you good vibes!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Wishing",
+        "you",
+        "good",
+        "vibes!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Farewell until next time!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Farewell",
+        "until",
+        "next",
+        "time!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m off like a rocket!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "off",
+        "like",
+        "a",
+        "rocket!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you at dawn!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "at",
+        "dawn!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"May your night be peaceful!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"May",
+        "your",
+        "night",
+        "be",
+        "peaceful!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take it slow and steady!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "it",
+        "slow",
+        "and",
+        "steady!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t forget to smile, bye!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "forget",
+        "to",
+        "smile,",
+        "bye!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"May happiness follow you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"May",
+        "happiness",
+        "follow",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Signing off, see you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Signing",
+        "off,",
+        "see",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Goodbye!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Goodbye!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take care!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "care!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Farewell!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Farewell!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Bye for now!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Bye",
+        "for",
+        "now!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a great day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "great",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you soon!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "soon!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Till next time!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Till",
+        "next",
+        "time!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Peace out!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Peace",
+        "out!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I'm off!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I'm",
+        "off!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Later!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Gotta go!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Gotta",
+        "go!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take it easy!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "it",
+        "easy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay safe!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "safe!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See ya!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "ya!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I'm heading out!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I'm",
+        "heading",
+        "out!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you on the flip side!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "on",
+        "the",
+        "flip",
+        "side!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Talk to you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Talk",
+        "to",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I'm out!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I'm",
+        "out!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a good one!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "good",
+        "one!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Until next time!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Until",
+        "next",
+        "time!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep in touch!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "in",
+        "touch!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"It was nice chatting!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"It",
+        "was",
+        "nice",
+        "chatting!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Bye-bye!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Bye-bye!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Ciao!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Ciao!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Adios!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Adios!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Au revoir!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Au",
+        "revoir!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Sayonara!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Sayonara!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take it slow!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "it",
+        "slow!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Gotta run!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Gotta",
+        "run!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay awesome!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "awesome!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay cool!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "cool!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t be a stranger!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "be",
+        "a",
+        "stranger!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Time to bounce!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Time",
+        "to",
+        "bounce!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m signing off!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "signing",
+        "off!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be good!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "good!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you around!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "around!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you next time!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "next",
+        "time!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Parting is such sweet sorrow!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Parting",
+        "is",
+        "such",
+        "sweet",
+        "sorrow!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Until we meet again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Until",
+        "we",
+        "meet",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have fun!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "fun!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay happy!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "happy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Godspeed!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Godspeed!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Good night!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Good",
+        "night!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Good day!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Good",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Rest well!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Rest",
+        "well!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Sweet dreams!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Sweet",
+        "dreams!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Bye for today!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Bye",
+        "for",
+        "today!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a splendid day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "splendid",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay blessed!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "blessed!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be safe!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "safe!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take good care!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "good",
+        "care!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"May we meet again!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"May",
+        "we",
+        "meet",
+        "again!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Best wishes!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Best",
+        "wishes!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Gotta jet!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Gotta",
+        "jet!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m off to my next adventure!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "off",
+        "to",
+        "my",
+        "next",
+        "adventure!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you next time!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "next",
+        "time!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hope to see you soon!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hope",
+        "to",
+        "see",
+        "you",
+        "soon!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take a chill pill!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "a",
+        "chill",
+        "pill!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a fantastic day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "fantastic",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Good luck!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Good",
+        "luck!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a productive day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "productive",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Rock on!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Rock",
+        "on!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be well!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "well!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take care of yourself!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "care",
+        "of",
+        "yourself!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Catch you later, alligator!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Catch",
+        "you",
+        "later,",
+        "alligator!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"After a while, crocodile!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"After",
+        "a",
+        "while,",
+        "crocodile!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Peace!\"",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "\"Peace!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Later, gator!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Later,",
+        "gator!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep smiling!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "smiling!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay positive!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "positive!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Don’t forget to smile!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Don’t",
+        "forget",
+        "to",
+        "smile!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m peacing out!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "peacing",
+        "out!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Check you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Check",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay humble!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "humble!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay golden!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "golden!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Live long and prosper!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Live",
+        "long",
+        "and",
+        "prosper!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay groovy!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "groovy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a good one, champ!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "good",
+        "one,",
+        "champ!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a great evening!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "great",
+        "evening!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Enjoy your day!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Enjoy",
+        "your",
+        "day!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Be kind!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Be",
+        "kind!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Go rock the world!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Go",
+        "rock",
+        "the",
+        "world!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take it light!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "it",
+        "light!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Go shine!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Go",
+        "shine!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Have a blast!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Have",
+        "a",
+        "blast!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay fabulous!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "fabulous!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Keep being awesome!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Keep",
+        "being",
+        "awesome!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Hasta la vista!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Hasta",
+        "la",
+        "vista!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m outta here!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "outta",
+        "here!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’ll catch you later!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’ll",
+        "catch",
+        "you",
+        "later!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay safe and sound!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "safe",
+        "and",
+        "sound!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Take it sleazy!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Take",
+        "it",
+        "sleazy!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Gotta scoot!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Gotta",
+        "scoot!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Stay fresh!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Stay",
+        "fresh!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m ghosting!\"",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "ghosting!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"I’m off the grid!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"I’m",
+        "off",
+        "the",
+        "grid!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"See you when I see you!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"See",
+        "you",
+        "when",
+        "I",
+        "see",
+        "you!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "\"Bye, take care!\"",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "\"Bye,",
+        "take",
+        "care!\""
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ]
+}

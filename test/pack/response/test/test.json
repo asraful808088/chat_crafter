@@ -1,0 +1,33 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "this is test \"response\"",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "this",
+        "is",
+        "test",
+        "\"response\""
+      ]
+    },
+    {
+      "mainsent": "this is mama",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "this",
+        "is",
+        "mama"
+      ],
+      "allAlter": true
+    }
+  ]
+}

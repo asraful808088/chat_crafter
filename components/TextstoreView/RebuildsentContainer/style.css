@@ -1,0 +1,100 @@
+
+.entity-main .item .part {
+    height: 49%;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .entity-main .item .part .sub-header {
+    font-family: "Fugaz One";
+    font-size: 16px;
+  }
+  .entity-main .item .part .sub-header .import{
+    cursor: pointer;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .entity-main .item .part .sub-header .import:hover{
+    text-decoration: underline;
+  }
+  .entity-main .item .part .alter-box {
+    display: flex;
+    height: 100%;
+  }
+  
+  .entity-main .item .part .alter-box .alter-item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .entity-main .item .part .alter-box .alter-item:nth-child(1) {
+    padding-right: 10px;
+  }
+  .entity-main .item .part .alter-box .alter-item .input-box {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .entity-main .item .part .alter-box .alter-item .input-box input {
+    height: 35px;
+    background-color: transparent;
+    flex-grow: 1;
+    padding: 0 8px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Fugaz One", sans-serif;
+  }
+  .entity-main .item .part .alter-box .alter-item .input-box .button {
+    font-size: 14px;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 98, 0, 0.918);
+    margin-left: 4px;
+    border-radius: 4px;
+    color: white;
+    font-family: "Fugaz One";
+    cursor: pointer;
+  }
+  .entity-main .item .part .alter-box .alter-item .word-item-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-y: auto;
+  }
+  .entity-main .item .part:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+  }
+  .entity-main .item .part .alter-list-box {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+
+  .entity-main .loading-screen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .entity-main .loading-screen .l{
+    height: 300px;
+    width:  300px;
+    position: relative;
+    margin: auto;
+  
+  }
+  
+  .entity-main .loading-screen .m{
+    height: 500px;
+    width:  500px;
+    position: relative;
+    margin: auto;
+  
+  }

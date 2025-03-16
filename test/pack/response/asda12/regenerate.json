@@ -1,0 +1,23 @@
+{
+  "sents": [
+    {
+      "sent": "this is mama",
+      "list": [
+        {
+          "gen": "My name Is Asraful Islam Momen.",
+          "sent": "My name Is Asraful Islam Momen.",
+          "map_sent": [
+            "O",
+            "O",
+            "O",
+            "B-NAME",
+            "J-NAME",
+            "J-NAME"
+          ],
+          "id": "aB9ampZuifky3NY83fkAMSBaDOn9zm6h"
+        }
+
+      ]
+    }
+  ]
+}

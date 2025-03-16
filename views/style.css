@@ -1,0 +1,177 @@
+.entity-main {
+  padding: 0 20px;
+  /* padding-left: 20px; */
+  display: flex;
+}
+
+.entity-main .item {
+  width: 50%;
+  height: 100%;
+}
+.entity-main .item .items-box {
+  width: 100%;
+  height: calc(100vh - 342px);
+  overflow-y: auto;
+  min-height: 100px;
+}
+.entity-main .item .items-box .input-item {
+  width: 100%;
+  height: 40px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.entity-main .item .items-box .input-item .icon {
+  height: 40px;
+  aspect-ratio: 1/1;
+  position: relative;
+  padding: 10px;
+  margin-right: 5px;
+}
+.entity-main .item .items-box .input-item .delete-icon {
+  cursor: pointer;
+}
+.entity-main .item .items-box .input-item .txt {
+  flex-grow: 1;
+  font-family: "Fugaz One", sans-serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.entity-main .item .items-header {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: "Lemon", cursive;
+}
+.entity-main .item:nth-child(2) {
+  padding-left: 10px;
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.entity-main .item .part {
+  height: 49%;
+  width: 100%;
+  /* background-color: red; */
+}
+.entity-main .item .part .sub-header {
+  font-family: "Fugaz One";
+  font-size: 16px;
+}
+
+.entity-main .item .part .alter-box {
+  display: flex;
+  height: 100%;
+}
+
+.entity-main .item .part .alter-box .alter-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.entity-main .item .part .alter-box .alter-item:nth-child(1) {
+  padding-right: 10px;
+}
+.entity-main .item .part .alter-box .alter-item .input-box {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.entity-main .item .part .alter-box .alter-item .input-box input {
+  height: 35px;
+  background-color: transparent;
+  flex-grow: 1;
+  padding: 0 8px;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 5px;
+  font-family: "Fugaz One", sans-serif;
+}
+.entity-main .item .part .alter-box .alter-item .input-box .button {
+  font-size: 14px;
+  width: 80px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 98, 0, 0.918);
+  margin-left: 4px;
+  border-radius: 4px;
+  color: white;
+  font-family: "Fugaz One";
+  cursor: pointer;
+}
+.entity-main .item .part .alter-box .alter-item .word-item-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: auto;
+}
+.entity-main .item .part:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+.entity-main .item .part .alter-list-box {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.entity-main .icon-text-with-delete {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.entity-main .icon-text-with-delete .icon {
+  height: 30px;
+  aspect-ratio: 1/1;
+  padding: 2px;
+}
+.entity-main .icon-text-with-delete .delete {
+  padding: 5px;
+}
+.entity-main .icon-text-with-delete .txt {
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  overflow: hidden;
+  margin: 0 5px;
+  font-family: "Fugaz One", sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.entity-main .icon-text-with-delete .delete {
+  cursor: pointer;
+}
+
+.entity-main .blank-box {
+  height: 100%;
+  width: 100%;
+  height: calc(100vh - 342px);
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.entity-main .blank-box .icon {
+  height: 100px;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+.entity-main .blank-box .txt {
+  font-family: "Lemon", cursive;
+  margin-top: 20px;
+}
+.entity-main .active-circle{
+  height: 8px;
+  width: 8px;
+  background-color: rgb(255, 136, 0);
+  transform: rotate(45deg);
+  margin-right: 5px;
+}

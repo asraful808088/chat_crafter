@@ -1,0 +1,18 @@
+{
+    "model_name": "model-1739959375196",
+    "profile_name": "asd_asd_asd",
+    "totalinfo": [
+        {
+            "epoch": 0,
+            "loss": "0.5773715376853943",
+            "accuracy": "0.7649253606796265",
+            "val_accuracy": "0.6166666746139526",
+            "val_loss": "0.6426649689674377",
+            "emit_type": "finishing_model",
+            "final_loss": 0.6426649689674377,
+            "final_acc": 0.6166666746139526,
+            "profile_name": "asd_asd_asd",
+            "model_name": "model-1739959375196"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "ths is text1",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "ths",
+        "is",
+        "text1"
+      ]
+    }
+  ]
+}

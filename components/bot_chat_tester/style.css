@@ -1,0 +1,148 @@
+.tester-main {
+  position: absolute;
+  height: 100%;
+  width: 450px;
+  right: 0;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 11111111111111111111111111111111;
+  box-shadow: 0px 5px 10px rgba(105, 105, 105, 0.578);
+  border-left: 4px solid rgb(255, 145, 0);
+  display: flex;
+  flex-direction: column;
+}
+.tester-main .back-box {
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  color: rgb(255, 140, 0);
+  font-size: 15px;
+  font-family: "Fugaz One", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+.tester-main .back-box span {
+  cursor: pointer;
+}
+
+.tester-main .logo {
+  height: 100px;
+  aspect-ratio: 1/1;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tester-main .menu-button {
+  height: 40px;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  box-shadow: 0 5px 10px rgba(44, 44, 44, 0.152);
+}
+.tester-main .menu-button .font {
+  font-family: "Fugaz One", sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.tester-main .menu-button .active-font {
+  color: rgb(255, 140, 0);
+}
+
+.tester-main .list-box {
+  width: 100%;
+  flex-grow: 1;
+}
+.tester-main .list-box .list-item {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.tester-main .list-box .list-item .icon {
+  height: 25px;
+  aspect-ratio: 1/1;
+}
+
+.tester-main .list-box .list-item .txt {
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Fugaz One", sans-serif;
+  color: rgb(255, 140, 0);
+  font-size: 15px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.tester-main .chat-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tester-main .chat-box .type-box {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid rgb(255, 145, 0);
+}
+.tester-main .chat-box .type-box .input-box {
+  flex-grow: 1;
+  height: 100%;
+}
+.tester-main .chat-box .type-box .input-box input {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-family: "Fugaz One", sans-serif;
+  padding: 0 10px;
+  outline: none;
+}
+.tester-main .chat-box .type-box .send {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.tester-main .chat-box .chat-list-box {
+  flex-grow: 1;
+  width: 100%;
+  padding: 5px;
+  overflow-y: auto;
+  flex-direction: column-reverse;
+  display: flex;
+  height: calc(100vh - 500px);
+}
+
+.tester-main .chat-box .chat-list-box .txt-msg-box {
+  max-width: 70%;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: rgba(44, 44, 44, 0.082);
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: bolder;
+  font-size: 13px;
+
+}
+
+.tester-main .chat-box .chat-list-box .me {
+  align-self: flex-end;
+}

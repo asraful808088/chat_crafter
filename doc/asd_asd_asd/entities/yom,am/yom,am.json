@@ -1,0 +1,34 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "My name Is Asraful Islam Momen.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "B-NAME",
+        "J-NAME",
+        "J-NAME"
+      ],
+      "wordlist": [
+        "My",
+        "name",
+        "Is",
+        "Asraful",
+        "Islam",
+        "Momen."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ],
+  "entities": [
+    {
+      "i": "B-NAME"
+    },
+    {
+      "i": "J-NAME"
+    }
+  ]
+}

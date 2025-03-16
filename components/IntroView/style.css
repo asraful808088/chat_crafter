@@ -1,0 +1,36 @@
+.intro-page {
+  height: 100%;
+  width: 100%;
+  height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fugaz One", sans-serif;
+  font-size: 40px;
+  flex-direction: column;
+}
+.intro-page .logo {
+  height: 200px;
+  aspect-ratio: 1/1;
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.intro-page .logo img{
+    z-index: 11;
+    /* display: none; */
+}
+.intro-page .logo .shadow {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    transform: translateY(45%) scale(1);
+    filter: blur(10px);
+    z-index: -1;
+    border-radius: 100%;
+    
+}

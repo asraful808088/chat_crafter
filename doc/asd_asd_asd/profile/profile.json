@@ -1,0 +1,501 @@
+{
+  "profiles": [
+    {
+      "label": "Default",
+      "type": "deafult",
+      "learning_rate": {
+        "active": 0.01,
+        "list": [
+          0.7,
+          0.8,
+          0.9,
+          0.008,
+          0.01,
+          0.001,
+          0.005,
+          0.05,
+          0.0001,
+          0.0005
+        ]
+      },
+      "test_rate": {
+        "active": 0.1,
+        "list": [
+          0.8,
+          0.1,
+          0.2,
+          0.3
+        ]
+      },
+      "epoch": {
+        "active": 200,
+        "list": [
+          130,
+          9,
+          10,
+          100,
+          200,
+          500,
+          700,
+          1000,
+          2000
+        ]
+      },
+      "out_dim": {
+        "active": 50,
+        "list": [
+          22,
+          60,
+          50,
+          55,
+          64,
+          32
+        ]
+      },
+      "network": [
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              1,
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 2,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "relu",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1739806383720,
+          "type": "dense"
+        },
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              1,
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 12,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "tanh",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1739806388152,
+          "type": "multi_head_self_attention"
+        },
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 2,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "tanh",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1739806392181,
+          "type": "global_average_pooling_1D"
+        },
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 2,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "tanh",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1739806394283,
+          "type": "batch_normalization"
+        },
+        {
+          "persep": {
+            "active": 15,
+            "list": [
+              1,
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 2,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "relu",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1739806406834,
+          "type": "dense"
+        },
+        {
+          "id": 1739809774216,
+          "type": "dropout",
+          "active": 0.1,
+          "list": [
+            0.1,
+            0.2,
+            0.3,
+            0.05,
+            0.02,
+            0.03
+          ]
+        }
+      ],
+      "en_network": [
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 2,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "tanh",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1740292622654,
+          "type": "B_LSTM"
+        },
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 8,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "tanh",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1740292704018,
+          "type": "multi_head_self_attention"
+        },
+        {
+          "persep": {
+            "active": 64,
+            "list": [
+              64,
+              60,
+              50,
+              30,
+              15,
+              16,
+              8,
+              4
+            ]
+          },
+          "l1": {
+            "active": 2,
+            "list": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "l2": {
+            "active": null,
+            "list": [
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              null
+            ]
+          },
+          "activation": {
+            "active": "tanh",
+            "list": [
+              "tanh",
+              "relu"
+            ]
+          },
+          "id": 1740292725535,
+          "type": "batch_normalization"
+        }
+      ],
+      "batch": {
+        "active": 50,
+        "list": [
+          50,
+          55,
+          64,
+          32
+        ]
+      },
+      "activation": {
+        "active": "softmax",
+        "list": [
+          "sigmoid",
+          "softmax"
+        ]
+      }
+    }
+  ]
+}

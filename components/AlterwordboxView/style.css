@@ -1,0 +1,86 @@
+.alter-bg-layer{
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.439);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alter-bg-layer .board{
+    height: 400px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
+    padding: 20px;
+}
+.alter-bg-layer .board .back-box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+
+}
+.alter-bg-layer .board .back-box .button{
+    height: 20px;
+    aspect-ratio: 1/1;
+    position: relative;
+    cursor: pointer;
+}
+.alter-bg-layer .word-box{
+    flex-grow: 1;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+
+}
+.alter-bg-layer .word-box .word-item{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.alter-bg-layer .word-box .word-item .txt{
+    flex-grow: 1;   
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.alter-bg-layer .word-box .word-item .icon{
+    height: 30px;
+    aspect-ratio: 1/1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.alter-bg-layer .word-box .word-item .icon .circle{
+        height: 16px;
+        border: 2px solid black;
+        border-radius: 50px;
+        aspect-ratio: 1/1;
+        position: relative;
+        padding: 2px;
+        cursor: pointer;
+
+}
+.alter-bg-layer .word-box .word-item .icon .circle .dot{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+
+}

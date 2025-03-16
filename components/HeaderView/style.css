@@ -1,0 +1,76 @@
+.main-header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.main-header > .part {
+  flex-grow: 1;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.main-header > .part:nth-child(1) {
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+}
+
+.main-header > .part:nth-child(1) > .icon {
+  height: 70px;
+  aspect-ratio: 1/1;
+  position: relative;
+  margin-right: 10px;
+}
+.main-header > .part:nth-child(1) > .text {
+  font-family: "Fugaz One", sans-serif;
+  font-size: 35px;
+}
+
+.main-header > .part:nth-child(2) {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+.main-header > .part:nth-child(2) .option-item {
+  height: 30px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 2px;
+  transition: 0.2s  ease-in-out;
+}
+.main-header > .part:nth-child(2) .option-item:nth-child(1){
+  transition: 0.2s .1s ease-in-out;
+
+}
+.main-header > .part:nth-child(2) .option-item:nth-child(2){
+    transition: 0.2s .2s  ease-in-out;
+  
+  }
+  .main-header > .part:nth-child(2) .option-item:nth-child(3){
+    transition: 0.2s .3s ease-in-out;
+  
+  }
+.main-header > .part:nth-child(2) .chat {
+  height: 35px;
+  padding: 0px;
+}
+
+.main-header > .part:nth-child(2) .profile {
+    height: 32px;
+    padding: 0px;
+  }
+
+.main-header > .part:nth-child(2) .over-out {
+  transform: translateY(-500%);
+  
+}
+
+.main-header > .part:nth-child(2) .over-in {
+  transform: translateY(-0%);
+}
+

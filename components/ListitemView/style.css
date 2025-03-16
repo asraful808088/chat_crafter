@@ -1,0 +1,53 @@
+.ListitemView-001{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(240, 239, 239); */
+    /* border-radius: 5px; */
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.ListitemView-001  .i-i-icon{
+    height: 35px;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin: auto;
+    margin-top: 20%;
+}
+.ListitemView-001 .i-box{
+    width: 50px;
+    height: 100%;
+}
+.ListitemView-001 .i-box:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ListitemView-001 .i-box .icon{
+    height: 25px;
+    aspect-ratio: 1/1;
+}
+.ListitemView-001  .txt-box{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ListitemView-001  .txt-box p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.ListitemView-001  .txt-box div{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

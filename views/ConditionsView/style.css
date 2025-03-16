@@ -1,0 +1,249 @@
+.condition-main {
+  width: 100%;
+  height: calc(100vh - 150px);
+  display: flex;
+}
+
+.condition-main .aside-box {
+  width: 0;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+  transition: 0.1s;
+}
+.condition-main .active-aside-box {
+  width: 400px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.condition-main .aside-box h2 {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.condition-main .aside-box .button {
+  height: 20px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+.condition-main .aside-box .option-button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.condition-main .aside-box .option-button .option-button-item {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.condition-main .aside-box .option-button .active-option-button-item {
+  color: rgb(255, 136, 0);
+}
+.condition-main .menu {
+  width: 400px;
+  height: 100%;
+}
+
+.condition-main .aside-box .list-of-items {
+  width: calc(100% - 5px);
+  height: calc(100vh - 221px);
+  padding-left: 10px;
+}
+.condition-main .aside-box .list-of-items-m {
+  height: calc(100vh - 261px);
+  overflow-y: auto;
+  padding-top: 5px;
+}
+.condition-main .aside-box .list-of-items .single-item {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.condition-main .aside-box .list-of-items .single-item .txt {
+  flex-grow: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Fugaz One", sans-serif;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: 100;
+  font-size: 15px;
+}
+.condition-main .aside-box .list-of-items .single-item .icon {
+  height: 25px;
+  aspect-ratio: 1/1;
+  position: relative;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.condition-main .aside-box .list-of-items .single-item .x-icon {
+  padding: 0px;
+}
+
+.condition-main .aside-box .input-box {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.condition-main .aside-box .input-box .text-input {
+  flex-grow: 1;
+  margin-left: 5px;
+  height: 100%;
+  background-color: rgb(255, 249, 243);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.condition-main .aside-box .input-box .text-input input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+}
+
+.condition-main .aside-box .input-box .buttonx {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 128, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-left: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-family: "Fugaz One", sans-serif;
+}
+
+.condition-main .menu h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+}
+.condition-main .menu h2 .icon {
+  height: 20px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+.condition-main .menu .item-box {
+  width: 100%;
+  height: calc(100vh - 176px);
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-y: auto;
+  /* margin-top: 10px; */
+}
+.condition-main .menu .item-box .item {
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 249, 243);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(13, 13, 13, 0.057);
+}
+.condition-main .menu .item-box .item-active {
+  border-bottom: 2px solid orange;
+}
+.condition-main .menu .item-box .item .icon {
+  height: 30px;
+  aspect-ratio: 1/1;
+  padding: 4px;
+}
+.condition-main .menu .item-box .item .txt {
+  flex-grow: 1;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.condition-main .menu .item-box .item .txt .head {
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.condition-main .menu .item-box .item .txt .counter {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.condition-main .menu .item-box .item .txt .counter .counter-item {
+  display: flex;
+  width: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.condition-main .menu .item-box .item .txt .counter {
+  margin-top: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.condition-main .codebox {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.condition-main .codebox h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.condition-main .codebox h3 .icon {
+  height: 20px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+.condition-main .codebox .codepad {
+  flex-grow: 1;
+}
