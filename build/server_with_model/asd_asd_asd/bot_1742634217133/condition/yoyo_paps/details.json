@@ -1,0 +1,84 @@
+{
+  "name": "yoyo_paps",
+  "des": "this is paps",
+  "time": 1741858331672,
+  "types": [
+    {
+      "typename": "mama"
+    },
+    {
+      "typename": "mama2"
+    }
+  ],
+  "use_list": [
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1741873021502,
+      "target": "ask name",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1741944350258,
+      "target": "greeting",
+      "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1741944360264,
+      "target": "bye",
+      "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1741944259506,
+      "target": "yoyo_paps",
+      "nolvl": 0
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1742117598182,
+      "target": "ask name",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1742117602564,
+      "target": "bye",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1741944259506,
+      "target": "yoyo_paps",
+      "nolvl": 0
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1742117814431,
+      "target": "bye",
+      "nolvl": 3
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1741944259506,
+      "target": "yoyo_paps",
+      "nolvl": 0
+    }
+  ],
+  "task_list": [
+    {
+      "name": "task2.py"
+    }
+  ],
+  "recommendation_list": []
+}
