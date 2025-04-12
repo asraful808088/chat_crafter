@@ -13,6 +13,7 @@ import getEntitiesModel from "../task/traning/getEntitiesModel";
 import CodeRunner from "../task/code/runner/runner";
 import codeFrameUpdateCode from "../task/code/update/code_frame_update";
 import CodeFrameRunner from "../task/code/runner/codeFramerunner";
+import getChatModel from "../task/traning/get_chat_script";
 export default defineNitroPlugin((nitroApp: NitroApp) => {
   const engine = new Engine();
   const io = new Server();
@@ -53,6 +54,9 @@ export default defineNitroPlugin((nitroApp: NitroApp) => {
     });
     socket.on("code_runner_code_frame", (data) => {
       CodeFrameRunner(data, socket, io);
+    });
+    socket.on("get_model_chat", (data) => {
+      getChatModel(data, socket, io);
     });
   });
 

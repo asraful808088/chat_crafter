@@ -25,12 +25,12 @@ const props = defineProps({
       <div class="i-i-icon" @click="props.onClick">
         <img
           v-if="!props.isShort"
-          src="../../assets/icon/other/script.png"
+          src="../../assets/icon/other/Group 164.png"
           alt=""
         />
         <img
           v-if="props.isShort"
-          src="../../assets/icon/other/ssh_scripts.png"
+          src="../../assets/icon/other/Group 164.png"
           alt=""
         />
       </div>

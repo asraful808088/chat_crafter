@@ -1,0 +1,130 @@
+{
+    "model_name": "model-1742706890372",
+    "profile_name": "asd_asd_asd",
+    "totalinfo": [
+        {
+            "epoch": 0,
+            "loss": "0.9258694052696228",
+            "accuracy": "0.5851528644561768",
+            "val_accuracy": "0.7124183177947998",
+            "val_loss": "1.0755635499954224",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 1,
+            "loss": "0.6171128153800964",
+            "accuracy": "0.7762008905410767",
+            "val_accuracy": "0.6797385811805725",
+            "val_loss": "1.0312808752059937",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 2,
+            "loss": "0.3432481288909912",
+            "accuracy": "0.931768536567688",
+            "val_accuracy": "0.7298474907875061",
+            "val_loss": "0.9677473306655884",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 3,
+            "loss": "0.1943276822566986",
+            "accuracy": "0.9661571979522705",
+            "val_accuracy": "0.7712418437004089",
+            "val_loss": "0.8933631777763367",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 4,
+            "loss": "0.13143275678157806",
+            "accuracy": "0.9776200652122498",
+            "val_accuracy": "0.8322439789772034",
+            "val_loss": "0.813480019569397",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 5,
+            "loss": "0.10459854453802109",
+            "accuracy": "0.9841703176498413",
+            "val_accuracy": "0.8453159332275391",
+            "val_loss": "0.736606776714325",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 6,
+            "loss": "0.08678344637155533",
+            "accuracy": "0.9863536953926086",
+            "val_accuracy": "0.8736383318901062",
+            "val_loss": "0.6527397632598877",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 7,
+            "loss": "0.07035250216722488",
+            "accuracy": "0.9890829920768738",
+            "val_accuracy": "0.8779956698417664",
+            "val_loss": "0.581846296787262",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 8,
+            "loss": "0.06050912290811539",
+            "accuracy": "0.9934498071670532",
+            "val_accuracy": "0.9084967374801636",
+            "val_loss": "0.4968762993812561",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 9,
+            "loss": "0.051466282457113266",
+            "accuracy": "0.9956331849098206",
+            "val_accuracy": "0.9324618577957153",
+            "val_loss": "0.42106926441192627",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 10,
+            "loss": "0.04494688659906387",
+            "accuracy": "0.9956331849098206",
+            "val_accuracy": "0.9455337524414062",
+            "val_loss": "0.34169328212738037",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 11,
+            "loss": "0.04261617735028267",
+            "accuracy": "0.9956331849098206",
+            "val_accuracy": "0.9782134890556335",
+            "val_loss": "0.2548343241214752",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 12,
+            "loss": "0.03949873149394989",
+            "accuracy": "0.9945414662361145",
+            "val_accuracy": "0.9716775417327881",
+            "val_loss": "0.2147214412689209",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 13,
+            "loss": "0.03267820179462433",
+            "accuracy": "0.9978166222572327",
+            "val_accuracy": "0.9716775417327881",
+            "val_loss": "0.17884153127670288",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 19,
+            "loss": "0.02200928144156933",
+            "accuracy": "1.0",
+            "val_accuracy": "0.9694989323616028",
+            "val_loss": "0.08961110562086105",
+            "emit_type": "finishing_model",
+            "final_loss": 0.08961110562086105,
+            "final_acc": 0.9694989323616028,
+            "profile_name": "asd_asd_asd",
+            "model_name": "model-1742706890372"
+        }
+    ]
+}

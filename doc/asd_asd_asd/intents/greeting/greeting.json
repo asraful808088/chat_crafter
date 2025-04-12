@@ -1,1845 +1,46 @@
 {
   "list_of_intent": [
     {
-      "mainsent": "\"Hi!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hiya!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Hiya!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey there!\"",
+      "mainsent": "Hi, how’s it going?",
       "mapword": [
         "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey",
-        "there!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Howdy!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Howdy!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Sup?\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Sup?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Greetings!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Greetings!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there!\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Morning!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Morning!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Afternoon!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Afternoon!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Evening!\"",
-      "mapword": [
-        "O"
-      ],
-      "wordlist": [
-        "\"Evening!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"What’s up?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"What’s",
-        "up?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"How’s it going?\"",
-      "mapword": [
         "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"How’s",
+        "Hi,",
+        "how’s",
         "it",
-        "going?\""
+        "going?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! You good?\"",
+      "mainsent": "Good afternoon, how are you?",
       "mapword": [
         "O",
         "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "You",
-        "good?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"What’s new?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"What’s",
-        "new?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"How’s life?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"How’s",
-        "life?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"All good?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"All",
-        "good?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"You okay?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"You",
-        "okay?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Long time!\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Long",
-        "time!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Missed you!\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Missed",
-        "you!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Look who’s here!\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Look",
-        "who’s",
-        "here!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! What’s good?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "What’s",
-        "good?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Miss me?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Miss",
-        "me?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s up?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "up?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello, stranger!\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello,",
-        "stranger!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! All well?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "All",
-        "well?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Nice to see you!\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Nice",
-        "to",
-        "see",
-        "you!\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Howdy?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Howdy?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s cookin’?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "cookin’?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How’s things?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How’s",
-        "things?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"What’s happening?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"What’s",
-        "happening?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Feeling good?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Feeling",
-        "good?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How’s today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How’s",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s shaking?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "shaking?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s popping?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "popping?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"What’s cracking?\"",
-      "mapword": [
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"What’s",
-        "cracking?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s buzzing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "buzzing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s vibing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "vibing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! What’s moving?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "What’s",
-        "moving?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How’s tricks?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How’s",
-        "tricks?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! You smiling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "You",
-        "smiling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s flowing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "flowing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! All cool?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "All",
-        "cool?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Life’s good?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Life’s",
-        "good?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s rolling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "rolling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How you been?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How",
-        "you",
-        "been?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! You around?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "You",
-        "around?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s trending?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "trending?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! All set?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "All",
-        "set?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! What’s lit?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "What’s",
-        "lit?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How’s hustle?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How’s",
-        "hustle?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s chilling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "chilling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! All okay?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "All",
-        "okay?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! Still rocking?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "Still",
-        "rocking?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s spinning?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "spinning?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! All settled?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "All",
-        "settled?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! You thriving?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "You",
-        "thriving?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s sparking?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "sparking?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You shining?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "shining?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! What’s blazing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "What’s",
-        "blazing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Life’s treating you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Life’s",
-        "treating",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Still smiling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Still",
-        "smiling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s pulsing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "pulsing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s sparking?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "sparking?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You vibing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "vibing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! You glowing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "You",
-        "glowing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How’s swinging?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "How’s",
-        "swinging?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s beaming?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "beaming?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! All smooth?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "All",
-        "smooth?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Life’s flowing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Life’s",
-        "flowing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Still rising?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Still",
-        "rising?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How’s rhythm?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "How’s",
-        "rhythm?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! What’s blazing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "What’s",
-        "blazing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! You chillin’?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "You",
-        "chillin’?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Still shining?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Still",
-        "shining?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s rocking?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "rocking?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You smiling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "smiling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s buzzing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "buzzing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! All balanced?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "All",
-        "balanced?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Still glowing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Still",
-        "glowing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s snapping?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "snapping?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s hopping?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "hopping?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You sparkling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "sparkling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Still shining?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Still",
-        "shining?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s gleaming?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "gleaming?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! Still grooving?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "Still",
-        "grooving?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! All peaceful?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "All",
-        "peaceful?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You sparkling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "sparkling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s rolling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "rolling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You laughing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "laughing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! Still vibing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "Still",
-        "vibing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s jingling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "jingling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! You glowing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "You",
-        "glowing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s twinkling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "twinkling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! Still blazing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "Still",
-        "blazing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s chiming?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "chiming?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s dazzling?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "dazzling?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Yo! Still beaming?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Yo!",
-        "Still",
-        "beaming?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! How can I help you today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "How",
-        "can",
-        "I",
-        "help",
-        "you",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! What's on your mind?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "What's",
-        "on",
-        "your",
-        "mind?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How’s your day going?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How’s",
-        "your",
-        "day",
-        "going?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good morning! Ready to start the day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "morning!",
-        "Ready",
-        "to",
-        "start",
-        "the",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good afternoon! Need any help?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "afternoon!",
-        "Need",
-        "any",
-        "help?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good evening! What brings you here?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "evening!",
-        "What",
-        "brings",
-        "you",
-        "here?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How can I assist you today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "How",
-        "can",
-        "I",
-        "assist",
-        "you",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Anything exciting happening today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Anything",
-        "exciting",
-        "happening",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! How’s everything with you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "How’s",
-        "everything",
-        "with",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What can I do for you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What",
-        "can",
-        "I",
-        "do",
-        "for",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How can I make your day better?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How",
-        "can",
-        "I",
-        "make",
-        "your",
-        "day",
-        "better?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! Need any help or just stopping by?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "Need",
-        "any",
-        "help",
-        "or",
-        "just",
-        "stopping",
-        "by?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! How are things going for you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
         "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"Hi",
-        "there!",
-        "How",
+        "Good",
+        "afternoon,",
+        "how",
         "are",
-        "things",
-        "going",
-        "for",
-        "you?\""
+        "you?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Good to see you! How can I help?\"",
+      "mainsent": "Hello, nice to see you!",
       "mapword": [
-        "O",
-        "O",
-        "O",
         "O",
         "O",
         "O",
@@ -1847,21 +48,78 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
+        "Hello,",
+        "nice",
         "to",
         "see",
-        "you!",
-        "How",
-        "can",
-        "I",
-        "help?\""
+        "you!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! What’s new with you today?\"",
+      "mainsent": "Yo, what’s new?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Yo,",
+        "what’s",
+        "new?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, hope you’re doing well!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "hope",
+        "you’re",
+        "doing",
+        "well!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, hope you’re having a good day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "hope",
+        "you’re",
+        "having",
+        "a",
+        "good",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day been so far?",
       "mapword": [
         "O",
         "O",
@@ -1871,19 +129,269 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
+        "How’s",
+        "your",
+        "day",
+        "been",
+        "so",
+        "far?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good evening, how are you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "evening,",
+        "how",
+        "are",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi there, what’s going on?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "there,",
+        "what’s",
+        "going",
+        "on?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello, how’s life treating you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello,",
+        "how’s",
+        "life",
+        "treating",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day looking?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "day",
+        "looking?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope everything’s good!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "everything’s",
+        "good!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s it going with you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "it",
+        "going",
+        "with",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, how are things?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "how",
+        "are",
+        "things?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s up, how’s your day?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "up,",
+        "how’s",
+        "your",
+        "day?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It’s nice to see you again!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It’s",
+        "nice",
+        "to",
+        "see",
+        "you",
+        "again!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, how’s it all going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "how’s",
+        "it",
+        "all",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s new with you today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
         "What’s",
         "new",
         "with",
         "you",
-        "today?\""
+        "today?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! How’s life treating you?\"",
+      "mainsent": "How’s everything holding up?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "everything",
+        "holding",
+        "up?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s going on today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "going",
+        "on",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope your morning’s been good!",
       "mapword": [
         "O",
         "O",
@@ -1892,44 +400,103 @@
         "O"
       ],
       "wordlist": [
-        "\"Hey!",
+        "Hope",
+        "your",
+        "morning’s",
+        "been",
+        "good!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your afternoon shaping up?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "afternoon",
+        "shaping",
+        "up?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, hope all is well with you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "hope",
+        "all",
+        "is",
+        "well",
+        "with",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good to chat with you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "to",
+        "chat",
+        "with",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s life treating you today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
         "How’s",
         "life",
         "treating",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Anything I can assist you with?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Anything",
-        "I",
-        "can",
-        "assist",
         "you",
-        "with?\""
+        "today?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Greetings! How may I serve you today?\"",
+      "mainsent": "Hope you’re having an awesome day!",
       "mapword": [
-        "O",
         "O",
         "O",
         "O",
@@ -1938,23 +505,38 @@
         "O"
       ],
       "wordlist": [
-        "\"Greetings!",
-        "How",
-        "may",
-        "I",
-        "serve",
-        "you",
-        "today?\""
+        "Hope",
+        "you’re",
+        "having",
+        "an",
+        "awesome",
+        "day!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! How can I brighten your day?\"",
+      "mainsent": "Hi there, how’s everything?",
       "mapword": [
         "O",
         "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "there,",
+        "how’s",
+        "everything?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope your evening’s going great!",
+      "mapword": [
         "O",
         "O",
         "O",
@@ -1962,86 +544,18 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "How",
-        "can",
-        "I",
-        "brighten",
+        "Hope",
         "your",
-        "day?\""
+        "evening’s",
+        "going",
+        "great!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! What’s happening today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "happening",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! How are you feeling today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "How",
-        "are",
-        "you",
-        "feeling",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good to have you here! Need help?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "to",
-        "have",
-        "you",
-        "here!",
-        "Need",
-        "help?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! What’s on your agenda today?\"",
+      "mainsent": "Hey there, what’s new with you?",
       "mapword": [
         "O",
         "O",
@@ -2051,63 +565,37 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "What’s",
-        "on",
-        "your",
-        "agenda",
-        "today?\""
+        "Hey",
+        "there,",
+        "what’s",
+        "new",
+        "with",
+        "you?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! Anything interesting planned today?\"",
+      "mainsent": "How’s your week been?",
       "mapword": [
-        "O",
         "O",
         "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"Hey!",
-        "Anything",
-        "interesting",
-        "planned",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How’s your week going so far?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
         "How’s",
         "your",
         "week",
-        "going",
-        "so",
-        "far?\""
+        "been?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! How’s your day shaping up?\"",
+      "mainsent": "Hi, good to hear from you!",
       "mapword": [
         "O",
         "O",
@@ -2117,65 +605,19 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "How’s",
-        "your",
-        "day",
-        "shaping",
-        "up?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s been keeping you busy?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "been",
-        "keeping",
-        "you",
-        "busy?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Got any exciting news to share?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Got",
-        "any",
-        "exciting",
-        "news",
+        "Hi,",
+        "good",
         "to",
-        "share?\""
+        "hear",
+        "from",
+        "you!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Good morning! Feeling energized today?\"",
+      "mainsent": "How’s your day treating you?",
       "mapword": [
         "O",
         "O",
@@ -2184,380 +626,18 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
-        "morning!",
-        "Feeling",
-        "energized",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good afternoon! Need some assistance?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "afternoon!",
-        "Need",
-        "some",
-        "assistance?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good evening! Had a productive day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "evening!",
-        "Had",
-        "a",
-        "productive",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! How’s your mood today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "How’s",
-        "your",
-        "mood",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s the highlight of your day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "the",
-        "highlight",
-        "of",
-        "your",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How can I make things easier for you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "How",
-        "can",
-        "I",
-        "make",
-        "things",
-        "easier",
-        "for",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! What’s going on today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "What’s",
-        "going",
-        "on",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Anything I can do for you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Anything",
-        "I",
-        "can",
-        "do",
-        "for",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! Need a hand with something?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "Need",
-        "a",
-        "hand",
-        "with",
-        "something?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! How’s your day treating you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
         "How’s",
         "your",
         "day",
         "treating",
-        "you?\""
+        "you?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! Ready to tackle today’s tasks?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Ready",
-        "to",
-        "tackle",
-        "today’s",
-        "tasks?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s on your mind today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "on",
-        "your",
-        "mind",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! Need some help or just visiting?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "Need",
-        "some",
-        "help",
-        "or",
-        "just",
-        "visiting?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How can I support you today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How",
-        "can",
-        "I",
-        "support",
-        "you",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! What’s new with you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "What’s",
-        "new",
-        "with",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good morning! Got any plans today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "morning!",
-        "Got",
-        "any",
-        "plans",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good afternoon! How’s your day flowing?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "afternoon!",
-        "How’s",
-        "your",
-        "day",
-        "flowing?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good evening! Ready to unwind?\"",
+      "mainsent": "What’s the latest with you?",
       "mapword": [
         "O",
         "O",
@@ -2566,415 +646,19 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
-        "evening!",
-        "Ready",
-        "to",
-        "unwind?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! Anything exciting happening today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "Anything",
-        "exciting",
-        "happening",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! How can I be of service?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "How",
-        "can",
-        "I",
-        "be",
-        "of",
-        "service?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s the plan for today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "the",
-        "plan",
-        "for",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! Need help organizing your day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "Need",
-        "help",
-        "organizing",
-        "your",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good to see you! What’s up?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "to",
-        "see",
-        "you!",
-        "What’s",
-        "up?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! What’s keeping you busy today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "What’s",
-        "keeping",
-        "you",
-        "busy",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How can I add value to your day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How",
-        "can",
-        "I",
-        "add",
-        "value",
-        "to",
-        "your",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What brings you here today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What",
-        "brings",
-        "you",
-        "here",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! Anything fun on your schedule?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "Anything",
-        "fun",
-        "on",
-        "your",
-        "schedule?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How can I lend a hand?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How",
-        "can",
-        "I",
-        "lend",
-        "a",
-        "hand?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! Ready for a productive day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "Ready",
-        "for",
-        "a",
-        "productive",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good morning! What’s on your plate today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "morning!",
-        "What’s",
-        "on",
-        "your",
-        "plate",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good afternoon! How’s your energy level?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "afternoon!",
-        "How’s",
-        "your",
-        "energy",
-        "level?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good evening! How was your day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "evening!",
-        "How",
-        "was",
-        "your",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! What can I do for you today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "What",
-        "can",
-        "I",
-        "do",
-        "for",
-        "you",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Need a boost to your day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Need",
-        "a",
-        "boost",
-        "to",
-        "your",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s the latest with you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
         "What’s",
         "the",
         "latest",
         "with",
-        "you?\""
+        "you?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! How are you holding up today?\"",
+      "mainsent": "What’s good, how’s your day?",
       "mapword": [
-        "O",
-        "O",
         "O",
         "O",
         "O",
@@ -2982,74 +666,19 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "How",
-        "are",
-        "you",
-        "holding",
-        "up",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How can I make today easier for you?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "How",
-        "can",
-        "I",
-        "make",
-        "today",
-        "easier",
-        "for",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi there! What’s on your to-do list?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
         "What’s",
-        "on",
+        "good,",
+        "how’s",
         "your",
-        "to-do",
-        "list?\""
+        "day?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Good to see you! How’s life treating you?\"",
+      "mainsent": "Hope things are going well for you!",
       "mapword": [
-        "O",
         "O",
         "O",
         "O",
@@ -3059,137 +688,654 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
+        "Hope",
+        "things",
+        "are",
+        "going",
+        "well",
+        "for",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s everything with you today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "everything",
+        "with",
+        "you",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, hope you’re having a great morning!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "hope",
+        "you’re",
+        "having",
+        "a",
+        "great",
+        "morning!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi again, how’s everything going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "again,",
+        "how’s",
+        "everything",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello there, how’s it going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "there,",
+        "how’s",
+        "it",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, nice to see you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "nice",
         "to",
         "see",
-        "you!",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, what's up?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "what's",
+        "up?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good morning, hope you're having a great day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "morning,",
+        "hope",
+        "you're",
+        "having",
+        "a",
+        "great",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good afternoon, how's your day going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "afternoon,",
+        "how's",
+        "your",
+        "day",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good evening, hope you had a great day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "evening,",
+        "hope",
+        "you",
+        "had",
+        "a",
+        "great",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What's up, how have you been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What's",
+        "up,",
+        "how",
+        "have",
+        "you",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Yo, what’s new with you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Yo,",
+        "what’s",
+        "new",
+        "with",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey there, how’s everything?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey",
+        "there,",
+        "how’s",
+        "everything?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi bot, how’s your day been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "bot,",
+        "how’s",
+        "your",
+        "day",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello chatbot, ready to chat?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "chatbot,",
+        "ready",
+        "to",
+        "chat?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Greetings, friend!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Greetings,",
+        "friend!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Howdy, how’s life treating you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Howdy,",
+        "how’s",
+        "life",
+        "treating",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sup, what’s going on?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Sup,",
+        "what’s",
+        "going",
+        "on?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Nice to meet you, how’s your day?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Nice",
+        "to",
+        "meet",
+        "you,",
+        "how’s",
+        "your",
+        "day?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Long time no see, how’s everything?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Long",
+        "time",
+        "no",
+        "see,",
+        "how’s",
+        "everything?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s it going today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "it",
+        "going",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good to see you again!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "to",
+        "see",
+        "you",
+        "again!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, how are things going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "how",
+        "are",
+        "things",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day going so far?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "day",
+        "going",
+        "so",
+        "far?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you’re doing well today!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you’re",
+        "doing",
+        "well",
+        "today!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s everything on your end?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "everything",
+        "on",
+        "your",
+        "end?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How have you been since we last talked?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "have",
+        "you",
+        "been",
+        "since",
+        "we",
+        "last",
+        "talked?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Morning, hope it’s a great start to your day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Morning,",
+        "hope",
+        "it’s",
+        "a",
+        "great",
+        "start",
+        "to",
+        "your",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Evening, hope you had a lovely day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Evening,",
+        "hope",
+        "you",
+        "had",
+        "a",
+        "lovely",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Afternoon, hope your day’s going well!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Afternoon,",
+        "hope",
+        "your",
+        "day’s",
+        "going",
+        "well!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s life treating you lately?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
         "How’s",
         "life",
         "treating",
-        "you?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! Any challenges I can help with?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "Any",
-        "challenges",
-        "I",
-        "can",
-        "help",
-        "with?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Need some inspiration today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Need",
-        "some",
-        "inspiration",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How can I assist in your journey today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "How",
-        "can",
-        "I",
-        "assist",
-        "in",
-        "your",
-        "journey",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! What’s happening in your world?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "What’s",
-        "happening",
-        "in",
-        "your",
-        "world?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What’s keeping you motivated today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What’s",
-        "keeping",
         "you",
-        "motivated",
-        "today?\""
+        "lately?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hi there! Need any guidance today?\"",
+      "mainsent": "How’s your day going, all good?",
       "mapword": [
         "O",
         "O",
@@ -3199,80 +1345,130 @@
         "O"
       ],
       "wordlist": [
-        "\"Hi",
-        "there!",
-        "Need",
-        "any",
-        "guidance",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good morning! Feeling productive?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "morning!",
-        "Feeling",
-        "productive?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good afternoon! Ready for some action?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "afternoon!",
-        "Ready",
-        "for",
-        "some",
-        "action?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good evening! How’s everything going?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "evening!",
         "How’s",
+        "your",
+        "day",
+        "going,",
+        "all",
+        "good?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you’re having a wonderful day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you’re",
+        "having",
+        "a",
+        "wonderful",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It’s nice to chat with you again!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It’s",
+        "nice",
+        "to",
+        "chat",
+        "with",
+        "you",
+        "again!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Happy to see you, how’s it going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Happy",
+        "to",
+        "see",
+        "you,",
+        "how’s",
+        "it",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Welcome, glad you're here!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Welcome,",
+        "glad",
+        "you're",
+        "here!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, friend, how’s everything going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "friend,",
+        "how’s",
         "everything",
-        "going?\""
+        "going?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! Need some help getting started?\"",
+      "mainsent": "Hello there, how’s your day been so far?",
       "mapword": [
+        "O",
+        "O",
         "O",
         "O",
         "O",
@@ -3281,41 +1477,21 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "Need",
-        "some",
-        "help",
-        "getting",
-        "started?\""
+        "Hello",
+        "there,",
+        "how’s",
+        "your",
+        "day",
+        "been",
+        "so",
+        "far?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! What can we accomplish today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What",
-        "can",
-        "we",
-        "accomplish",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! How are you feeling about today?\"",
+      "mainsent": "Good day, how are you doing today?",
       "mapword": [
         "O",
         "O",
@@ -3326,20 +1502,1054 @@
         "O"
       ],
       "wordlist": [
-        "\"Hi!",
+        "Good",
+        "day,",
+        "how",
+        "are",
+        "you",
+        "doing",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you doing today, all good?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "are",
+        "you",
+        "doing",
+        "today,",
+        "all",
+        "good?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope all is well on your side!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "all",
+        "is",
+        "well",
+        "on",
+        "your",
+        "side!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your morning shaping up?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "morning",
+        "shaping",
+        "up?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your afternoon going, good so far?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "afternoon",
+        "going,",
+        "good",
+        "so",
+        "far?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your evening, relaxing yet?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "evening,",
+        "relaxing",
+        "yet?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi again, how’s everything today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "again,",
+        "how’s",
+        "everything",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello again, what’s new with you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "again,",
+        "what’s",
+        "new",
+        "with",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s happening, how’s your day?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "happening,",
+        "how’s",
+        "your",
+        "day?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, what’s up with you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "what’s",
+        "up",
+        "with",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you're having a good day so far!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you're",
+        "having",
+        "a",
+        "good",
+        "day",
+        "so",
+        "far!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It’s been a while, how have you been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It’s",
+        "been",
+        "a",
+        "while,",
+        "how",
+        "have",
+        "you",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your night going, peaceful I hope?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "night",
+        "going,",
+        "peaceful",
+        "I",
+        "hope?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, chatbot!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "chatbot!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello, AI!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello,",
+        "AI!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Nice meeting you!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Nice",
+        "meeting",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Great to see you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Great",
+        "to",
+        "see",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, what’s happening?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "what’s",
+        "happening?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you're having a great day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you're",
+        "having",
+        "a",
+        "great",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Everything going well?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Everything",
+        "going",
+        "well?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope your day is going smoothly!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "your",
+        "day",
+        "is",
+        "going",
+        "smoothly!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Always nice talking to you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Always",
+        "nice",
+        "talking",
+        "to",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, my friend!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "my",
+        "friend!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Wishing you an awesome day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Wishing",
+        "you",
+        "an",
+        "awesome",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope all is well with you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "all",
+        "is",
+        "well",
+        "with",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your morning going so far?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "morning",
+        "going",
+        "so",
+        "far?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your afternoon treating you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "afternoon",
+        "treating",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s up today?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "up",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Anything exciting happening?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Anything",
+        "exciting",
+        "happening?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Long time no chat!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Long",
+        "time",
+        "no",
+        "chat!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your night been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "night",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you doing?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "are",
+        "you",
+        "doing?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It’s been a while!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It’s",
+        "been",
+        "a",
+        "while!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s everything?",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "everything?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s new with you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "new",
+        "with",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, how’s it going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "how’s",
+        "it",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you're doing well!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you're",
+        "doing",
+        "well!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are things going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "are",
+        "things",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s good today?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "good",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How have you been lately?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "have",
+        "you",
+        "been",
+        "lately?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How has your day been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "has",
+        "your",
+        "day",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you’re having an amazing day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you’re",
+        "having",
+        "an",
+        "amazing",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Always nice to chat with you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Always",
+        "nice",
+        "to",
+        "chat",
+        "with",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Happy to be talking with you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Happy",
+        "to",
+        "be",
+        "talking",
+        "with",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Welcome back!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Welcome",
+        "back!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Wishing you a fantastic day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Wishing",
+        "you",
+        "a",
+        "fantastic",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you feeling today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
         "How",
         "are",
         "you",
         "feeling",
-        "about",
-        "today?\""
+        "today?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! Got any questions for me today?\"",
+      "mainsent": "Hope everything is going smoothly!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "everything",
+        "is",
+        "going",
+        "smoothly!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your morning going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "morning",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your afternoon so far?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "afternoon",
+        "so",
+        "far?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your evening treating you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "evening",
+        "treating",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey again!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey",
+        "again!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello once more!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "once",
+        "more!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s happening today?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "happening",
+        "today?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, anything new?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "anything",
+        "new?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope your day is treating you well!",
       "mapword": [
         "O",
         "O",
@@ -3350,46 +2560,21 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "Got",
-        "any",
-        "questions",
-        "for",
-        "me",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! What can I help you achieve?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "What",
-        "can",
-        "I",
-        "help",
+        "Hope",
+        "your",
+        "day",
+        "is",
+        "treating",
         "you",
-        "achieve?\""
+        "well!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hi there! Ready to conquer today’s tasks?\"",
+      "mainsent": "Feels like it’s been a while!",
       "mapword": [
-        "O",
         "O",
         "O",
         "O",
@@ -3398,48 +2583,322 @@
         "O"
       ],
       "wordlist": [
-        "\"Hi",
-        "there!",
-        "Ready",
+        "Feels",
+        "like",
+        "it’s",
+        "been",
+        "a",
+        "while!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Hello!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi there!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "there!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Hey!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good morning!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "morning!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good afternoon!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "afternoon!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good evening!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "evening!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s up?",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "up?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "are",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Yo!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Yo!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey there!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey",
+        "there!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, bot!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "bot!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello, chatbot!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello,",
+        "chatbot!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Greetings!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Greetings!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Howdy!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Howdy!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sup?",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Sup?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Nice to meet you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Nice",
         "to",
-        "conquer",
-        "today’s",
-        "tasks?\""
+        "meet",
+        "you!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Good to see you! Need a hand today?\"",
+      "mainsent": "Long time no see!",
       "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
         "O",
         "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"Good",
+        "Long",
+        "time",
+        "no",
+        "see!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s it going?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "it",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s new?",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "new?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good to see you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
         "to",
         "see",
-        "you!",
-        "Need",
-        "a",
-        "hand",
-        "today?\""
+        "you!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! What’s your focus for today?\"",
+      "mainsent": "Hey, how are things?",
       "mapword": [
         "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "how",
+        "are",
+        "things?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day so far?",
+      "mapword": [
         "O",
         "O",
         "O",
@@ -3447,116 +2906,157 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "What’s",
-        "your",
-        "focus",
-        "for",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Looking for some help or advice?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Looking",
-        "for",
-        "some",
-        "help",
-        "or",
-        "advice?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hi! What’s on your wish list today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi!",
-        "What’s",
-        "on",
-        "your",
-        "wish",
-        "list",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! Need help planning your day?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
-        "Need",
-        "help",
-        "planning",
-        "your",
-        "day?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! How’s your day looking so far?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
         "How’s",
         "your",
         "day",
-        "looking",
         "so",
-        "far?\""
+        "far?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hi there! What are you excited about today?\"",
+      "mainsent": "Hope you're doing great!",
       "mapword": [
         "O",
         "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you're",
+        "doing",
+        "great!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s everything going?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "everything",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s good?",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "good?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How have you been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "have",
+        "you",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Morning!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Morning!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Evening!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Evening!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Afternoon!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Afternoon!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s life treating you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "life",
+        "treating",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day been?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "day",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you’re having a fantastic day!",
+      "mapword": [
         "O",
         "O",
         "O",
@@ -3565,21 +3065,141 @@
         "O"
       ],
       "wordlist": [
-        "\"Hi",
-        "there!",
-        "What",
+        "Hope",
+        "you’re",
+        "having",
+        "a",
+        "fantastic",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It's nice talking to you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It's",
+        "nice",
+        "talking",
+        "to",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Happy to chat with you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Happy",
+        "to",
+        "chat",
+        "with",
+        "you!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Welcome!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Welcome!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, my friend!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "my",
+        "friend!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello there!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "there!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Wishing you a great day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Wishing",
+        "you",
+        "a",
+        "great",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you doing today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
         "are",
         "you",
-        "excited",
-        "about",
-        "today?\""
+        "doing",
+        "today?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Good morning! Anything fun planned?\"",
+      "mainsent": "Hope everything is going well!",
       "mapword": [
         "O",
         "O",
@@ -3588,20 +3208,55 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
-        "morning!",
-        "Anything",
-        "fun",
-        "planned?\""
+        "Hope",
+        "everything",
+        "is",
+        "going",
+        "well!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Good afternoon! Need help with anything?\"",
+      "mainsent": "How’s your morning been?",
       "mapword": [
         "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "morning",
+        "been?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your afternoon going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "afternoon",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your evening so far?",
+      "mapword": [
         "O",
         "O",
         "O",
@@ -3609,185 +3264,99 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
-        "afternoon!",
-        "Need",
-        "help",
-        "with",
-        "anything?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good evening! How’s your evening so far?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Good",
-        "evening!",
         "How’s",
         "your",
         "evening",
         "so",
-        "far?\""
+        "far?"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! How can I help you succeed today?\"",
+      "mainsent": "Hi again!",
       "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "How",
-        "can",
-        "I",
-        "help",
-        "you",
-        "succeed",
-        "today?\""
+        "Hi",
+        "again!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hey! Need some motivation or support?\"",
+      "mainsent": "Hello again!",
       "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"Hey!",
-        "Need",
-        "some",
-        "motivation",
-        "or",
-        "support?\""
+        "Hello",
+        "again!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hi! What are you working on today?\"",
+      "mainsent": "What’s happening?",
       "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "\"Hi!",
-        "What",
-        "are",
-        "you",
-        "working",
-        "on",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hello! What’s on your radar today?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hello!",
         "What’s",
-        "on",
+        "happening?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, what’s new?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "what’s",
+        "new?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope your day is going well!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
         "your",
-        "radar",
-        "today?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Hey! Got any cool projects going on?\"",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hey!",
-        "Got",
-        "any",
-        "cool",
-        "projects",
+        "day",
+        "is",
         "going",
-        "on?\""
+        "well!"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hi there! Need help brainstorming ideas?\"",
+      "mainsent": "It’s been a while since we last talked!",
       "mapword": [
-        "O",
-        "O",
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "\"Hi",
-        "there!",
-        "Need",
-        "help",
-        "brainstorming",
-        "ideas?\""
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
-      "mainsent": "\"Good to see you! How can I assist you?\"",
-      "mapword": [
-        "O",
         "O",
         "O",
         "O",
@@ -3798,24 +3367,488 @@
         "O"
       ],
       "wordlist": [
-        "\"Good",
+        "It’s",
+        "been",
+        "a",
+        "while",
+        "since",
+        "we",
+        "last",
+        "talked!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your night going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "night",
+        "going?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Hello"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Hi"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Hey"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good morning",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "morning"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good afternoon",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "afternoon"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good evening",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "evening"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What's up",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What's",
+        "up"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "are",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Yo",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Yo"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey there",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey",
+        "there"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi bot",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "bot"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello chatbot",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "chatbot"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Greetings",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Greetings"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Howdy",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Howdy"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sup",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Sup"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Nice to meet you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Nice",
+        "to",
+        "meet",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Long time no see",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Long",
+        "time",
+        "no",
+        "see"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s it going",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "it",
+        "going"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s new",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "new"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good to see you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
         "to",
         "see",
-        "you!",
-        "How",
-        "can",
-        "I",
-        "assist",
-        "you?\""
+        "you"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     },
     {
-      "mainsent": "\"Hello! Let’s make today great! Need help?\"",
+      "mainsent": "Hey, how are things",
       "mapword": [
         "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "how",
+        "are",
+        "things"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "day"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you're doing well",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you're",
+        "doing",
+        "well"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s everything",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "everything"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s good",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "good"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How have you been",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "have",
+        "you",
+        "been"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Morning",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Morning"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Evening",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Evening"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Afternoon",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Afternoon"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s life",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "life"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your day going",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "day",
+        "going"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you’re having a great day",
+      "mapword": [
         "O",
         "O",
         "O",
@@ -3824,13 +3857,306 @@
         "O"
       ],
       "wordlist": [
-        "\"Hello!",
-        "Let’s",
-        "make",
-        "today",
-        "great!",
-        "Need",
-        "help?\""
+        "Hope",
+        "you’re",
+        "having",
+        "a",
+        "great",
+        "day"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It's nice to chat with you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It's",
+        "nice",
+        "to",
+        "chat",
+        "with",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Happy to see you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Happy",
+        "to",
+        "see",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Welcome",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Welcome"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi, friend",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "friend"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello there",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "there"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good day",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "day"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How are you doing today",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "are",
+        "you",
+        "doing",
+        "today"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope all is well",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "all",
+        "is",
+        "well"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your morning",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "morning"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your afternoon",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "afternoon"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your evening",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "evening"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hi again",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "again"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hello again",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "again"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s happening",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "happening"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hey, what’s up",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "what’s",
+        "up"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Hope you're having a good day",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hope",
+        "you're",
+        "having",
+        "a",
+        "good",
+        "day"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It’s been a while",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It’s",
+        "been",
+        "a",
+        "while"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How’s your night",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How’s",
+        "your",
+        "night"
       ],
       "alter": [],
       "allAlter": true,

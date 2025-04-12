@@ -36,25 +36,14 @@ function isExsi(name) {
       </div>
       <div class="layer-box">
           
-        <BlstmlayerView :model_display="false"  @apply="props.onChange" layer_type="B_LSTM"
-        v-if="!isExsi('multi_head_self_attention')"
-        />
-        <LstmcardView
-          :model_display="false"
-          @apply="props.onChange"
-          :details_board="false"
-          :header="'Layer-Normalization'"
-          layer_type="batch_normalization"
-         
-        />
+       
         <LstmcardView
           :model_display="false"
           @apply="props.onChange"
           :header="'MHSA'"
           layer_type="multi_head_self_attention"
         />
-        <DropcardView :model_display="false" @apply="props.onChange" />
-        <DropcardView :model_display="false" @apply="props.onChange" drop-type1-ds="true" />
+        
       </div>
     </div>
   </div>

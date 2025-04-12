@@ -35,18 +35,18 @@ export default defineEventHandler(async (event) => {
         return element;
       });
     } else {
-      // parseData["profiles"] = parseData["profiles"].map((element, index) => {
-      //   if (element.label == body["name"]) {
-      //     current_profile = {
-      //       ...element,
-      //       network: body["layers"],
-      //     };
-      //     return {
-      //       ...current_profile,
-      //     };
-      //   }
-      //   return element;
-      // });
+      parseData["profiles"] = parseData["profiles"].map((element, index) => {
+        if (element.label == body["name"]) {
+          current_profile = {
+            ...element,
+            network: body["layers"],
+          };
+          return {
+            ...current_profile,
+          };
+        }
+        return element;
+      });
     }
 
     fs.writeFileSync(`${filePath}.json`, JSON.stringify(parseData, null, 2));

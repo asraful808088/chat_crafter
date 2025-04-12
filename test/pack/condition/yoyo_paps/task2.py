@@ -2,7 +2,7 @@
 from cat import ConditionTypes
 
 def getCondition():
-    return ConditionTypes.mama2
+    return ConditionTypes.mama
 
 
 

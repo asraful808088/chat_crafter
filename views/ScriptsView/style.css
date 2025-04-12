@@ -27,7 +27,7 @@
   font-family: 'Courier New', Courier, monospace;
 }
 .script-main .script-box{
-    flex-grow: 1;
+    width:  calc(100% - 420px);
 }
 .script-main .list-box .list-box-2{
     flex-grow: 1;

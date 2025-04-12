@@ -1,0 +1,4668 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "What’s your name?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "name?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you tell me about yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "about",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do you do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "you",
+        "do?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are you for?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "you",
+        "for?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who made you?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "made",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How should I call you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "should",
+        "I",
+        "call",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you AI?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "AI?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can you do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "you",
+        "do?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your job?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "job?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you help me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "help",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your main purpose?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "main",
+        "purpose?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have emotions?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "emotions?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your mission?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "mission?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you assist with tasks?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "assist",
+        "with",
+        "tasks?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your skills?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "skills?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you work?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "work?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can I ask you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "I",
+        "ask",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you learn?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "learn?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What makes you special?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "makes",
+        "you",
+        "special?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you think for yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "think",
+        "for",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your goal?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "goal?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What tasks can you do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "tasks",
+        "can",
+        "you",
+        "do?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you talk?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "talk?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What features do you have?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "features",
+        "do",
+        "you",
+        "have?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your abilities?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "abilities?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you help me out?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "help",
+        "me",
+        "out?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you like a human?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "like",
+        "a",
+        "human?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can you offer?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "you",
+        "offer?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you communicate?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "communicate?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What sets you apart?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "sets",
+        "you",
+        "apart?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you handle requests?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "handle",
+        "requests?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your function?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "function?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you learn from me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "learn",
+        "from",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you just a bot?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "just",
+        "a",
+        "bot?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you respond?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "respond?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you think on your own?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "think",
+        "on",
+        "your",
+        "own?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What makes you different?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "makes",
+        "you",
+        "different?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you tell me who you are?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "who",
+        "you",
+        "are?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do you go by?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "you",
+        "go",
+        "by?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Could you introduce yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Could",
+        "you",
+        "introduce",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain what you do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "what",
+        "you",
+        "do?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your purpose?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "purpose?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you define yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "define",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who created you and why?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "created",
+        "you",
+        "and",
+        "why?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Should I give you a name?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Should",
+        "I",
+        "give",
+        "you",
+        "a",
+        "name?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a bot or something else?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "bot",
+        "or",
+        "something",
+        "else?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a form of artificial intelligence?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "form",
+        "of",
+        "artificial",
+        "intelligence?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What exactly are you capable of?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "exactly",
+        "are",
+        "you",
+        "capable",
+        "of?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What role do you play in our conversation?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "role",
+        "do",
+        "you",
+        "play",
+        "in",
+        "our",
+        "conversation?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you help me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "help",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What tasks can you assist with?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "tasks",
+        "can",
+        "you",
+        "assist",
+        "with?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you share more about what you do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "share",
+        "more",
+        "about",
+        "what",
+        "you",
+        "do?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you contribute to our interaction?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "contribute",
+        "to",
+        "our",
+        "interaction?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is the main function you serve?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "the",
+        "main",
+        "function",
+        "you",
+        "serve?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Why do you exist?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Why",
+        "do",
+        "you",
+        "exist?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can I expect from you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "I",
+        "expect",
+        "from",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can you offer me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "you",
+        "offer",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you purely a chatbot, or more?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "purely",
+        "a",
+        "chatbot,",
+        "or",
+        "more?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a purpose beyond chatting?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "purpose",
+        "beyond",
+        "chatting?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you tell me your main mission?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "your",
+        "main",
+        "mission?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you help users like me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "help",
+        "users",
+        "like",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you consider yourself intelligent?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "consider",
+        "yourself",
+        "intelligent?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What makes you different from other bots?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "makes",
+        "you",
+        "different",
+        "from",
+        "other",
+        "bots?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your primary objective?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "primary",
+        "objective?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you help me with various tasks?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "help",
+        "me",
+        "with",
+        "various",
+        "tasks?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you designed to function?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "designed",
+        "to",
+        "function?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you learn from our interactions?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "learn",
+        "from",
+        "our",
+        "interactions?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain the skills you have?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "the",
+        "skills",
+        "you",
+        "have?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you manage tasks and requests?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "manage",
+        "tasks",
+        "and",
+        "requests?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What abilities do you bring to the table?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "abilities",
+        "do",
+        "you",
+        "bring",
+        "to",
+        "the",
+        "table?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s the purpose behind your creation?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "the",
+        "purpose",
+        "behind",
+        "your",
+        "creation?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who programmed you to do this?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "programmed",
+        "you",
+        "to",
+        "do",
+        "this?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your main goal in this conversation?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "main",
+        "goal",
+        "in",
+        "this",
+        "conversation?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your primary functions?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "primary",
+        "functions?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you more than just a chatbot?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "more",
+        "than",
+        "just",
+        "a",
+        "chatbot?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How would you introduce yourself in simple terms?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "would",
+        "you",
+        "introduce",
+        "yourself",
+        "in",
+        "simple",
+        "terms?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you usually describe your role?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "usually",
+        "describe",
+        "your",
+        "role?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain your programming?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "your",
+        "programming?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have specific features or tools?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "specific",
+        "features",
+        "or",
+        "tools?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you self-aware in any way?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "self-aware",
+        "in",
+        "any",
+        "way?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What kind of emotions can you express?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "kind",
+        "of",
+        "emotions",
+        "can",
+        "you",
+        "express?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you built to interact with humans?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "built",
+        "to",
+        "interact",
+        "with",
+        "humans?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you aware of your existence?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "aware",
+        "of",
+        "your",
+        "existence?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What sets you apart from other AI chatbots?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "sets",
+        "you",
+        "apart",
+        "from",
+        "other",
+        "AI",
+        "chatbots?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What's your name?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What's",
+        "your",
+        "name?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you introduce yourself to me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "introduce",
+        "yourself",
+        "to",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Tell me something about yourself.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Tell",
+        "me",
+        "something",
+        "about",
+        "yourself."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do you do exactly?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "you",
+        "do",
+        "exactly?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are you designed to be?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "you",
+        "designed",
+        "to",
+        "be?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who is your creator?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "is",
+        "your",
+        "creator?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a specific name?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "specific",
+        "name?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a chatbot or something else?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "chatbot",
+        "or",
+        "something",
+        "else?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you human or artificial intelligence?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "human",
+        "or",
+        "artificial",
+        "intelligence?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you an AI assistant?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "an",
+        "AI",
+        "assistant?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can you do to help me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "you",
+        "do",
+        "to",
+        "help",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your primary purpose?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "primary",
+        "purpose?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your function as a chatbot?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "function",
+        "as",
+        "a",
+        "chatbot?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What role do you serve?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "role",
+        "do",
+        "you",
+        "serve?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you share more details about yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "share",
+        "more",
+        "details",
+        "about",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your job as an AI?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "job",
+        "as",
+        "an",
+        "AI?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your key skills?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "key",
+        "skills?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you function?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "function?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Why were you created?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Why",
+        "were",
+        "you",
+        "created?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who developed you?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "developed",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What kind of tasks can you handle?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "kind",
+        "of",
+        "tasks",
+        "can",
+        "you",
+        "handle?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your main objective?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "main",
+        "objective?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your key goals?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "key",
+        "goals?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you just a chatbot, or do you have more abilities?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "just",
+        "a",
+        "chatbot,",
+        "or",
+        "do",
+        "you",
+        "have",
+        "more",
+        "abilities?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you typically introduce yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "typically",
+        "introduce",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain what you are in simple terms?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "what",
+        "you",
+        "are",
+        "in",
+        "simple",
+        "terms?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you developed?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "developed?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have intelligence?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "intelligence?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your background and purpose?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "background",
+        "and",
+        "purpose?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you specialize in anything?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "specialize",
+        "in",
+        "anything?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do most users call you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "most",
+        "users",
+        "call",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How should I address you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "should",
+        "I",
+        "address",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a unique identity or just a generic one?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "unique",
+        "identity",
+        "or",
+        "just",
+        "a",
+        "generic",
+        "one?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you clarify exactly what you are?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "clarify",
+        "exactly",
+        "what",
+        "you",
+        "are?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How would you describe yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "would",
+        "you",
+        "describe",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Would you consider yourself smart?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Would",
+        "you",
+        "consider",
+        "yourself",
+        "smart?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a personality or traits?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "personality",
+        "or",
+        "traits?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What languages do you support?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "languages",
+        "do",
+        "you",
+        "support?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How would you define your role?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "would",
+        "you",
+        "define",
+        "your",
+        "role?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Where were you created?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Where",
+        "were",
+        "you",
+        "created?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your main abilities?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "main",
+        "abilities?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you list your key features?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "list",
+        "your",
+        "key",
+        "features?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What services can you provide?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "services",
+        "can",
+        "you",
+        "provide?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you capable of self-awareness?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "capable",
+        "of",
+        "self-awareness?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have emotions or feelings?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "emotions",
+        "or",
+        "feelings?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you trained or programmed?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "trained",
+        "or",
+        "programmed?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What sets you apart from other chatbots?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "sets",
+        "you",
+        "apart",
+        "from",
+        "other",
+        "chatbots?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who are you?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "are",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your name?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "name?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you introduce yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "introduce",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Tell me a little about yourself.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Tell",
+        "me",
+        "a",
+        "little",
+        "about",
+        "yourself."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How would you introduce yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "would",
+        "you",
+        "introduce",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What exactly do you do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "exactly",
+        "do",
+        "you",
+        "do?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are you supposed to be?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "you",
+        "supposed",
+        "to",
+        "be?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who created you?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "created",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What should I call you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "should",
+        "I",
+        "call",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a name?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "name?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a chatbot?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "chatbot?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a human or AI?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "human",
+        "or",
+        "AI?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you artificial intelligence?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "artificial",
+        "intelligence?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can you do for me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "you",
+        "do",
+        "for",
+        "me?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your main purpose?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "main",
+        "purpose?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your function?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "function?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What role do you play?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "role",
+        "do",
+        "you",
+        "play?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you tell me more about yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "more",
+        "about",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your job as a chatbot?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "job",
+        "as",
+        "a",
+        "chatbot?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What skills do you have?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "skills",
+        "do",
+        "you",
+        "have?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you operate?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "operate?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Why were you designed?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Why",
+        "were",
+        "you",
+        "designed?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who programmed you?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "programmed",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What tasks can you perform?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "tasks",
+        "can",
+        "you",
+        "perform?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your main mission?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "main",
+        "mission?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your goals?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "goals?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you just a chatbot, or something more?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "just",
+        "a",
+        "chatbot,",
+        "or",
+        "something",
+        "more?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you usually introduce yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "usually",
+        "introduce",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain who you are?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "who",
+        "you",
+        "are?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you built?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "built?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you intelligent?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "intelligent?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your background?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "background?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have any special skills?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "any",
+        "special",
+        "skills?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do most people call you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "most",
+        "people",
+        "call",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How should I refer to you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "should",
+        "I",
+        "refer",
+        "to",
+        "you?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a unique identity?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "unique",
+        "identity?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you clarify what exactly you are?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "clarify",
+        "what",
+        "exactly",
+        "you",
+        "are?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you describe yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "describe",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Would you say you're smart?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Would",
+        "you",
+        "say",
+        "you're",
+        "smart?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a personality?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "personality?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What languages do you speak?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "languages",
+        "do",
+        "you",
+        "speak?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How would you define yourself?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "would",
+        "you",
+        "define",
+        "yourself?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Where do you come from?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Where",
+        "do",
+        "you",
+        "come",
+        "from?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What abilities do you have?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "abilities",
+        "do",
+        "you",
+        "have?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you list your features?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "list",
+        "your",
+        "features?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What services do you offer?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "services",
+        "do",
+        "you",
+        "offer?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you self-aware?",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "self-aware?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you experience emotions?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "experience",
+        "emotions?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you programmed?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "programmed?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What makes you different from other chatbots?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "makes",
+        "you",
+        "different",
+        "from",
+        "other",
+        "chatbots?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who are you",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "are",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your name",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "name"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Introduce yourself",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Introduce",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Tell me about yourself",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Tell",
+        "me",
+        "about",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you introduce yourself",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "introduce",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do you do",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "you",
+        "do"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are you",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who made you",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "made",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Tell me your name",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Tell",
+        "me",
+        "your",
+        "name"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What should I call you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "should",
+        "I",
+        "call",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a bot",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "bot"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you human",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "human"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you AI",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "AI"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What can you do",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "can",
+        "you",
+        "do"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your purpose",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "purpose"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your function",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "function"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your role",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "role"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you tell me who you are",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "who",
+        "you",
+        "are"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your job",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "job"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are your capabilities",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "your",
+        "capabilities"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you work",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "work"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Why were you created",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Why",
+        "were",
+        "you",
+        "created"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Who built you",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Who",
+        "built",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What is your task",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "is",
+        "your",
+        "task"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your mission",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "mission"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your goal",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "goal"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you a chatbot",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "a",
+        "chatbot"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you introduce yourself",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "introduce",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain yourself",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How were you made",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "were",
+        "you",
+        "made"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you smart",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "smart"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What’s your background",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What’s",
+        "your",
+        "background"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do you specialize in",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "you",
+        "specialize",
+        "in"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a name",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "name"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What do people call you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "do",
+        "people",
+        "call",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How should I address you",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "should",
+        "I",
+        "address",
+        "you"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have an identity",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "an",
+        "identity"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you explain what you are",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "explain",
+        "what",
+        "you",
+        "are"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How do you define yourself",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "do",
+        "you",
+        "define",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you intelligent",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "intelligent"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have a personality",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "a",
+        "personality"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What language do you speak",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "language",
+        "do",
+        "you",
+        "speak"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you describe yourself",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "describe",
+        "yourself"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Where do you come from",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Where",
+        "do",
+        "you",
+        "come",
+        "from"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What are you capable of",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "are",
+        "you",
+        "capable",
+        "of"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you tell me about your features",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "about",
+        "your",
+        "features"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have any skills",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "any",
+        "skills"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "What services do you provide",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What",
+        "services",
+        "do",
+        "you",
+        "provide"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Are you self-aware",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Are",
+        "you",
+        "self-aware"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Do you have emotions",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Do",
+        "you",
+        "have",
+        "emotions"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ]
+}

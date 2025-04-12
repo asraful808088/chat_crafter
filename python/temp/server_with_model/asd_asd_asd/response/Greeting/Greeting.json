@@ -1,0 +1,69 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "hi !! How can i help you ??",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "hi",
+        "!!",
+        "How",
+        "can",
+        "i",
+        "help",
+        "you",
+        "??"
+      ]
+    },
+    {
+      "mainsent": "How can i help you ??",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "can",
+        "i",
+        "help",
+        "you",
+        "??"
+      ]
+    },
+    {
+      "mainsent": "hello!!! . How can i help you ??",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "hello!!!",
+        ".",
+        "How",
+        "can",
+        "i",
+        "help",
+        "you",
+        "??"
+      ]
+    }
+  ]
+}

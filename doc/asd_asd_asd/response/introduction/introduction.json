@@ -1,0 +1,36 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "I m AI bot",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "m",
+        "AI",
+        "bot"
+      ]
+    },
+    {
+      "mainsent": "I m you helping hand",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "m",
+        "you",
+        "helping",
+        "hand"
+      ]
+    }
+  ]
+}

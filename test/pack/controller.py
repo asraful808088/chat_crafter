@@ -8,25 +8,52 @@ sys.path.append(os.path.abspath(base_path))
 for root, dirs, files in os.walk(base_path):
     sys.path.append(os.path.abspath(root))
 
-# some problem 
-# 1st on_respose_stage and on_respose code duplication
-
-file_path = os.path.join(current_file_path.replace("controller.py",""), "scripts", "scripts.json")
 condition_path = os.path.join(current_file_path.replace("controller.py",""), "condition")
 response_path = os.path.join(current_file_path.replace("controller.py",""), "response")
 action_path = os.path.join(current_file_path.replace("controller.py",""), "custom_actions")
-try:
-    with open(file_path, "r") as file:
-        content = json.load(file) 
-except json.JSONDecodeError:
-    print("Error: Invalid JSON format.")
-script = content["script"]
+
+# temp function,it will be dynamic 
+def get_alternative_response():
+    responses = [
+        "Sorry, I can't process that request.",
+        "I'm not equipped to handle that.",
+        "That’s beyond my current knowledge.",
+        "I’m not sure how to do that.",
+        "I don’t have the training for that.",
+        "I’m unable to assist with that.",
+        "I don’t have enough information to respond.",
+        "That’s outside my expertise.",
+        "I’m not programmed for that task.",
+        "I can’t provide a response to that.",
+        "I'm not set up to handle that request.",
+        "That’s beyond my capabilities.",
+        "I don’t have the knowledge to help with that.",
+        "I don’t have an answer for that.",
+        "I haven’t learned how to do that yet.",
+        "I can’t process that request right now.",
+        "That’s not something I can do.",
+        "I don’t understand that request.",
+        "That’s outside my training scope.",
+        "I’m not designed for that function."
+    ]
+    
+    return random.choice(responses)
+
 
 
 class CovController():
-    
-    def __init__(self,script:list):
-        self.script = script
+    def __init__(self,scriptName = None):
+        if scriptName == None:
+            try:
+                file_path = os.path.join(current_file_path.replace("controller.py",""), "scripts", "scripts.json")
+                with open(file_path, "r") as file:
+                    content = json.load(file) 
+            except json.JSONDecodeError:
+                print("Error: Invalid JSON format.")
+                return
+            self.script = content["script"]
+        else:
+           pass
         self.store_covtimeline = []
         self.current_index = 0
         self.current_obj = None
@@ -38,7 +65,16 @@ class CovController():
 
     def input(self,sent,index=0):
         if self.current_obj == None:
-            self.current_obj  = self.find_conv(sent)
+            find_target_obj  = self.find_conv(sent,index)
+            if find_target_obj == None or find_target_obj == False:
+               if self.on_respose_stage != None:
+                     self.on_respose_stage({"stage":"before_res","type":"not_found"})
+               if self.on_respose != None:
+                  self.on_respose({'success': True, 'sent': get_alternative_response(),'not_found':True})
+               if self.on_respose_stage != None:
+                     self.on_respose_stage({"stage":"after_res","type":"not_found"})
+               return 
+            self.current_obj  = find_target_obj
             if self.current_obj !=None:
               response = self.current_obj["list_of_response"]
               intent_info = {
@@ -46,9 +82,15 @@ class CovController():
               }
               self.ans_response(self.current_obj,self.current_obj["target"],response,intent_info)
               self.store_covtimeline.append(intent_info)
+              return
             else:
                self.store_covtimeline = []
-            return
+            if self.on_respose_stage != None:
+                     self.on_respose_stage({"stage":"before_res","type":"not_found"})
+            if self.on_respose != None:
+               self.on_respose({'success': True, 'sent': get_alternative_response(),'not_found':True})
+            if self.on_respose_stage != None:
+                     self.on_respose_stage({"stage":"after_res","type":"not_found"})
         else:
            prediction_value = self.prediction(sent,index)
            print(len(self.store_covtimeline))
@@ -75,6 +117,8 @@ class CovController():
     def ans_response(self,item,prediction,list_of_res,l={},fallback = False):
          if self.on_respose_stage != None:
             self.on_respose_stage({"stage":"before_res","type":item["type"],"intent":prediction })
+         if len(list_of_res) == 0:
+             self.on_respose({'success': True, 'sent': 'response unset','fallback':fallback})
          for itemRes in list_of_res:
             if self.on_respose_stage != None:
                self.on_respose_stage({"stage":"run_res","res":itemRes,"type":item["type"] ,"intent":prediction})
@@ -153,21 +197,23 @@ class CovController():
                intent_info = {"id":obj["id"],"sent":sent,"target":obj["target"]}
                self.ans_response(obj,prediction,obj["list_of_response"],intent_info)
                access_fail = False
-
+               
             if access_fail :  
                for item in obj["list_of_next_stap"]:
                   if item["type"] == "serial_break_add":
                      if item["val"] :
-                        self.current_obj  = self.find_conv("sent",3)
-                        response = self.current_obj["list_of_response"]
-                        self.store_covtimeline = []
-                        intent_info = {
-                           "id":self.current_obj["id"],"sent":sent,"target":self.current_obj["target"]
-                        }
-                        self.store_covtimeline.append(intent_info)
-                        self.ans_response(self.current_obj,self.current_obj["target"],response,intent_info)
-                        access_fail = False
-                        break
+                        find_target_obj  = self.find_conv(sent)
+                        if not (find_target_obj == None or find_target_obj == False):
+                              self.current_obj  = self.find_conv("sent",3)
+                              response = self.current_obj["list_of_response"]
+                              self.store_covtimeline = []
+                              intent_info = {
+                                 "id":self.current_obj["id"],"sent":sent,"target":self.current_obj["target"]
+                              }
+                              self.store_covtimeline.append(intent_info)
+                              self.ans_response(self.current_obj,self.current_obj["target"],response,intent_info)
+                              access_fail = False
+                              break
             if access_fail:  
                for item in obj["list_of_store"]:
                   if item["type"] == "fallback":
@@ -355,28 +401,19 @@ class CovController():
        for item in self.script:
           target_model = self.prediction(sent,v=v)
           if item["target"].replace(" ","_") ==  target_model["value"]:
-             return item
+             if item["condition"]:
+                try:
+                   if self.condition_handler(item["condition"],item["condition_type"]):
+                      return item
+                   else:
+                      return None
+                except:
+                   return None
+             else:
+                return item
 
-       
-# t_forwards
-# t_next
-# fallback
-# list_of_next_stap -> serial_break_add -> val
-# add_condition
 
-def onResStage(e):
-   print(e)
-def onRes(e):
-   print(e)
-   pass
-s =  CovController(script)
-# s.on_respose_stage = onResStage
-s.on_respose = onRes
-s.input("ASD")
-s.input("ASD",1)
-s.input("ASD",1)
-s.input("ASD",1)
-s.input("ASD",1)
+
 
 
 

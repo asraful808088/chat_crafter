@@ -53,8 +53,8 @@ const txt2 = ref(2);
 const txt3 = ref(0.1111);
 const persepInfo = ref({
   persep: {
-    active: 64,
-    list: [64, 60, 50, 30, 15, 16, 8, 4],
+    active: 512,
+    list: [512,1024,2048],
   },
   l1: {
     active: 2,
@@ -71,6 +71,8 @@ const persepInfo = ref({
 });
 function nextButton() {
   if (count.value == 2) {
+    count.value = 3;
+  } else if (count.value == 3) {
     count.value = 1;
   } else {
     count.value = count.value + 1;
@@ -78,7 +80,9 @@ function nextButton() {
 }
 function prevButton() {
   if (count.value == 1) {
-    count.value = 2;
+    count.value = 3;
+  } else if (count.value == 2) {
+    count.value = 1;
   } else {
     count.value = count.value - 1;
   }
@@ -251,7 +255,7 @@ function updateToSelect(property, val) {
         </div>
       </div>
       <div class="head">
-        <div>{{ props.header }}</div>
+        <div>T.F</div>
         <div class="arrow" v-if="props.details_board">
           <div class="icon" @click="prevButton">
             <img src="../../assets/icon/other/arrow.png" alt="" />
@@ -268,7 +272,7 @@ function updateToSelect(property, val) {
           <div class="input-box">
             <input
               type="number"
-              placeholder="perceptron"
+              placeholder="FF_DIM"
               @input="
                 (e) =>
                   inputOnchange(
@@ -321,7 +325,7 @@ function updateToSelect(property, val) {
             <input
               type="number"
               placeholder="head"
-              step=".001"
+              step="1"
               @input="
                 (e) =>
                   inputOnchange(
@@ -369,7 +373,7 @@ function updateToSelect(property, val) {
           <div class="input-box">
             <input
               type="number"
-              placeholder="L2"
+              placeholder="dropout"
               step=".001"
               @input="
                 (e) =>
@@ -436,7 +440,6 @@ function updateToSelect(property, val) {
 </template>
 
 <style scoped>
-
 .card-001 {
   height: auto;
   width: auto;
@@ -507,8 +510,9 @@ function updateToSelect(property, val) {
 .card-001 .layer .head .arrow {
   width: 120px;
   height: 30px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
   font-size: 50px;
   display: flex;
   justify-content: space-between;

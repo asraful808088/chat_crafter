@@ -1,78 +1,65 @@
 {
   "list_of_intent": [
-    
     {
-      "id": 1740766139302,
+      "id": 1744269120099,
       "type": "init",
       "target": "greeting",
-      "list_of_response": [],
-      "list_of_store": [],
-      "store_id": [],
-      "target_id": null,
-      "list_of_next_stap": [
+      "list_of_response": [
         {
-          "type": "next_add",
-          "label": "next-intents"
+          "type": "response",
+          "target": "introduction"
         },
         {
-          "type": "backward_add",
-          "label": "backwards-add"
-        },
-        {
-          "type": "serial_break_add",
-          "val": false,
-          "label": "serial-break"
-        },
-        {
-          "type": "serial_break_err_add",
-          "label": "serial break fallout"
+          "type": "response",
+          "target": "Greeting"
         }
-      ]
-    },
-    {
-      "id": 1740766160147,
-      "type": "init",
-      "target": "ask name",
-      "list_of_response": [],
-      "list_of_store": [],
-      "store_id": [],
-      "target_id": null,
-      "list_of_next_stap": [
-        {
-          "type": "next_add",
-          "label": "next-intents"
-        },
-        {
-          "type": "backward_add",
-          "label": "backwards-add"
-        },
-        {
-          "type": "serial_break_add",
-          "val": false,
-          "label": "serial-break"
-        },
-        {
-          "type": "serial_break_err_add",
-          "label": "serial break fallout"
-        }
-      ]
-    },
-    {
-      "id": 1741460128703,
-      "type": "init",
-      "target": "bye",
-      "list_of_response": [],
+      ],
       "list_of_store": [
         {
-          "id": 1741597995183,
-          "type": "add_condition",
-          "target": "ask name",
+          "id": 1744470404070,
+          "type": "t_next",
+          "target": "greeting",
           "list_of_response": [],
           "list_of_store": [],
           "store_id": [],
           "target_id": null,
-          "condition_type": "memo",
-          "condition": "another_text",
+          "condition_type": null,
+          "condition": null,
+          "nolvl": 0,
+          "list_of_next_stap": [
+            {
+              "type": "next_add",
+              "label": "next-intents"
+            },
+            {
+              "type": "backward_add",
+              "label": "backwards-add"
+            },
+            {
+              "type": "serial_break_add",
+              "val": false,
+              "label": "serial-break"
+            },
+            {
+              "type": "serial_break_err_add",
+              "label": "serial break fallout"
+            },
+            {
+              "type": "add_condition",
+              "label": "add-condition"
+            }
+          ]
+        },
+        {
+          "id": 1744472662088,
+          "type": "fallback",
+          "target": "bye",
+          "list_of_response": [],
+          "list_of_store": [],
+          "store_id": [],
+          "target_id": null,
+          "condition_type": null,
+          "condition": null,
           "nolvl": 0,
           "list_of_next_stap": [
             {
@@ -101,6 +88,9 @@
       ],
       "store_id": [],
       "target_id": null,
+      "condition_type": null,
+      "condition": null,
+      "nolvl": 0,
       "list_of_next_stap": [
         {
           "type": "next_add",
@@ -124,8 +114,93 @@
           "label": "add-condition"
         }
       ],
-      "list_store_id": [],
-      "nolvl": 0
+      "list_store_id": []
+    },
+    {
+      "id": 1744282291747,
+      "type": "init",
+      "target": "bye",
+      "list_of_response": [
+        {
+          "type": "response",
+          "target": "bye"
+        }
+      ],
+      "list_of_store": [],
+      "store_id": [],
+      "target_id": null,
+      "condition_type": null,
+      "condition": null,
+      "nolvl": 0,
+      "list_of_next_stap": [
+        {
+          "type": "next_add",
+          "label": "next-intents"
+        },
+        {
+          "type": "backward_add",
+          "label": "backwards-add"
+        },
+        {
+          "type": "serial_break_add",
+          "val": true,
+          "label": "serial-break"
+        },
+        {
+          "type": "serial_break_err_add",
+          "label": "serial break fallout"
+        },
+        {
+          "type": "add_condition",
+          "label": "add-condition"
+        }
+      ],
+      "list_store_id": []
+    },
+    {
+      "id": 1744282293199,
+      "type": "init",
+      "target": "introduction",
+      "list_of_response": [
+        {
+          "type": "response",
+          "target": "introduction"
+        },
+        {
+          "type": "actions",
+          "target": "clear_dump_files"
+        }
+      ],
+      "list_of_store": [],
+      "store_id": [],
+      "target_id": null,
+      "condition_type": null,
+      "condition": null,
+      "nolvl": 0,
+      "list_of_next_stap": [
+        {
+          "type": "next_add",
+          "label": "next-intents"
+        },
+        {
+          "type": "backward_add",
+          "label": "backwards-add"
+        },
+        {
+          "type": "serial_break_add",
+          "val": true,
+          "label": "serial-break"
+        },
+        {
+          "type": "serial_break_err_add",
+          "label": "serial break fallout"
+        },
+        {
+          "type": "add_condition",
+          "label": "add-condition"
+        }
+      ],
+      "list_store_id": []
     }
   ]
 }

@@ -1,0 +1,122 @@
+{
+    "model_name": "model-1744109590540",
+    "profile_name": "asd_asd_asd",
+    "totalinfo": [
+        {
+            "epoch": 0,
+            "loss": "1.3292968273162842",
+            "accuracy": "0.32580387592315674",
+            "val_accuracy": "0.3269689679145813",
+            "val_loss": "1.1530855894088745",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 1,
+            "loss": "1.0863604545593262",
+            "accuracy": "0.453095942735672",
+            "val_accuracy": "0.5656324625015259",
+            "val_loss": "1.0542538166046143",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 2,
+            "loss": "1.031085729598999",
+            "accuracy": "0.6773850917816162",
+            "val_accuracy": "0.7374701499938965",
+            "val_loss": "1.0129868984222412",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 3,
+            "loss": "0.9898163676261902",
+            "accuracy": "0.7959074974060059",
+            "val_accuracy": "0.8424820899963379",
+            "val_loss": "0.9709793329238892",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 4,
+            "loss": "0.9472087025642395",
+            "accuracy": "0.8519797921180725",
+            "val_accuracy": "0.8639618158340454",
+            "val_loss": "0.9277462959289551",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 5,
+            "loss": "0.9031610488891602",
+            "accuracy": "0.9045974016189575",
+            "val_accuracy": "0.8782815933227539",
+            "val_loss": "0.8833181858062744",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 6,
+            "loss": "0.8571921586990356",
+            "accuracy": "0.9138984680175781",
+            "val_accuracy": "0.9164677858352661",
+            "val_loss": "0.8375033736228943",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 7,
+            "loss": "0.8100957274436951",
+            "accuracy": "0.927451491355896",
+            "val_accuracy": "0.9236276745796204",
+            "val_loss": "0.7908146977424622",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 8,
+            "loss": "0.7629528045654297",
+            "accuracy": "0.9354238510131836",
+            "val_accuracy": "0.9284009337425232",
+            "val_loss": "0.7437774538993835",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 9,
+            "loss": "0.7163691520690918",
+            "accuracy": "0.9394100308418274",
+            "val_accuracy": "0.9236276745796204",
+            "val_loss": "0.6982761025428772",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 10,
+            "loss": "0.6704197525978088",
+            "accuracy": "0.9388785362243652",
+            "val_accuracy": "0.9236276745796204",
+            "val_loss": "0.6538792252540588",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 11,
+            "loss": "0.6264421939849854",
+            "accuracy": "0.9433962106704712",
+            "val_accuracy": "0.9355608820915222",
+            "val_loss": "0.6111813187599182",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 12,
+            "loss": "0.5845530033111572",
+            "accuracy": "0.9484453797340393",
+            "val_accuracy": "0.9307875633239746",
+            "val_loss": "0.5726274847984314",
+            "emit_type": "updateing_model"
+        },
+        {
+            "epoch": 19,
+            "loss": "0.3645155131816864",
+            "accuracy": "0.9630613923072815",
+            "val_accuracy": "0.9498806595802307",
+            "val_loss": "0.36132144927978516",
+            "emit_type": "finishing_model",
+            "final_loss": 0.36132144927978516,
+            "final_acc": 0.9498806595802307,
+            "profile_name": "asd_asd_asd",
+            "model_name": "model-1744109590540"
+        }
+    ]
+}

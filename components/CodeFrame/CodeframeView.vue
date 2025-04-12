@@ -13,6 +13,7 @@ const showToast = ref(false);
 const showModuleList = ref(null);
 const listOfItems = ref([]);
 const taskCode = ref(null);
+const taskTempCode = ref(null);
 const activeDetails = ref(null);
 const modulenametxt = ref("");
 const recom = ref([]);
@@ -35,7 +36,13 @@ onMounted(() => {
   });
   socket.on("update_code_code_frame", (data) => {
     recom.value = data.reco;
-    listOfItems.value = listOfItems.value.map((element, index) => {
+    if (taskCode.value) {
+      taskCode.value = {
+        ...taskCode.value,
+        code:data.code
+      }
+    }else{
+      listOfItems.value = listOfItems.value.map((element, index) => {
       if (element?.name == data?.name) {
         return {
           ...element,
@@ -44,7 +51,8 @@ onMounted(() => {
       }
       return element;
     });
-    console.log(listOfItems.value)
+    }
+    
 
 
   });
@@ -117,6 +125,10 @@ function selectTask(i) {
           ...taskCode.value,
           name: i,
         };
+        taskTempCode.value = {
+          ...taskCode.value,
+          name: i,
+        }
       }
     }
   );
@@ -239,7 +251,7 @@ function codeRunner() {
       <div class="code">
         <CodemirrorView
           :recommend="recom"
-          :value="taskCode ? taskCode?.code : activeDetails?.code"
+          :value="taskCode ? taskTempCode?.code : activeDetails?.code"
           @text="
             (e) => {
               if (!activeDetails?.name) {
@@ -299,6 +311,10 @@ function codeRunner() {
               class="txt"
               @click="
                 () => {
+                  const findObj = listOfItems.find((element)=>element.name==activeDetails['name'])
+                  if (findObj) {
+                      activeDetails = findObj
+                  }
                   taskCode = null;
                 }
               "

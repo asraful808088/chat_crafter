@@ -27,6 +27,8 @@ const props = defineProps({
     require: false,
   },
 });
+
+
 const showtoast = ref(null);
 function createBlogObj({
   type = "init",
@@ -413,7 +415,7 @@ function openToast() {
 function selfCondition(){
   showtoast.value = {
       type: "self_add_condition",
-      of: "intents",
+      of: "condition",
     };
 }
 
@@ -465,7 +467,7 @@ function deleteSelfCondition(){
     v-if="showtoast?.type"
     :items="props?.list_store_id"
     :of="showtoast?.of"
-    :condition="showtoast?.type == 'add_condition'"
+    :condition="showtoast?.type == 'add_condition' || 'self_add_condition' == showtoast?.type"
     @close="
       () => {
         showtoast = null;

@@ -18,7 +18,6 @@ import updatelayersProfile from "~/network/updateLayers/update";
 import updateMoelProfile from "~/network/updateModelProfile/update";
 import useModelNetworkStore from "~/state/model_profile/storage";
 import { useBotbuilderStore } from "~/state/state";
-import BotchattesterView from "~/components/bot_chat_tester/BotchattesterView.vue";
 
 const socket = io();
 const traningMsg = ref("Verifying...");
@@ -62,7 +61,7 @@ onMounted(() => {
     );
   });
   socket.on("traning_info", (data) => {
-    console.log("log")
+    console.log("log");
     buttonName.value = "Stop Training";
     storeEph.value = [...storeEph.value, ...data.items];
     rateload.value = calculatePercentage(

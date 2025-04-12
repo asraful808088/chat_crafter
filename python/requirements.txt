@@ -1,0 +1,5 @@
+websockets
+tensorflow
+scikit-learn
+fastapi
+numpy

@@ -1,0 +1,52 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "this is my number 01813222726",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-NUMBER"
+      ],
+      "wordlist": [
+        "this",
+        "is",
+        "my",
+        "number",
+        "01813222726"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "it's is my number 01813222726",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-NUMBER"
+      ],
+      "wordlist": [
+        "it's",
+        "is",
+        "my",
+        "number",
+        "01813222726"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ],
+  "entities": [
+    {
+      "i": "B-NUMBER"
+    },
+    {
+      "i": "J-NUMBER"
+    }
+  ]
+}

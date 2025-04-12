@@ -34,31 +34,12 @@ function isExsi(name) {
         </div>
       </div>
       <div class="layer-box">
-        <LstmcardView :model_display="false" @apply="props.onChange" />
-        <LstmcardView
-          :model_display="false"
-          @apply="props.onChange"
-          :details_board="false"
-          :header="'Global Average Pooling 1D'"
-          layer_type="global_average_pooling_1D"
-          v-if="!isExsi('global_average_pooling_1D') && isExsi('multi_head_self_attention')"
-        />
-        <LstmcardView
-          :model_display="false"
-          @apply="props.onChange"
-          :details_board="false"
-          :header="'Batch Normalization'"
-          layer_type="batch_normalization"
-          v-if="!isExsi('batch_normalization') && isExsi('global_average_pooling_1D')"
-        />
         <LstmcardView
           :model_display="false"
           @apply="props.onChange"
           :header="'MHSA'"
           layer_type="multi_head_self_attention"
-          v-if="!isExsi('global_average_pooling_1D')"
         />
-        <DropcardView :model_display="false" @apply="props.onChange" />
       </div>
     </div>
   </div>

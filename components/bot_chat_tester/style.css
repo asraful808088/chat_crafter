@@ -58,6 +58,7 @@
 .tester-main .list-box {
   width: 100%;
   flex-grow: 1;
+  overflow-y: auto;
 }
 .tester-main .list-box .list-item {
   height: 40px;

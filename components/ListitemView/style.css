@@ -9,7 +9,11 @@
     padding-right: 5px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid black;
+    background: linear-gradient(-45deg, #fed89a, #fcf1e7);
+    border-radius: 5px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, .1);
+    margin-bottom: 15px;
+
 }
 .ListitemView-001  .i-i-icon{
     height: 35px;

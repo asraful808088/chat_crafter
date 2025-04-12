@@ -8,12 +8,71 @@ from time import sleep
 import importlib.util
 import sys
 import os
-sys.path.append(os.path.abspath("E:/project/nuxt/chat_crafter"))
-sys.path.append(os.path.abspath("E:/project/nuxt/chat_crafter/doc"))
-base_path = "E:/project/nuxt/chat_crafter/doc"
+
+import os
+import sys
+
+
+def reset_and_import_module(module_path):
+    try:
+        # Verify the file exists first
+        if not os.path.exists(module_path):
+            raise FileNotFoundError(f"Module file does not exist: {module_path}")
+        
+        if not module_path.endswith('.py'):
+            raise ValueError("Module path must be a .py file")
+
+        module_dir = os.path.dirname(module_path)
+        module_name = "handler"
+        
+        # Clean up paths and modules
+        sys.path = [p for p in sys.path if "server_with_model" not in p]
+        sys.path.append(module_dir)
+        
+        if module_name in sys.modules:
+            del sys.modules[module_name]
+        
+        to_delete = [m for m in sys.modules if m.startswith(f"{module_name}.")]
+        for m in to_delete:
+            del sys.modules[m]
+        
+        importlib.invalidate_caches()
+        
+        # Create spec with additional validation
+        spec = importlib.util.spec_from_file_location(module_name, module_path)
+        if spec is None:
+            raise ImportError(f"Failed to create spec for module at {module_path}")
+        
+        module = importlib.util.module_from_spec(spec)
+        sys.modules[module_name] = module
+        
+        # Verify loader exists
+        if spec.loader is None:
+            raise ImportError(f"No loader found for module at {module_path}")
+        
+        spec.loader.exec_module(module)
+        return module
+    
+    except Exception as e:
+        print(f"Failed to import module: {str(e)}")
+        # Optionally re-raise if you want calling code to handle it
+        # raise
+        return None
+
+
+
+current_file_path_to_base = os.path.abspath(__file__).replace('\\python\\main.py','')
+
+
+sys.path.append(os.path.abspath(f"{current_file_path_to_base}"))
+sys.path.append(os.path.abspath(f"{current_file_path_to_base}\\doc"))
+sys.path.append(os.path.abspath(f"{current_file_path_to_base}\\python\\temp"))
+base_path = f"{current_file_path_to_base}\\doc"
 sys.path.append(os.path.abspath(base_path))
 
 for root, dirs, files in os.walk(base_path):
+    sys.path.append(os.path.abspath(root))
+for root, dirs, files in os.walk(f'{current_file_path_to_base}\\python\\temp'):
     sys.path.append(os.path.abspath(root))
 import subprocess
 store_main_traning = []
@@ -177,8 +236,32 @@ async def handle_connection(websocket):
                         await websocket.send(json.dumps({"result":{"output":"Python executable not found or script path is incorrect."},"emit_type": 'codeFrames_check_type_msg_return',"err":True}))
                     except Exception as e:
                         await websocket.send(json.dumps({"result":{"output": f"{str(e)}"},"emit_type": 'codeFrames_check_type_msg_return',"err":True}))
-
+               elif parsed_message["type"] == "chat_h":
+                    for root, dirs, files in os.walk(parsed_message["dir_path"]):
+                         sys.path.append(os.path.abspath(root))
+                    module_path = parsed_message["path"]
+                    module_name = "handler"
+                    spec = importlib.util.spec_from_file_location(module_name, module_path)
+                    module = importlib.util.module_from_spec(spec)
                     
+                    sys.modules[module_name] = module
+                    try:
+                         spec.loader.exec_module(module)
+                    except Exception as a:
+                         print(a)
+                    def onResponse(data_info):
+                         async def send_data():
+                              await websocket.send(json.dumps({
+                                  "result": data_info,
+                                  "emit_type": 'get_msg_return_chat',
+                              }))
+
+                         loop = asyncio.get_event_loop()
+                         loop.create_task(send_data())
+                    module.create_conv_controller(parsed_message["msg"],onResponse,m=parsed_message["meno_script"])
+                    
+                    
+               
                     
 
                     

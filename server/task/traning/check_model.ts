@@ -75,9 +75,7 @@ export default function checkmodel(data, socket, io) {
     return;
   }
 
-  const result = validateLayers(data["network"]);
-  if (result["success"]) {
-    socket.emit("traing", { success: true });
+  socket.emit("traing", { success: true });
     if (wsinfo["ws"]) {
       const txtProcess = sentMapping(data["profile"]);
       const newMOdelname = `model-${Date.now()}`;
@@ -88,8 +86,8 @@ export default function checkmodel(data, socket, io) {
         JSON.stringify({
           ...data["otherSets"],
           map_cat: {
-            texts: txtProcess["sentTxt"],
-            label: txtProcess["sentKey"],
+            texts: [...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"]],
+            label: [...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],],
           },
           network: data["network"],
           type: "main_model",
@@ -98,9 +96,4 @@ export default function checkmodel(data, socket, io) {
         })
       );
     }
-
-    // console.log(data["otherSets"]);
-  } else {
-    socket.emit("traing", { success: false, msg: result["msg"] });
-  }
 }

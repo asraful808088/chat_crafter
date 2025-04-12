@@ -5,6 +5,7 @@ import NexttoastView from "~/components/NextItemToast/NexttoastView.vue";
 import ScriptsboxView from "~/components/ScriptsboxView/ScriptsboxView.vue";
 import getScriptsItem from "~/network/get_scripts/scripts";
 import updateScripts from "~/network/updateScripts/updateScripts";
+import ScriptslistView from '~/components/ScriptslistView/ScriptslistView.vue'
 import { useRoute } from "#app";
 const route = useRoute();
 const id = route.params.id;
@@ -140,7 +141,7 @@ function updateScriptsList(update) {
   <div class="script-main">
     <div class="list-box">
       <h2>
-        <span>Start-With</span>
+        <span>Scripts</span>
         <span @click="openToast">+</span>
       </h2>
       <div class="list-box-2">
@@ -155,19 +156,14 @@ function updateScriptsList(update) {
     <div class="script-box">
       <h2>Chat-Scripts</h2>
       <div class="list-box-2">
-        <ScriptsboxView
+        <ScriptslistView
           v-if="activecurrentItem"
           :package="activecurrentItem"
           @update="updateScriptsList"
         />
       </div>
     </div>
-    <div class="list-box">
-      <h2>Short-Chunk</h2>
-      <div class="list-box-2">
-        <ListitemView v-for="(i, n) in [1, 1, 1]" :is-short="true" />
-      </div>
-    </div>
+   
   </div>
 </template>
 
