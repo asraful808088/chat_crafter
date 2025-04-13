@@ -73,6 +73,20 @@
       "id": 1741944259506,
       "target": "yoyo_paps",
       "nolvl": 0
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1744522602392,
+      "target": "bye",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1744522976333,
+      "target": "greeting",
+      "nolvl": 1
     }
   ],
   "task_list": [

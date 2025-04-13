@@ -20,7 +20,7 @@ import NexttoastView from "../NextItemToast/NexttoastView.vue";
 import getSelectItems from "~/network/get_intentes/get_intents";
 import getConditionItems from "~/network/getConditions/get";
 import { AnimationDiglogBoxAnimationdiglogboxView } from "#components";
-import { ScriptslistView } from "~/components/ScriptslistView/ScriptslistView.vue";
+import  ScriptslistView  from "~/components/ScriptslistView/ScriptslistView.vue";
 
 
 const modules = [EffectCoverflow, Pagination];
@@ -53,10 +53,15 @@ const conv_info = ref();
 const currentIndex = ref(0);
 const nextConvCurrextIndex = ref(0);
 const responseConvCurrextIndex = ref(0);
-const selectorBoxInfo = ref({});
-const listOfSelecItems = ref([]);
+const selectorBoxInfo = ref(null);
+const listOfSelecItems = ref(null);
 const isActionsItemsHold = ref(false)
 const intentsIndexItem = ref(0)
+const conditionItems = ref(null);
+const conditionType = ref(null);
+const conditionObj = ref({});
+const listOfPrivIdList = ref(null)
+
 watchEffect(() => {
   if (props.package) {
     conv_info.value = {
@@ -197,7 +202,6 @@ function addNext(type, target, target_id, condition, condition_type) {
     return;
   }
   if (conv_info.value?.list_of_store) {
-    console.log(conv_info.value?.list_of_store)
     const findCoditionWith = conv_info.value?.list_of_store.find(
       (element, index) => element?.condition
     );
@@ -335,7 +339,7 @@ function changeBreakeStatus(){
 
 
 function getItems(i){
-  if (selectorBoxInfo.value.type=='intents') {
+  if ((selectorBoxInfo.value.type=='intents'  &&  i?.type=="t_next" ) ||( selectorBoxInfo.value.type=='intents'  &&  i?.type=="fallback")) {
    
             getSelectItems({
               of:selectorBoxInfo?.value.type
@@ -377,6 +381,15 @@ function getItems(i){
               }
 
             })
+  }else  if ((selectorBoxInfo.value.type=='intents'  &&  i?.type=="add_condition" )){
+    getConditionItems((res) => {
+    if (res.items) {
+      conditionItems.value = res.items;
+    }
+  });
+  }else  if ((selectorBoxInfo.value.type=='intents'  &&  i?.type=="t_forwards" )){
+    listOfPrivIdList.value = props.list_store_id
+    console.log(listOfPrivIdList.value)
   }
    
   // console.log(selectorBoxInfo.value)
@@ -418,18 +431,34 @@ function deleteResponse(i) {
 
 
 
+function childDelete(id) {
+  conv_info.value = {
+    ...conv_info.value,
+    list_of_store: conv_info.value.list_of_store.filter(
+      (element) => element.id != id
+    ),
+  };
+  nextConvCurrextIndex.value = 0;
+  if (props.onUpdate) {
+    props.onUpdate(conv_info.value);
+  }
+}
 
 </script>
 <template>
   <AnimationDiglogBoxAnimationdiglogboxView :auto-down="selectorBoxInfo" @close="()=>{
               listOfSelecItems = null
               isActionsItemsHold = null
+              conditionItems = null
+              conditionType = null
+              listOfPrivIdList= null
   }"> 
     <div class="selector-box-00000001" >
       <div class="head" >Next Stap</div>
       <div class="intents" >
        
-          <div class="container" @click="getItems(i)" v-if="selectorBoxInfo?.type=='intents' && !selectorBoxInfo.intype" v-for="(i,n) in [{type:'t_next',label:'Next'},{type:'t_forwards',label:'Backward'},{type:'fallback',label:'Fallback'},{type:'add_condition',label:'Condition'}]" :key="n" >
+          <div class="container"  v-for="(i,n) in conv_info?.type=='init'? [{type:'t_next',label:'Next'},{type:'fallback',label:'Fallback'},{type:'add_condition',label:'Condition'}] :[{type:'t_next',label:'Next'},{type:'t_forwards',label:'Backward'},{type:'fallback',label:'Fallback'},{type:'add_condition',label:'Condition'}]" @click="getItems(i)" v-if="selectorBoxInfo?.type=='intents' && !selectorBoxInfo.intype && !conditionItems && !conditionType && !listOfPrivIdList "  :key="n" >
+            
             <div class="icon">
               <img v-if="i.type=='fallback'" src="../../assets/icon/other/Union 4.png" alt="">
                                    <img v-if="i.type=='t_forwards'" src="../../assets/icon/other/Group 214.png" alt="">
@@ -458,6 +487,29 @@ function deleteResponse(i) {
           </div>
 
           <div class="list-of-items"  >
+
+
+            <div class="list-of-items-item"  v-for="(i,n) in listOfPrivIdList" v-if="selectorBoxInfo?.type=='intents' && listOfPrivIdList  " @click="()=>{
+              addNext('t_forwards',i?.target,i?.id)
+              selectorBoxInfo = null
+              listOfSelecItems = null
+              listOfPrivIdList= null
+
+            }" >
+              <div class="icon">
+                <img src="../../assets/icon/other/Group 228.png" alt="">
+              </div>
+              <div class="txt">{{ i?.target }}</div>
+              
+            </div>
+
+
+
+
+
+
+
+
               <div class="list-of-items-item"  v-for="(i,n) in listOfSelecItems" v-if="selectorBoxInfo?.type=='intents'  && selectorBoxInfo.intype " @click="()=>{
               
                 addNext(selectorBoxInfo.intype,i)
@@ -490,8 +542,62 @@ function deleteResponse(i) {
               <div class="txt">{{ i }}</div>
               
             </div>
+
+            <!-- codition -->
+
+            <div class="list-of-items-item"  v-for="(i,n) in listOfSelecItems?listOfSelecItems: conditionType? conditionType:  conditionItems" v-if="(selectorBoxInfo?.type=='intents'  && conditionItems)  || (selectorBoxInfo?.type=='intents'  && conditionType) " @click="()=>{
+               
+               
+               if (i.types) {
+
+                  conditionType = i.types
+                  conditionObj={
+                    name:i.name
+                  }
+                 
+
+                } else {
+                     if (conditionObj['name'] && !conditionObj['type']) {
+                    conditionObj['type'] = i?.typename
+                    getSelectItems({
+              of:'intents'
+            },(res,err)=>{
+              if (res.items) {
+                listOfSelecItems = res.items 
+                 
+              }
+
+            })
+                  }  else{
+                    addNext('add_condition',i,null,conditionObj['name'],conditionObj['type'])
+                    listOfSelecItems = null
+                    conditionType = null
+                    conditionObj = null
+
+                  }
+                  
+                }
+               
+              // addNext( isActionsItemsHold?'actions':'response',i)
+              // isActionsItemsHold.value = null
+              // selectorBoxInfo = null
+              // listOfSelecItems = null
+            }" >
+              <div class="icon">
+                <img src="../../assets/icon/other/response.png" alt="">
+              </div>
+              <div class="txt">{{ i?.typename??i?.name??i }}</div>
+              
+            </div>
+
+
+           
+
+
+
           </div>
           
+
 
 
 
@@ -500,13 +606,13 @@ function deleteResponse(i) {
   </AnimationDiglogBoxAnimationdiglogboxView >
   <div class="ScriptslistView">
     
-    <!-- {{ console.log(conv_info) }} -->
+    {{ console.log(props.list_store_id) }}
     <div class="info-box">
       <div class="item-box box-1st">
         <div class="icon">
           <img src="../../assets/icon/other/Group 164.png" alt="" />
         </div>
-        <div class="txt-box">I-01</div>
+        <div class="txt-box">I-{{ props.indexlvl??0 }}</div>
       </div>  
           
       <div class="item-box">
@@ -527,7 +633,7 @@ function deleteResponse(i) {
         <div class="icon">
           <img src="../../assets/icon/other/Group 169.png" alt="" />
         </div>
-        <div class="txt-box">{{ conv_info?.type=="init"?"Start-With":type?.conv_info }}</div>
+        <div class="txt-box">{{ conv_info?.type=="init"?"Start-With":conv_info?.type }}</div>
       </div>
 
       <div class="item-box item-box2" @click="changeBreakeStatus()">
@@ -714,5 +820,40 @@ function deleteResponse(i) {
       </div>
     </div>
   </div>
+
+
+
+
+
+  <ScriptslistView
+    v-if="
+      conv_info?.list_of_store?.length > 0 &&
+      conv_info?.list_of_store[intentsIndexItem].type != 't_forwards'
+    "
+    :package="conv_info?.list_of_store[intentsIndexItem]"
+    @delete="childDelete"
+    @update="
+      (update) => {
+        if (props.onUpdate) {
+          if (conv_info?.list_of_store) {
+            conv_info.list_of_store = conv_info?.list_of_store?.map(
+              (element, index) => {
+                if (element.id == update.id) {
+                  return update;
+                }
+                return element;
+              }
+            );
+            props.onUpdate(conv_info);
+          }
+        }
+      }
+    "
+    :list_store_id="[
+      ...(props.list_store_id ?? []),
+      { id: conv_info.id, target: conv_info.target },
+    ]"
+    :indexlvl="conv_info?.nolvl + 1"
+  />
 </template>
 <style lang="css" src="./style.css"></style>
