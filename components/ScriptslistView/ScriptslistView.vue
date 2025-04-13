@@ -16,7 +16,7 @@ import { ref, watchEffect } from "vue";
 import addconditionItem from "~/network/addCondition/post";
 import deleteAddConditionItem from "~/network/deleteAddConditionItem/delete";
 import NexttoastView from "../NextItemToast/NexttoastView.vue";
-// import ScriptsboxView from "@/components/ScriptslistView/ScriptslistView.vue";
+import ScriptsboxView from "@/components/ScriptslistView/ScriptslistView.vue";
 import getSelectItems from "~/network/get_intentes/get_intents";
 import getConditionItems from "~/network/getConditions/get";
 import { AnimationDiglogBoxAnimationdiglogboxView } from "#components";
@@ -225,6 +225,7 @@ function addNext(type, target, target_id, condition, condition_type) {
               condition_type: condition_type,
               nolvl: conv_info.value.nolvl+1,
             })
+            
         addconditionItem(
           {
             consdition: condition,
@@ -265,6 +266,7 @@ function addNext(type, target, target_id, condition, condition_type) {
             }),
           ],
         };
+        
       }
       if (props.onUpdate) {
         props.onUpdate(conv_info.value);
@@ -488,8 +490,9 @@ function childDelete(id) {
 
           <div class="list-of-items"  >
 
-
-            <div class="list-of-items-item"  v-for="(i,n) in listOfPrivIdList" v-if="selectorBoxInfo?.type=='intents' && listOfPrivIdList  " @click="()=>{
+            
+            <div class="list-of-items-item"  v-for="(i,n) in props.list_store_id" v-if="selectorBoxInfo?.type=='intents' && listOfPrivIdList  " @click="()=>{
+             
               addNext('t_forwards',i?.target,i?.id)
               selectorBoxInfo = null
               listOfSelecItems = null
@@ -606,7 +609,7 @@ function childDelete(id) {
   </AnimationDiglogBoxAnimationdiglogboxView >
   <div class="ScriptslistView">
     
-    {{ console.log(props.list_store_id) }}
+  
     <div class="info-box">
       <div class="item-box box-1st">
         <div class="icon">
@@ -681,7 +684,11 @@ function childDelete(id) {
       </div>
 
       <div class="item-box">
-        <div class="delete-button" >Drop</div>
+        <div class="delete-button" @click="()=>{
+          if (props.onDelete) {
+          props.onDelete(conv_info.id);
+        }
+        }" >Drop</div>
       </div>
     </div>
     <div class="slide-boxs">
@@ -728,7 +735,7 @@ function childDelete(id) {
                     </div> <div class="txt">{{ i.target }}</div> </div>
                     <div> <div class="icon" >
                       <img src="../../assets/icon/other/Union 4.png" alt="">
-                    </div> <div class="txt">{{ i.id }}</div> </div>
+                    </div> <div class="txt">{{ i.target_id??i.id }}</div> </div>
                     <div> <div class="icon" >
                       <img src="../../assets/icon/other/Union 4.png" alt="">
                     </div> <div class="txt">{{ i.type }}</div> </div>
@@ -781,7 +788,6 @@ function childDelete(id) {
                   <div class="icon" >                      
 
 
-                      {{ console.log(i) }}
 
 <img v-if="i.type=='response'" src="../../assets/icon/other/Group 225.png" alt="">
                <img v-if="i.type=='actions'" src="../../assets/icon/other/Group 226.png" alt="">
