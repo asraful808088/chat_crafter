@@ -13,8 +13,16 @@
     border-radius: 5px;
     box-shadow: 3px 4px 7px rgba(0, 0, 0, .1);
     margin-bottom: 15px;
+    transition: .5s;
 
 }
+
+.ListitemViewAction-001{
+    transform: translateX(4px) scale(.98);
+} 
+
+
+
 .ListitemView-001  .i-i-icon{
     height: 35px;
     aspect-ratio: 1/1;

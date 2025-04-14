@@ -1,71 +1,11 @@
 {
   "list_of_intent": [
     {
-      "id": 1744269120099,
+      "id": 1744576609160,
       "type": "init",
-      "target": "greeting",
-      "list_of_response": [
-        {
-          "type": "response",
-          "target": "introduction"
-        },
-        {
-          "type": "response",
-          "target": "Greeting"
-        }
-      ],
-      "list_of_store": [
-        {
-          "id": 1744523052607,
-          "type": "t_next",
-          "target": "bye",
-          "list_of_response": [
-            {
-              "type": "actions",
-              "target": "clear_dump_files"
-            },
-            {
-              "type": "response",
-              "target": "bye"
-            }
-          ],
-          "list_of_store": [],
-          "store_id": [],
-          "target_id": null,
-          "condition_type": null,
-          "condition": null,
-          "nolvl": 1,
-          "list_of_next_stap": [
-            {
-              "type": "next_add",
-              "label": "next-intents"
-            },
-            {
-              "type": "backward_add",
-              "label": "backwards-add"
-            },
-            {
-              "type": "serial_break_add",
-              "val": false,
-              "label": "serial-break"
-            },
-            {
-              "type": "serial_break_err_add",
-              "label": "serial break fallout"
-            },
-            {
-              "type": "add_condition",
-              "label": "add-condition"
-            }
-          ],
-          "list_store_id": [
-            {
-              "id": 1744269120099,
-              "target": "greeting"
-            }
-          ]
-        }
-      ],
+      "target": "introduction",
+      "list_of_response": [],
+      "list_of_store": [],
       "store_id": [],
       "target_id": null,
       "condition_type": null,
@@ -97,20 +37,103 @@
       "list_store_id": []
     },
     {
-      "id": 1744282291747,
+      "id": 1744576639714,
       "type": "init",
-      "target": "bye",
+      "target": "greeting",
       "list_of_response": [
         {
           "type": "response",
           "target": "bye"
         }
       ],
-      "list_of_store": [],
+      "list_of_store": [
+        {
+          "id": 1744622929015,
+          "type": "t_next",
+          "target": "bye",
+          "list_of_response": [
+            {
+              "type": "actions",
+              "target": "clear_dump_files"
+            }
+          ],
+          "list_of_store": [
+            {
+              "id": 1744622937665,
+              "type": "t_forwards",
+              "target": "greeting",
+              "list_of_response": [],
+              "list_of_store": [],
+              "store_id": [],
+              "target_id": 1744576639714,
+              "condition_type": null,
+              "condition": null,
+              "nolvl": 0,
+              "list_of_next_stap": [
+                {
+                  "type": "next_add",
+                  "label": "next-intents"
+                },
+                {
+                  "type": "backward_add",
+                  "label": "backwards-add"
+                },
+                {
+                  "type": "serial_break_add",
+                  "val": false,
+                  "label": "serial-break"
+                },
+                {
+                  "type": "serial_break_err_add",
+                  "label": "serial break fallout"
+                },
+                {
+                  "type": "add_condition",
+                  "label": "add-condition"
+                }
+              ]
+            }
+          ],
+          "store_id": [],
+          "target_id": null,
+          "condition_type": null,
+          "condition": null,
+          "nolvl": 1,
+          "list_of_next_stap": [
+            {
+              "type": "next_add",
+              "label": "next-intents"
+            },
+            {
+              "type": "backward_add",
+              "label": "backwards-add"
+            },
+            {
+              "type": "serial_break_add",
+              "val": false,
+              "label": "serial-break"
+            },
+            {
+              "type": "serial_break_err_add",
+              "label": "serial break fallout"
+            },
+            {
+              "type": "add_condition",
+              "label": "add-condition"
+            }
+          ],
+          "list_store_id": [
+            {
+              "id": 1744576639714,
+              "target": "greeting"
+            }
+          ]
+        }
+      ],
       "store_id": [],
       "target_id": null,
-      "condition_type": null,
-      "condition": null,
+      "condition_type": "mama",
+      "condition": "yoyo_paps",
       "nolvl": 0,
       "list_of_next_stap": [
         {
@@ -123,52 +146,7 @@
         },
         {
           "type": "serial_break_add",
-          "val": true,
-          "label": "serial-break"
-        },
-        {
-          "type": "serial_break_err_add",
-          "label": "serial break fallout"
-        },
-        {
-          "type": "add_condition",
-          "label": "add-condition"
-        }
-      ],
-      "list_store_id": []
-    },
-    {
-      "id": 1744282293199,
-      "type": "init",
-      "target": "introduction",
-      "list_of_response": [
-        {
-          "type": "response",
-          "target": "introduction"
-        },
-        {
-          "type": "actions",
-          "target": "clear_dump_files"
-        }
-      ],
-      "list_of_store": [],
-      "store_id": [],
-      "target_id": null,
-      "condition_type": null,
-      "condition": null,
-      "nolvl": 0,
-      "list_of_next_stap": [
-        {
-          "type": "next_add",
-          "label": "next-intents"
-        },
-        {
-          "type": "backward_add",
-          "label": "backwards-add"
-        },
-        {
-          "type": "serial_break_add",
-          "val": true,
+          "val": false,
           "label": "serial-break"
         },
         {

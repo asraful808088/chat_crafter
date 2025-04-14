@@ -1,27 +1,19 @@
 <script setup>
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/vue";
 
-import { Splide, SplideSlide } from "@splidejs/vue-splide";
+import { AnimationDiglogBoxAnimationdiglogboxView } from "#components";
 import { EffectCoverflow } from "swiper/modules";
-import { Glide, GlideSlide } from "vue-glide-js";
-import "vue-glide-js/dist/vue-glide.css";
 import { ref, watchEffect } from "vue";
+import "vue-glide-js/dist/vue-glide.css";
+import ScriptslistView from "~/components/ScriptslistView/ScriptslistView.vue";
 import addconditionItem from "~/network/addCondition/post";
-import deleteAddConditionItem from "~/network/deleteAddConditionItem/delete";
-import NexttoastView from "../NextItemToast/NexttoastView.vue";
-import ScriptsboxView from "@/components/ScriptslistView/ScriptslistView.vue";
 import getSelectItems from "~/network/get_intentes/get_intents";
 import getConditionItems from "~/network/getConditions/get";
-import { AnimationDiglogBoxAnimationdiglogboxView } from "#components";
-import  ScriptslistView  from "~/components/ScriptslistView/ScriptslistView.vue";
-
 
 const modules = [EffectCoverflow, Pagination];
 
@@ -55,12 +47,13 @@ const nextConvCurrextIndex = ref(0);
 const responseConvCurrextIndex = ref(0);
 const selectorBoxInfo = ref(null);
 const listOfSelecItems = ref(null);
-const isActionsItemsHold = ref(false)
-const intentsIndexItem = ref(0)
+const isActionsItemsHold = ref(false);
+const intentsIndexItem = ref(0);
 const conditionItems = ref(null);
 const conditionType = ref(null);
 const conditionObj = ref({});
-const listOfPrivIdList = ref(null)
+const selfConditionObj = ref({});
+const listOfPrivIdList = ref(null);
 
 watchEffect(() => {
   if (props.package) {
@@ -128,24 +121,28 @@ function createBlogObj({
 }
 
 function addNext(type, target, target_id, condition, condition_type) {
-  if (conv_info.value.type == "init" && condition && condition_type && "self_add_condition" == type) {
-    conv_info.value.condition = condition
-    conv_info.value.condition_type = condition_type
+  if (
+    conv_info.value.type == "init" &&
+    condition &&
+    condition_type &&
+    "self_add_condition" == type
+  ) {
+    conv_info.value.condition = condition;
+    conv_info.value.condition_type = condition_type;
     if (props.onUpdate) {
       addconditionItem(
-          {
-            consdition: condition,
-            condition_type: condition_type,
-            id: conv_info.value.id,
-            target: target,
-            nolvl: conv_info.value.nolvl,
-          },
-          (res) => {
-          }
-        );
+        {
+          consdition: condition,
+          condition_type: condition_type,
+          id: conv_info.value.id,
+          target: target,
+          nolvl: conv_info.value.nolvl,
+        },
+        (res) => {}
+      );
       props.onUpdate(conv_info.value);
     }
-    return
+    return;
   }
   if (type == "fallback") {
     currentIndex.value = 0;
@@ -217,32 +214,28 @@ function addNext(type, target, target_id, condition, condition_type) {
       );
 
       if (filterCondition.length == 0) {
-        const obj  = createBlogObj({
-              type: type,
-              target: target,
-              target_id: target_id,
-              condition: condition,
-              condition_type: condition_type,
-              nolvl: conv_info.value.nolvl+1,
-            })
-            
+        const obj = createBlogObj({
+          type: type,
+          target: target,
+          target_id: target_id,
+          condition: condition,
+          condition_type: condition_type,
+          nolvl: conv_info.value.nolvl + 1,
+        });
+
         addconditionItem(
           {
             consdition: condition,
             condition_type: condition_type,
             id: obj.id,
             target: target,
-            nolvl: conv_info.value.nolvl+1,
+            nolvl: conv_info.value.nolvl + 1,
           },
-          (res) => {
-          }
+          (res) => {}
         );
         conv_info.value = {
           ...conv_info.value,
-          list_of_store: [
-            ...conv_info.value.list_of_store,obj
-            ,
-          ],
+          list_of_store: [...conv_info.value.list_of_store, obj],
         };
       }
 
@@ -266,7 +259,6 @@ function addNext(type, target, target_id, condition, condition_type) {
             }),
           ],
         };
-        
       }
       if (props.onUpdate) {
         props.onUpdate(conv_info.value);
@@ -289,140 +281,159 @@ function addNext(type, target, target_id, condition, condition_type) {
   selectorBoxInfo.value = null;
 }
 
-
-
-function getConditionBreakStatus(){
+function getConditionBreakStatus() {
   if (conv_info.value) {
-    const getObj = conv_info.value?.list_of_next_stap?.find((element)=>element?.type=="serial_break_add")
+    const getObj = conv_info.value?.list_of_next_stap?.find(
+      (element) => element?.type == "serial_break_add"
+    );
     if (getObj) {
-     return getObj?.val 
+      return getObj?.val;
     }
-  }
-} 
-
-
-function getResposneTypeCount(type="response"){
-  
-  if (conv_info.value) {
-    const getList = conv_info.value?.list_of_response?.filter((element)=>element?.type==type)
-    return getList.length
-  }
-}
-function getNextStap(type=null){
-  if (conv_info.value) {
-    if (type!=null) {
-      const getList = conv_info.value?.list_of_store?.filter((element)=>element?.type==type)
-      return getList.length 
-    }else{
-      return  conv_info.value?.list_of_store.length
-    }
-    
-    
   }
 }
 
-function changeBreakeStatus(){
-    if (conv_info.value) {
-      const getnewObj = conv_info.value?.list_of_next_stap?.map((element)=>{
-        if (element?.type=="serial_break_add") {
-          return {
-            ...element,
-            val:!element.val
-          }
+function getResposneTypeCount(type = "response") {
+  if (conv_info.value) {
+    const getList = conv_info.value?.list_of_response?.filter(
+      (element) => element?.type == type
+    );
+    return getList.length;
+  }
+}
+function getNextStap(type = null) {
+  if (conv_info.value) {
+    if (type != null) {
+      const getList = conv_info.value?.list_of_store?.filter(
+        (element) => element?.type == type
+      );
+      return getList.length;
+    } else {
+      return conv_info.value?.list_of_store.length;
+    }
+  }
+}
+
+function changeBreakeStatus() {
+  if (conv_info.value) {
+    const getnewObj = conv_info.value?.list_of_next_stap?.map((element) => {
+      if (element?.type == "serial_break_add") {
+        return {
+          ...element,
+          val: !element.val,
+        };
+      }
+      return element;
+    });
+    conv_info.value.list_of_next_stap = getnewObj;
+  }
+  props.onUpdate(conv_info.value);
+}
+
+function getItems(i) {
+  if (
+    (selectorBoxInfo.value.type == "intents" && i?.type == "t_next") ||
+    (selectorBoxInfo.value.type == "intents" && i?.type == "fallback")
+  ) {
+    getSelectItems(
+      {
+        of: selectorBoxInfo?.value.type,
+      },
+      (res, err) => {
+        if (res.items) {
+          listOfSelecItems.value = res.items;
+          selectorBoxInfo.value = {
+            ...selectorBoxInfo.value,
+            intype: i.type,
+          };
         }
-        return element
-        
-      })
-      conv_info.value.list_of_next_stap = getnewObj
-    }
-    props.onUpdate(conv_info.value);
-}
-
-
-
-function getItems(i){
-  if ((selectorBoxInfo.value.type=='intents'  &&  i?.type=="t_next" ) ||( selectorBoxInfo.value.type=='intents'  &&  i?.type=="fallback")) {
-   
-            getSelectItems({
-              of:selectorBoxInfo?.value.type
-            },(res,err)=>{
-              if (res.items) {
-                listOfSelecItems.value = res.items 
-                selectorBoxInfo.value = {
-              ...selectorBoxInfo.value,
-              intype:i.type
-            }
-              }
-
-            })
-  }else if (selectorBoxInfo.value.type=='response' && i?.type=="response") {
-    getSelectItems({
-              of:"response"
-            },(res,err)=>{
-              if (res.items) {
-                listOfSelecItems.value = res.items 
-                 selectorBoxInfo.value = {
-              ...selectorBoxInfo.value,
-              intype:i.type
-            }
-              }
-
-            })
-  }else if (selectorBoxInfo.value.type == 'response' && i?.type == 'custom-actions') {
-    
-    getSelectItems({
-              of:"custom-actions"
-            },(res,err)=>{
-              if (res.items) {
-                isActionsItemsHold.value = true
-                listOfSelecItems.value = res.items 
-                 selectorBoxInfo.value = {
-              ...selectorBoxInfo.value,
-              intype:i.type
-            }
-              }
-
-            })
-  }else  if ((selectorBoxInfo.value.type=='intents'  &&  i?.type=="add_condition" )){
+      }
+    );
+  } else if (
+    selectorBoxInfo.value.type == "response" &&
+    i?.type == "response"
+  ) {
+    getSelectItems(
+      {
+        of: "response",
+      },
+      (res, err) => {
+        if (res.items) {
+          listOfSelecItems.value = res.items;
+          selectorBoxInfo.value = {
+            ...selectorBoxInfo.value,
+            intype: i.type,
+          };
+        }
+      }
+    );
+  } else if (
+    selectorBoxInfo.value.type == "response" &&
+    i?.type == "custom-actions"
+  ) {
+    getSelectItems(
+      {
+        of: "custom-actions",
+      },
+      (res, err) => {
+        if (res.items) {
+          isActionsItemsHold.value = true;
+          listOfSelecItems.value = res.items;
+          selectorBoxInfo.value = {
+            ...selectorBoxInfo.value,
+            intype: i.type,
+          };
+        }
+      }
+    );
+  } else if (
+    selectorBoxInfo.value.type == "intents" &&
+    i?.type == "add_condition"
+  ) {
     getConditionItems((res) => {
-    if (res.items) {
-      conditionItems.value = res.items;
-    }
-  });
-  }else  if ((selectorBoxInfo.value.type=='intents'  &&  i?.type=="t_forwards" )){
-    listOfPrivIdList.value = props.list_store_id
-    console.log(listOfPrivIdList.value)
+      if (res.items) {
+        conditionItems.value = res.items;
+        selectorBoxInfo.value = {
+          ...selectorBoxInfo.value,
+          forCondition: true,
+        };
+      }
+    });
+  } else if (
+    selectorBoxInfo.value.type == "intents" &&
+    i?.type == "t_forwards"
+  ) {
+    listOfPrivIdList.value = props.list_store_id;
   }
-   
-  // console.log(selectorBoxInfo.value)
+  if (i.itype == "self_condition" && i.type == "self_condition") {
+    getConditionItems((res) => {
+      if (res.items) {
+        conditionItems.value = res.items;
+        selectorBoxInfo.value = {
+          ...selectorBoxInfo.value,
+          intype: "self_condition",
+        };
+      }
+    });
+  }
 }
 
-
-
-
-function intentDroper(i){
-    if (conv_info.value && i.id) {
-        const newIntens = conv_info.value?.list_of_store?.filter((element,index)=>element.id!=i.id)
-        conv_info.value.list_of_store = newIntens
-        if (props.onUpdate) {
-          props.onUpdate(conv_info.value)
-        }
+function intentDroper(i) {
+  if (conv_info.value && i.id) {
+    const newIntens = conv_info.value?.list_of_store?.filter(
+      (element, index) => element.id != i.id
+    );
+    conv_info.value.list_of_store = newIntens;
+    if (props.onUpdate) {
+      props.onUpdate(conv_info.value);
     }
-
-
+  }
 }
-
 
 function deleteResponse(i) {
-  
   conv_info.value = {
     ...conv_info.value,
     list_of_response: conv_info.value.list_of_response.filter((element) => {
-      return !(
-        element.target ==
-        i.target &&
-        element.type ==i.type
-      );
+      return !(element.target == i.target && element.type == i.type);
     }),
   };
 
@@ -430,8 +441,6 @@ function deleteResponse(i) {
     props.onUpdate(conv_info.value);
   }
 }
-
-
 
 function childDelete(id) {
   conv_info.value = {
@@ -446,178 +455,296 @@ function childDelete(id) {
   }
 }
 
+function addSelfCondition(name, type) {
+  conv_info.value = {
+    ...conv_info.value,
+    condition_type: type,
+    condition: name,
+  };
+  if (props.onUpdate) {
+    props.onUpdate(conv_info.value);
+  }
+}
+
+function clearCondition() {
+  conv_info.value = {
+    ...conv_info.value,
+    condition_type: null,
+    condition: null,
+  };
+  if (props.onUpdate) {
+    props.onUpdate(conv_info.value);
+  }
+}
 </script>
 <template>
-  <AnimationDiglogBoxAnimationdiglogboxView :auto-down="selectorBoxInfo" @close="()=>{
-              listOfSelecItems = null
-              isActionsItemsHold = null
-              conditionItems = null
-              conditionType = null
-              listOfPrivIdList= null
-  }"> 
-    <div class="selector-box-00000001" >
-      <div class="head" >Next Stap</div>
-      <div class="intents" >
-       
-          <div class="container"  v-for="(i,n) in conv_info?.type=='init'? [{type:'t_next',label:'Next'},{type:'fallback',label:'Fallback'},{type:'add_condition',label:'Condition'}] :[{type:'t_next',label:'Next'},{type:'t_forwards',label:'Backward'},{type:'fallback',label:'Fallback'},{type:'add_condition',label:'Condition'}]" @click="getItems(i)" v-if="selectorBoxInfo?.type=='intents' && !selectorBoxInfo.intype && !conditionItems && !conditionType && !listOfPrivIdList "  :key="n" >
-            
-            <div class="icon">
-              <img v-if="i.type=='fallback'" src="../../assets/icon/other/Union 4.png" alt="">
-                                   <img v-if="i.type=='t_forwards'" src="../../assets/icon/other/Group 214.png" alt="">
-                                      <img v-if="i.type=='t_next'" src="../../assets/icon/other/Group 222.png" alt="">
-                                        <img v-if="i.type=='add_condition'" src="../../assets/icon/other/Group 224.png" alt="">
-            </div>
-            <div class="txt">
-              {{ i.label }}
-            </div>
+  <AnimationDiglogBoxAnimationdiglogboxView
+    :auto-down="selectorBoxInfo"
+    @close="
+      () => {
+        listOfSelecItems = null;
+        isActionsItemsHold = null;
+        conditionItems = null;
+        conditionType = null;
+        listOfPrivIdList = null;
+        selfConditionObj = null;
+      }
+    "
+  >
+    <div class="selector-box-00000001">
+      <div class="head">Next Stap</div>
+
+      <div class="intents">
+        <div
+          class="container"
+          v-for="(i, n) in conv_info?.type == 'init'
+            ? [
+                { type: 't_next', label: 'Next' },
+                { type: 'fallback', label: 'Fallback' },
+                { type: 'add_condition', label: 'Condition' },
+                {
+                  type: 'self_condition',
+                  label: 'Self Condition',
+                  itype: 'self_condition',
+                },
+              ]
+            : [
+                { type: 't_next', label: 'Next' },
+                { type: 't_forwards', label: 'Backward' },
+                { type: 'fallback', label: 'Fallback' },
+                { type: 'add_condition', label: 'Condition' },
+              ]"
+          @click="getItems(i)"
+          v-if="
+            selectorBoxInfo?.type == 'intents' &&
+            !selectorBoxInfo.intype &&
+            !conditionItems &&
+            !conditionType &&
+            !listOfPrivIdList &&
+            !selectorBoxInfo?.forCondition
+          "
+          :key="n"
+        >
+          <div class="icon">
+            <img
+              v-if="i.type == 'fallback'"
+              src="../../assets/icon/other/Union 4.png"
+              alt=""
+            />
+            <img
+              v-if="i.type == 't_forwards'"
+              src="../../assets/icon/other/Group 214.png"
+              alt=""
+            />
+            <img
+              v-if="i.type == 't_next'"
+              src="../../assets/icon/other/Group 222.png"
+              alt=""
+            />
+            <img
+              v-if="i.type == 'add_condition'"
+              src="../../assets/icon/other/Group 224.png"
+              alt=""
+            />
+            <img
+              v-if="i.type == 'self_condition'"
+              src="../../assets/icon/other/Group 224.png"
+              alt=""
+            />
           </div>
-
-
-
-
-
-          <div class="container" v-if="selectorBoxInfo?.type=='response'  && !selectorBoxInfo.intype " v-for="(i,n) in [{type:'response',label:'Response'},{type:'custom-actions',label:'Actions'}]" :key="n" @click="getItems(i)">
-            <div class="icon">
-              
-                  <img v-if="i.type=='response'" src="../../assets/icon/other/Group 225.png" alt="">
-                  <img v-if="i.type=='custom-actions'" src="../../assets/icon/other/Group 226.png" alt="">
-         
-            </div>
-            <div class="txt">
-              {{ i.label }}
-            </div>
+          <div class="txt">
+            {{ i.label }}
           </div>
+        </div>
 
-          <div class="list-of-items"  >
+        <div
+          class="container"
+          v-if="selectorBoxInfo?.type == 'response' && !selectorBoxInfo.intype"
+          v-for="(i, n) in [
+            { type: 'response', label: 'Response' },
+            { type: 'custom-actions', label: 'Actions' },
+          ]"
+          :key="n"
+          @click="getItems(i)"
+        >
+          <div class="icon">
+            <img
+              v-if="i.type == 'response'"
+              src="../../assets/icon/other/Group 225.png"
+              alt=""
+            />
+            <img
+              v-if="i.type == 'custom-actions'"
+              src="../../assets/icon/other/Group 226.png"
+              alt=""
+            />
+          </div>
+          <div class="txt">
+            {{ i.label }}
+          </div>
+        </div>
 
-            
-            <div class="list-of-items-item"  v-for="(i,n) in props.list_store_id" v-if="selectorBoxInfo?.type=='intents' && listOfPrivIdList  " @click="()=>{
-             
-              addNext('t_forwards',i?.target,i?.id)
-              selectorBoxInfo = null
-              listOfSelecItems = null
-              listOfPrivIdList= null
-
-            }" >
-              <div class="icon">
-                <img src="../../assets/icon/other/Group 228.png" alt="">
-              </div>
-              <div class="txt">{{ i?.target }}</div>
-              
-            </div>
-
-
-
-
-
-
-
-
-              <div class="list-of-items-item"  v-for="(i,n) in listOfSelecItems" v-if="selectorBoxInfo?.type=='intents'  && selectorBoxInfo.intype " @click="()=>{
-              
-                addNext(selectorBoxInfo.intype,i)
-                selectorBoxInfo = null
-                listOfSelecItems = null
-
-              }" >
-                <div class="icon">
-                  <img src="../../assets/icon/other/Group 228.png" alt="">
-                </div>
-                <div class="txt">{{ i }}</div>
-                
-              </div>
-
-
-
-<!-- paapapapa -->
-
-            
-              <div class="list-of-items-item"  v-for="(i,n) in listOfSelecItems" v-if="selectorBoxInfo?.type=='response'  && selectorBoxInfo.intype " @click="()=>{
-              
-              addNext( isActionsItemsHold?'actions':'response',i)
-              isActionsItemsHold.value = null
-              selectorBoxInfo = null
-              listOfSelecItems = null
-            }" >
-              <div class="icon">
-                <img src="../../assets/icon/other/response.png" alt="">
-              </div>
-              <div class="txt">{{ i }}</div>
-              
-            </div>
-
-            <!-- codition -->
-
-            <div class="list-of-items-item"  v-for="(i,n) in listOfSelecItems?listOfSelecItems: conditionType? conditionType:  conditionItems" v-if="(selectorBoxInfo?.type=='intents'  && conditionItems)  || (selectorBoxInfo?.type=='intents'  && conditionType) " @click="()=>{
-               
-               
-               if (i.types) {
-
-                  conditionType = i.types
-                  conditionObj={
-                    name:i.name
-                  }
-                 
-
-                } else {
-                     if (conditionObj['name'] && !conditionObj['type']) {
-                    conditionObj['type'] = i?.typename
-                    getSelectItems({
-              of:'intents'
-            },(res,err)=>{
-              if (res.items) {
-                listOfSelecItems = res.items 
-                 
+        <div class="list-of-items">
+          <div
+            class="list-of-items-item"
+            v-for="(i, n) in props.list_store_id"
+            v-if="
+              selectorBoxInfo?.type == 'intents' &&
+              listOfPrivIdList &&
+              !selectorBoxInfo?.forCondition
+            "
+            @click="
+              () => {
+                addNext('t_forwards', i?.target, i?.id);
+                selectorBoxInfo = null;
+                listOfSelecItems = null;
+                listOfPrivIdList = null;
               }
-
-            })
-                  }  else{
-                    addNext('add_condition',i,null,conditionObj['name'],conditionObj['type'])
-                    listOfSelecItems = null
-                    conditionType = null
-                    conditionObj = null
-
-                  }
-                  
-                }
-               
-              // addNext( isActionsItemsHold?'actions':'response',i)
-              // isActionsItemsHold.value = null
-              // selectorBoxInfo = null
-              // listOfSelecItems = null
-            }" >
-              <div class="icon">
-                <img src="../../assets/icon/other/response.png" alt="">
-              </div>
-              <div class="txt">{{ i?.typename??i?.name??i }}</div>
-              
+            "
+          >
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 228.png" alt="" />
             </div>
-
-
-           
-
-
-
+            <div class="txt">{{ i?.target }}</div>
           </div>
-          
 
+          <div
+            class="list-of-items-item"
+            v-for="(i, n) in selfConditionObj?.items
+              ? selfConditionObj?.items
+              : selectorBoxInfo?.intype == 'self_condition'
+                ? conditionItems
+                : listOfSelecItems"
+            v-if="
+              (selectorBoxInfo?.type == 'intents' &&
+                selectorBoxInfo?.intype != 'self_condition' &&
+                !selectorBoxInfo?.forCondition) ||
+              selectorBoxInfo?.intype == 'self_condition'
+            "
+            @click="
+              () => {
+                if (
+                  selectorBoxInfo?.type == 'intents' &&
+                  selectorBoxInfo?.intype == 'self_condition'
+                ) {
+                  if (!selfConditionObj?.name) {
+                    selfConditionObj = {
+                      name: i.name,
+                      items: i.types,
+                    };
+                  } else {
+                    addSelfCondition(selfConditionObj.name, i?.typename);
+                    selfConditionObj = null;
+                    selectorBoxInfo = null;
+                    listOfSelecItems = null;
+                  }
+                } else {
+                  addNext(selectorBoxInfo.intype, i);
+                  selectorBoxInfo = null;
+                  listOfSelecItems = null;
+                }
+              }
+            "
+          >
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 228.png" alt="" />
+            </div>
+            <div class="txt">{{ i?.typename ?? i?.name ?? i }}</div>
+          </div>
 
+          <div
+            class="list-of-items-item"
+            v-for="(i, n) in listOfSelecItems"
+            v-if="
+              selectorBoxInfo?.type == 'response' &&
+              selectorBoxInfo.intype &&
+              !selectorBoxInfo?.forCondition
+            "
+            @click="
+              () => {
+                addNext(isActionsItemsHold ? 'actions' : 'response', i);
+                isActionsItemsHold.value = null;
+                selectorBoxInfo = null;
+                listOfSelecItems = null;
+              }
+            "
+          >
+            <div class="icon">
+              <img src="../../assets/icon/other/response.png" alt="" />
+            </div>
+            <div class="txt">{{ i }}</div>
+          </div>
 
-
+          <div
+            class="list-of-items-item"
+            v-for="(i, n) in listOfSelecItems
+              ? listOfSelecItems
+              : conditionType
+                ? conditionType
+                : conditionItems"
+            v-if="
+              (selectorBoxInfo?.type == 'intents' &&
+                conditionItems &&
+                selectorBoxInfo?.intype != 'self_condition') ||
+              (selectorBoxInfo?.type == 'intents' &&
+                conditionType &&
+                selectorBoxInfo?.intype != 'self_condition')
+            "
+            @click="
+              () => {
+                if (i.types) {
+                  conditionType = i.types;
+                  conditionObj = {
+                    name: i.name,
+                  };
+                } else {
+                  if (conditionObj['name'] && !conditionObj['type']) {
+                    conditionObj['type'] = i?.typename;
+                    getSelectItems(
+                      {
+                        of: 'intents',
+                      },
+                      (res, err) => {
+                        if (res.items) {
+                          listOfSelecItems = res.items;
+                        }
+                      }
+                    );
+                  } else {
+                    addNext(
+                      'add_condition',
+                      i,
+                      null,
+                      conditionObj['name'],
+                      conditionObj['type']
+                    );
+                    listOfSelecItems = null;
+                    conditionType = null;
+                    conditionObj = null;
+                  }
+                }
+              }
+            "
+          >
+            <div class="icon">
+              <img src="../../assets/icon/other/response.png" alt="" />
+            </div>
+            <div class="txt">{{ i?.typename ?? i?.name ?? i }}</div>
+          </div>
+        </div>
       </div>
     </div>
-  </AnimationDiglogBoxAnimationdiglogboxView >
+  </AnimationDiglogBoxAnimationdiglogboxView>
+
   <div class="ScriptslistView">
-    
-  
     <div class="info-box">
       <div class="item-box box-1st">
         <div class="icon">
           <img src="../../assets/icon/other/Group 164.png" alt="" />
         </div>
-        <div class="txt-box">I-{{ props.indexlvl??0 }}</div>
-      </div>  
-          
+        <div class="txt-box">I-{{ props.indexlvl ?? 0 }}</div>
+      </div>
+
       <div class="item-box">
         <div class="icon">
           <img src="../../assets/icon/other/Group 169.png" alt="" />
@@ -627,68 +754,101 @@ function childDelete(id) {
 
       <div class="item-box">
         <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+          <img src="../../assets/icon/other/Group 228.png" alt="" />
         </div>
         <div class="txt-box">{{ conv_info?.target }}</div>
       </div>
 
       <div class="item-box">
         <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+          <img src="../../assets/icon/other/share_1639962.png" alt="" />
         </div>
-        <div class="txt-box">{{ conv_info?.type=="init"?"Start-With":conv_info?.type }}</div>
+        <div class="txt-box">
+          {{ conv_info?.type == "init" ? "Start-With" : conv_info?.type }}
+        </div>
       </div>
 
       <div class="item-box item-box2" @click="changeBreakeStatus()">
-        <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+        <div class="icon p-p1">
+          <img src="../../assets/icon/other/Group 235.png" alt="" />
         </div>
-        <div class="txt-box click-text"  > {{ getConditionBreakStatus()?"Conversition-Break":"Conversition-Unbreak" }}</div>
+        <div class="txt-box click-text">
+          {{
+            getConditionBreakStatus()
+              ? "Conversition-Break"
+              : "Conversition-Unbreak"
+          }}
+        </div>
       </div>
 
       <div class="item-box item-box2">
         <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+          <img src="../../assets/icon/nav/custom-actions.png" alt="" />
         </div>
-        <div class="txt-box">Actions ({{  getResposneTypeCount('actions') }})</div>
+        <div class="txt-box">
+          Actions ({{ getResposneTypeCount("actions") }})
+        </div>
       </div>
 
       <div class="item-box item-box2">
         <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+          <img src="../../assets/icon/other/response.png" alt="" />
         </div>
-        
-        <div class="txt-box">Response ({{  getResposneTypeCount() }})</div>
+
+        <div class="txt-box">Response ({{ getResposneTypeCount() }})</div>
       </div>
 
       <div class="item-box item-box2">
         <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+          <img src="../../assets/icon/other/next.png" alt="" />
         </div>
         <div class="txt-box">Next-Intents ({{ getNextStap() }})</div>
       </div>
 
       <div class="item-box item-box2">
-        <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+        <div class="icon p-p1">
+          <img src="../../assets/icon/other/Union 5.png" alt="" />
         </div>
-        <div class="txt-box">Fallback ({{ getNextStap('fallback') }})</div>
+        <div class="txt-box">Fallback ({{ getNextStap("fallback") }})</div>
       </div>
 
-
-      <div class="item-box">
-        <div class="icon">
-          <img src="../../assets/icon/other/Group 169.png" alt="" />
+      <div class="multiitem">
+        <div class="item-box">
+          <div class="icon">
+            <img src="../../assets/icon/nav/condition.png" alt="" />
+          </div>
+          <div class="txt-box click-text">
+            {{ conv_info.condition ?? "Condition-Free" }}
+          </div>
         </div>
-        <div class="txt-box">Condition-Free</div>
+        <div class="clicle-box" v-if="conv_info.condition">
+          <div class="icon">
+            <div class="line"></div>
+          </div>
+          <div class="txt-box click-text">- {{ conv_info.condition_type }}</div>
+          <div
+            class="del-icon"
+            v-if="conv_info.type == 'init'"
+            @click="clearCondition()"
+          >
+            <img src="../../assets/icon/other/delete.png" alt="" />
+          </div>
+        </div>
       </div>
 
       <div class="item-box">
-        <div class="delete-button" @click="()=>{
-          if (props.onDelete) {
-          props.onDelete(conv_info.id);
-        }
-        }" >Drop</div>
+        <div
+          class="delete-button"
+          @click="
+            () => {
+              if (props.onDelete) {
+                props.onDelete(conv_info.id);
+              }
+            }
+          "
+        >
+          Drop
+        </div>
       </div>
     </div>
     <div class="slide-boxs">
@@ -713,53 +873,102 @@ function childDelete(id) {
               style="height: 100%; width: 100%"
               class="mySwiper"
             >
-              <swiper-slide v-for="(i,n) in conv_info?.list_of_store" :key="n">
-               
+            <!-- -->
+              <swiper-slide v-for="(i, n) in conv_info?.list_of_store.length == 0?  [{type:'empty'}]:conv_info?.list_of_store" :key="n">
                 <div class="slide-box-item">
-                  <div class="icon" >                      
-
-
-
-
-                    <img v-if="i.type=='fallback'" src="../../assets/icon/other/Union 4.png" alt="">
-                                   <img v-if="i.type=='t_forwards'" src="../../assets/icon/other/Group 214.png" alt="">
-                                      <img v-if="i.type=='t_next'" src="../../assets/icon/other/Group 222.png" alt="">
-                                        <img v-if="i.type=='add_condition'" src="../../assets/icon/other/Group 224.png" alt="">
-
-
+                  <div class="icon">
+                    <img
+                      v-if="i.type == 'fallback'"
+                      src="../../assets/icon/other/Union 4.png"
+                      alt=""
+                    />
+                    <img
+                      v-if="i.type == 't_forwards'"
+                      src="../../assets/icon/other/Group 214.png"
+                      alt=""
+                    />
+                    <img
+                      v-if="i.type == 't_next'"
+                      src="../../assets/icon/other/Group 222.png"
+                      alt=""
+                    />
+                    <img
+                      v-if="i.type == 'add_condition'"
+                      src="../../assets/icon/other/Group 224.png"
+                      alt=""
+                    />
+                    <img
+                      v-if="(i.type == 'empty')"
+                      src="../../assets/icon/other/empty-box-icon.png"
+                      alt=""
+                    />
                   </div>
-                  <div class="txt-box" > 
-                    <br>
-                    <div> <div class="icon" >
-                      <img src="../../assets/icon/other/Union 4.png" alt="">
-                    </div> <div class="txt">{{ i.target }}</div> </div>
-                    <div> <div class="icon" >
-                      <img src="../../assets/icon/other/Union 4.png" alt="">
-                    </div> <div class="txt">{{ i.target_id??i.id }}</div> </div>
-                    <div> <div class="icon" >
-                      <img src="../../assets/icon/other/Union 4.png" alt="">
-                    </div> <div class="txt">{{ i.type }}</div> </div>
-                    <div> <div class="icon" >
-                      <img src="../../assets/icon/other/Union 4.png" alt="">
-                    </div> <div class="txt">Condition</div> -{{ i.condition??"free" }}</div>
-                    <div class="drop-box" >
-                      <div class="button" @click="intentDroper(i)">Drop</div>
+                  <div class="txt-box">
+                    <br />
+                    <div v-if="(i.type != 'empty')">
+                      <div class="icon">
+                        <img src="../../assets/icon/other/Union 4.png" alt="" />
+                      </div>
+                      <div class="txt">{{ i.target }}</div>
                     </div>
-
+                    <div>
+                      <div class="icon"  v-if="(i.type != 'empty')">
+                        <img src="../../assets/icon/other/Union 4.png" alt="" />
+                      </div>
+                      <div class="txt">{{ i.target_id ?? i.id }}</div>
+                    </div>
+                    <div  v-if="(i.type != 'empty')">
+                      <div class="icon"  v-if="(i.type != 'empty')">
+                        <img src="../../assets/icon/other/Union 4.png" alt="" />
+                      </div>
+                      <div class="txt">{{ i.type }}</div>
+                    </div>
+                    <div v-if="(i.type != 'empty')">
+                      <div class="icon"  v-if="(i.type != 'empty')">
+                        <img src="../../assets/icon/other/Union 4.png" alt="" />
+                      </div>
+                      <div class="txt" v-if="(i.type != 'empty')"  >
+                        {{ !i.condition ? "Condition" : "" }}
+                      </div>
+                      <span v-if="(i.type != 'empty')" >-{{ i.condition_type ?? "Free" }}</span>
+                      
+                    </div>
+                   
+                    <div class="drop-box"  >
+                      <div class="button" v-if="(i.type != 'empty')"  @click="intentDroper(i)">Drop</div>
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <div class="button button-add" v-if="(i.type == 'empty')"  @click="
+              () => {
+                selectorBoxInfo = {
+                  type: 'intents',
+                };
+              }
+            ">ADD-ITEM</div>
+                    </div>
                   </div>
-              </div>
+                </div>
               </swiper-slide>
             </swiper>
           </div>
         </div>
-        <div class="add-button-box" >
-            <div class="button" @click="()=>{
-              selectorBoxInfo = {
-                type:'intents'
+        <div class="add-button-box">
+          <div
+            class="button"
+            @click="
+              () => {
+                selectorBoxInfo = {
+                  type: 'intents',
+                };
               }
-            }">
-                Next
-            </div>
+            "
+          >
+            Options
+          </div>
         </div>
       </div>
       <div class="slide-box">
@@ -783,53 +992,82 @@ function childDelete(id) {
               style="height: 100%; width: 100%"
               class="mySwiper"
             >
-              <swiper-slide v-for="(i,n) in conv_info.list_of_response" :key="n">
+              <swiper-slide
+                v-for="(i, n) in  conv_info.list_of_response.length == 0?[{type:'empty'}]: conv_info.list_of_response"
+                :key="n"
+              >
                 <div class="slide-box-item">
-                  <div class="icon" >                      
-
-
-
-<img v-if="i.type=='response'" src="../../assets/icon/other/Group 225.png" alt="">
-               <img v-if="i.type=='actions'" src="../../assets/icon/other/Group 226.png" alt="">
-                 
-
-
-</div>
-<div class="txt-box" > 
-<br>
-<div> <div class="icon" >
-  <img src="../../assets/icon/other/Union 4.png" alt="">
-</div> <div class="txt">{{ i?.target }}</div> </div>
-
-<div> <div class="icon" >
-  <img src="../../assets/icon/other/Union 4.png" alt="">
-</div> <div class="txt">{{ i?.type }}</div> </div>
-<br>
-<br>
-
-<div class="drop-box" >
-                      <div class="button" @click="deleteResponse(i)" >Drop</div>
+                  <div class="icon">
+                    <img
+                      v-if="i.type == 'response'"
+                      src="../../assets/icon/other/Group 225.png"
+                      alt=""
+                    />
+                    <img
+                      v-if="i.type == 'actions'"
+                      src="../../assets/icon/other/Group 226.png"
+                      alt=""
+                    />
+                    <img
+                      v-if="(i.type == 'empty')"
+                      src="../../assets/icon/other/empty-box-icon.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="txt-box">
+                    <br />
+                    <div v-if="(i.type != 'empty')">
+                      <div class="icon">
+                        <img src="../../assets/icon/other/Union 4.png" alt="" />
+                      </div>
+                      <div class="txt">{{ i?.target }}</div>
                     </div>
-</div>
+
+                    <div v-if="(i.type != 'empty')">
+                      <div class="icon">
+                        <img src="../../assets/icon/other/Union 4.png" alt="" />
+                      </div>
+                      <div class="txt">{{ i?.type }}</div>
+                    </div>
+                    <br />
+                    <br />
+
+                    <div class="drop-box"  >
+                      <div class="button" v-if="(i.type != 'empty')"  @click="deleteResponse(i)">Drop</div>
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <br v-if="(i.type == 'empty')">
+                      <div class="button button-add" v-if="(i.type == 'empty')"  @click="
+              () => {
+                selectorBoxInfo = {
+                  type: 'response',
+                };
+              }
+            ">ADD-ITEM</div>
+                    </div>
+                  </div>
                 </div>
               </swiper-slide>
             </swiper>
           </div>
         </div>
         <div class="add-button-box">
-          <div class="button" @click="()=>{
-              selectorBoxInfo = {
-                type:'response'
+          <div
+            class="button"
+            @click="
+              () => {
+                selectorBoxInfo = {
+                  type: 'response',
+                };
               }
-            }">Add</div>
+            "
+          >
+            Add
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
 
   <ScriptslistView
     v-if="

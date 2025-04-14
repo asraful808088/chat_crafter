@@ -115,6 +115,34 @@
       "id": 1744530814012,
       "target": "bye",
       "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1744573260097,
+      "target": "bye",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1744574366850,
+      "target": "greeting",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1744574375511,
+      "target": "bye",
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1744576188282,
+      "target": "introduction",
+      "nolvl": 1
     }
   ],
   "task_list": [

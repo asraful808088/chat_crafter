@@ -1,12 +1,11 @@
 <script setup>
+import { useRoute } from "#app";
 import { onMounted, ref } from "vue";
 import ListitemView from "~/components/ListitemView/ListitemView.vue";
 import NexttoastView from "~/components/NextItemToast/NexttoastView.vue";
-import ScriptsboxView from "~/components/ScriptsboxView/ScriptsboxView.vue";
+import ScriptslistView from "~/components/ScriptslistView/ScriptslistView.vue";
 import getScriptsItem from "~/network/get_scripts/scripts";
 import updateScripts from "~/network/updateScripts/updateScripts";
-import ScriptslistView from '~/components/ScriptslistView/ScriptslistView.vue'
-import { useRoute } from "#app";
 const route = useRoute();
 const id = route.params.id;
 function createBlogObj({
@@ -17,7 +16,7 @@ function createBlogObj({
   target_id = null,
   condition = null,
   condition_type = null,
-  nolvl = 0
+  nolvl = 0,
 }) {
   return {
     id: Date.now(),
@@ -27,9 +26,9 @@ function createBlogObj({
     list_of_store: [],
     store_id: store_id,
     target_id: target_id,
-    condition_type:condition_type,
+    condition_type: condition_type,
     condition: condition,
-    nolvl:nolvl,
+    nolvl: nolvl,
     list_of_next_stap: [
       {
         type: "next_add",
@@ -72,7 +71,7 @@ function addNext(type, target) {
         target: target,
       }),
     ];
-    updateScripts({ list: listofStartwith.value,item:id  }, (res) => {
+    updateScripts({ list: listofStartwith.value, item: id }, (res) => {
       if (res.items) {
         listofStartwith.value = res.items;
       }
@@ -88,7 +87,7 @@ function openToast() {
 
 function deleteStartWithItem(ID) {
   listofStartwith.value = listofStartwith.value.filter((ele) => ele.id != ID);
-  updateScripts({ list: listofStartwith.value,item:id }, (res) => {
+  updateScripts({ list: listofStartwith.value, item: id }, (res) => {
     if (res.items) {
       listofStartwith.value = res.items;
     }
@@ -118,12 +117,11 @@ function updateScriptsList(update) {
     }
     return element;
   });
-  updateScripts({ list: newUpdateItems,item:id  }, (res) => {
+  updateScripts({ list: newUpdateItems, item: id }, (res) => {
     if (res.items) {
       listofStartwith.value = res.items;
     }
   });
-  
 }
 </script>
 <template>
@@ -148,8 +146,19 @@ function updateScriptsList(update) {
         <ListitemView
           v-for="(i, n) in listofStartwith"
           :header-name="i?.target"
-          @delete="() => deleteStartWithItem(i?.id)"
-          @click="activeItem(i)"
+          @delete="
+            () => {
+              deleteStartWithItem(i?.id);
+              activecurrentItem = null
+
+            }
+          "
+          @click="
+            () => {
+              activeItem(i);
+            }
+          "
+          :activecurrentItem="activecurrentItem?.target"
         />
       </div>
     </div>
@@ -160,10 +169,15 @@ function updateScriptsList(update) {
           v-if="activecurrentItem"
           :package="activecurrentItem"
           @update="updateScriptsList"
+          @delete="
+            (i) => {
+              deleteStartWithItem(i);
+              activecurrentItem = null;
+            }
+          "
         />
       </div>
     </div>
-   
   </div>
 </template>
 
