@@ -975,6 +975,7 @@ function clearCondition() {
         <div class="head">Response</div>
         <div class="spr">
           <div class="swiper-wrapper-fixed">
+           
             <swiper
               :modules="[EffectCoverflow]"
               effect="coverflow"

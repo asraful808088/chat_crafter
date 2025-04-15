@@ -17,7 +17,7 @@ def delete_files_in_folder(folder):
                 elif os.path.isdir(file_path):
                     shutil.rmtree(file_path)  
             except Exception as e:
-                pass  # Ignore errors
+                pass  asd aasd adas asdas1212312  asda 1asd asd asd asd asd asdasgdhasgdjhasgdhjasdkjgh jasgd jhasgdjhgasjhd asd
 
 
 def clean_now():

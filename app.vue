@@ -1,13 +1,15 @@
 <script setup>
-import { HeaderView, ItemselectorView, NavigationView } from "#components";
+import { HeaderView, NavigationView } from "#components";
 import { useBotbuilderStore } from "~/state/state";
-import useIntentesSelectStore from "./state/intentsSelector/storage";
+import SidenavView from "./components/SidenavView/SidenavView.vue";
 const info = useBotbuilderStore();
 </script>
 <template>
+  <div class="bg-01111111111111111"></div>
   <HeaderView />
-  <NavigationView />
-  <div class="route-view"  v-if="info.profile?.active">
+  
+  <div class="route-view" v-if="info.profile?.active">
+    <SidenavView />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
