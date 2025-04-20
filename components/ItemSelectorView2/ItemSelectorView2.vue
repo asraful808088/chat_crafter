@@ -8,10 +8,6 @@ import SelectorItem2View from "../SelectorItem2View/SelectorItem2View.vue";
       <div class="item-box">
         <div class="grid-box">
           <SelectorItem2View />
-          <SelectorItem2View />
-          <SelectorItem2View />
-          <SelectorItem2View />
-          <SelectorItem2View />
         </div>
       </div>
     </div>

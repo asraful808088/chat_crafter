@@ -5,7 +5,7 @@
       "mapword": [
         "O",
         "O",
-        "O",
+        "B-NUMBER",
         "O",
         "B-NUMBER"
       ],

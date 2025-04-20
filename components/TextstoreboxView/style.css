@@ -1,0 +1,259 @@
+.dialogbox-text-store{
+    width: 700px;
+    aspect-ratio: 2.2/1;
+
+
+
+
+}
+.dialogbox-text-store .dialogbox-text-store-txt-context-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.dialogbox-text-store .dialogbox-text-store-txt-context-box h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+
+.dialogbox-text-store .dialogbox-text-store-txt-context-box .list-box{
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.dialogbox-text-store .dialogbox-text-store-txt-context-box .list-box .list-box-item{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.dialogbox-text-store .dialogbox-text-store-txt-context-box .list-box .list-box-item .txt{
+    flex-grow: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.dialogbox-text-store .dialogbox-text-store-txt-context-box .list-box .list-box-item .icon{
+    height: 23px;
+    aspect-ratio: 1/1;
+    margin-right: 10px;
+}
+
+.txt-store-box-00111{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.txt-store-box-00111 .part{
+    width: 65%;
+    height: 100%;
+    padding: 5px;
+}
+.txt-store-box-00111 .part .info-box{
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 5px;
+}
+.txt-store-box-00111 .part .info-box .info-item{
+    display: flex;
+    align-items: center;
+}
+.txt-store-box-00111 .part .info-box .info-item .icon{
+    height: 24px;
+    aspect-ratio: 1/1;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.txt-store-box-00111 .part .info-box .info-item .txt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.txt-store-box-00111 .part .generate-con{
+    padding: 10px;
+    width: 100%;
+    height: calc(100vh - 297px);
+    display: flex;
+    flex-direction: column;
+
+}
+.txt-store-box-00111 .part .generate-con  .list-box{
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+
+}
+
+
+
+.txt-store-box-00111 .part .head{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+margin-bottom: 10px;
+display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.txt-store-box-00111 .part:nth-child(2){
+    width: 35%;
+}
+
+
+.txt-store-box-00111 .part h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.txt-store-box-00111 .part  .txt-box-0011{
+    width: 100%;
+    height:  140px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.txt-store-box-00111 .part  .txt-box-0011 .txt-input{
+    width: 100%;
+    flex-grow: 1;
+}
+
+.txt-store-box-00111 .part  .txt-box-0011 .txt-input textarea{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.txt-store-box-00111 .part  .txt-box-0011 .button-options{
+    width: 100%;
+    display: flex;
+    min-height: 40px;
+}
+.txt-store-box-00111 .part  .txt-box-0011 .button-options .button-options-part{
+    width: 50%;
+    display: flex;
+   
+}
+.txt-store-box-00111 .part  .txt-box-0011 .button-options .button-options-part:nth-child(2){
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+.txt-store-box-00111 .part  .txt-box-0011 .button-options .button-options-part .send{
+    height: 40px;
+aspect-ratio: 1/1;
+    position: relative;
+    padding: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+.txt-store-box-00111 .part  .txt-box-0011 .button-options .button-options-part .send:hover{
+    
+    transform: scale(.98);
+}
+.txt-store-box-00111 .part .list-item-box{
+    display: flex;  
+
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part{
+    width: 50%;
+    height: calc(100vh - 297px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .text-input-box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .text-input-box input{
+    height: 100%;
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: rgba(250, 123, 38, 0.381);
+
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .text-input-box .button{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .head{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .list-box{
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .list-box .list-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .list-box .list-item .icon{
+    height: 23px;
+    aspect-ratio: 1/1;
+    margin-right: 10px;
+}
+
+.txt-store-box-00111 .part .list-item-box .list-item-part .list-box .list-item .txt{
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}

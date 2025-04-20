@@ -66,7 +66,6 @@ function deleteEntitiesItem(nameObj) {
     },
     (res, err) => {
       if (res.items) {
-        items.value = res.items;
       }
     }
   );

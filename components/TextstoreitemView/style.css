@@ -1,0 +1,97 @@
+.text-card-view-0002222{
+    width: 100%;
+   aspect-ratio: 2.9/1;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.text-card-view-0002222 .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background:linear-gradient(-45deg,rgba(252, 132, 46, 0.493),rgba(255, 219, 181, 0.518)) ;
+    top: 0;
+    left: 0;
+    filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+.text-card-view-0002222 .image-text{
+    width: 100%;
+    height: calc(100% - 30px);
+    display: flex;
+    z-index: 1;
+
+}
+.text-card-view-0002222 .image-text .image{
+    height: 30px;
+    aspect-ratio: 1/1;
+    margin-right: 10px;
+}
+.text-card-view-0002222 .image-text .txt{
+overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 6; 
+margin-bottom: 10px;
+font-size: 13px;
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+
+
+line-height: 1.5em;
+max-height: calc(1.5em * 5);
+box-sizing: border-box;
+}
+.text-card-view-0002222 .options{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    z-index: 1;
+
+
+}
+.text-card-view-0002222 .options .options-part{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-card-view-0002222 .options .options-part .low-scale{
+    transform: scaleY(.9) scale(.9);
+}
+.text-card-view-0002222 .options .options-part .low-opacity{
+    opacity: .5;
+}
+.text-card-view-0002222 .options .options-part .active-border{
+    background-color: rgb(255, 106, 0);
+    transform: scale(1.2);
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+.text-card-view-0002222 .options .options-part:nth-child(2){
+    justify-content: flex-end;
+}
+.text-card-view-0002222 .options .options-part .icon{
+    aspect-ratio: 1/1;
+    height: 22px;
+    margin-left: 5px;
+}

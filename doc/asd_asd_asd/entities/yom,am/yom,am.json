@@ -25,6 +25,18 @@
   ],
   "entities": [
     {
+      "i": "B-OOAMA"
+    },
+    {
+      "i": "J-OOAMA"
+    },
+    {
+      "i": "B-MAAA"
+    },
+    {
+      "i": "J-MAAA"
+    },
+    {
       "i": "B-NAME"
     },
     {

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Circular Text Wrap</title>
+  <style>
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+    /* The floated element that creates a circular exclusion area */
+    .floating-circle {
+      float: left;
+      width: 150px;
+      height: 150px;
+      margin: 30px;
+      /* Define the circle shape for text wrapping */
+      shape-outside:circle(50%) ;
+      clip-path: circle(50%);
+      /* Use your image as a background */
+      background-image: url("your-image.jpg");
+      background-size: cover;
+      background-position: center;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- This div makes an invisible (or background image) circle that text wraps around -->
+    <div class="floating-circle"></div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh ut tortor tincidunt interdum. Sed viverra, nunc non sodales blandit, eros lorem imperdiet enim, vitae luctus justo turpis ac erat. Donec mattis, enim sit amet feugiat ultrices, augue neque dignissim libero, in convallis nulla diam at turpis. Integer quis libero eu est pharetra imperdiet.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh ut tortor tincidunt interdum. Sed viverra, nunc non sodales blandit, eros lorem imperdiet enim, vitae luctus justo turpis ac erat. Donec mattis, enim sit amet feugiat ultrices, augue neque dignissim libero, in convallis nulla diam at turpis. Integer quis libero eu est pharetra imperdiet.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh ut tortor tincidunt interdum. Sed viverra, nunc non sodales blandit, eros lorem imperdiet enim, vitae luctus justo turpis ac erat. Donec mattis, enim sit amet feugiat ultrices, augue neque dignissim libero, in convallis nulla diam at turpis. Integer quis libero eu est pharetra imperdiet.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh ut tortor tincidunt interdum. Sed viverra, nunc non sodales blandit, eros lorem imperdiet enim, vitae luctus justo turpis ac erat. Donec mattis, enim sit amet feugiat ultrices, augue neque dignissim libero, in convallis nulla diam at turpis. Integer quis libero eu est pharetra imperdiet.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac nibh ut tortor tincidunt interdum. Sed viverra, nunc non sodales blandit, eros lorem imperdiet enim, vitae luctus justo turpis ac erat. Donec mattis, enim sit amet feugiat ultrices, augue neque dignissim libero, in convallis nulla diam at turpis. Integer quis libero eu est pharetra imperdiet.
+    </p>
+  </div>
+</body>
+</html>

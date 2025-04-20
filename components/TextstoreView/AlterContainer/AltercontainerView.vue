@@ -42,6 +42,11 @@ function getGlobleSyn(){
     }
   });
 }
+
+
+
+
+
 function addAlternativeWords() {
   if (!alternativeWord.value) {
     return;
@@ -75,6 +80,10 @@ function addAlternativeWords() {
     }
   );
 }
+
+
+
+
 function activeAlternative(i) {
   info.setActiveAlternative(i);
 }

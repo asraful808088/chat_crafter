@@ -1,0 +1,216 @@
+.list-item-dialog-0009088{
+  width: 1000px;
+  height: 500px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.list-item-dialog-0009088 .indicator{
+  color: rgb(255, 115, 0);
+}
+.list-item-dialog-0009088 .green-indicator{
+  color: green;
+}
+.list-item-dialog-0009088 .text-box{
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.list-item-dialog-0009088 .text-box .txt-display{
+  flex-grow: 1;
+  display: flex;
+  height: 200px;
+}
+.list-item-dialog-0009088 .text-box .txt-display .txt-items {
+  flex-grow: 1;
+  height: 100%;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.list-item-dialog-0009088 .text-box .txt-display .txt-items  span{
+  cursor: pointer;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box{
+  height: 100%;
+  min-width: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .input-box{
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding-right: 5px;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .input-box input{
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  flex-grow: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .input-box .button{
+  height: 32px;
+  width: 70px;
+  background-color: rgb(255, 179, 0);
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .entities-list-box{
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .entities-list-box .entities-list-box-s-item{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .entities-list-box .entities-list-box-s-item .txt{
+  flex-grow: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .entities-list-box .entities-list-box-s-item .icon{
+  height: 28px;
+  aspect-ratio: 1/1;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .entities-list-box .entities-list-box-s-item .del{
+  padding: 2px;
+  cursor: pointer;
+}
+.list-item-dialog-0009088 .text-box .txt-display .word-item-box .head{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.list-item-dialog-0009088 .text-box .entities-box{
+    height: 180px;
+    min-height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.list-item-dialog-0009088 .text-box .entities-box .heads{
+width: 100%;
+font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+
+}
+.list-item-dialog-0009088 .text-box .entities-box .map-item{
+  flex-grow: 1;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+.list-item-dialog-0009088 .text-box .entities-box .map-item .map-i{
+  margin-right: 5px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+}
+
+
+.list-item-dialog-0009099{
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.list-item-dialog-0009099 .list-boxs{
+  width: 100%;
+  flex-grow: 1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+overflow-y: auto;  
+}
+.list-item-dialog-0009099 .list-boxs .syn-item{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 9999999999999999999999999999999999999;
+
+}
+.list-item-dialog-0009099 .list-boxs .syn-item .icon{
+  height: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-item-dialog-0009099 .list-boxs .syn-item .txt{
+  flex-grow: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.list-item-dialog-0009099 .list-boxs .syn-item .circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 1px;
+}
+.list-item-dialog-0009099 .list-boxs .syn-item .circle .ball{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.list-of-script-item-container-000011 {
+    width: 100%;
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+    padding-right: 5px;
+
+  }
+  
+
+  
+  .loading {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }

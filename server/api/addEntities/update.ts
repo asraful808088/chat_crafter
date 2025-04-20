@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
       process.cwd(),
       "doc",
       botname,
-      "entities",
+      body["of"]??"entities",
       entitiesName,
       entitiesName
     );
