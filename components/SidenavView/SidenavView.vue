@@ -25,30 +25,17 @@ function changeRoute(name = "") {
               <img src="../../assets/icon/other/Polygon 2.png" alt="" />
             </div>
           </div>
-          <div class="item" @click="changeRoute('condition')">
-            <div class="icon">
-              <img src="../../assets/icon/other/Group 337.png" alt="" />
-            </div>
-            <div class="arrow" v-if="currentPath == '/condition'">
-              <img src="../../assets/icon/other/Polygon 2.png" alt="" />
-            </div>
-          </div>
-          <div class="item" @click="changeRoute('custom-actions')">
-            <div class="icon">
-              <img src="../../assets/icon/other/Group 314.png" alt="" />
-            </div>
-            <div class="arrow" v-if="currentPath == '/custom-actions'">
-              <img src="../../assets/icon/other/Polygon 2.png" alt="" />
-            </div>
-          </div>
-          <div class="item" @click="changeRoute('entities')">
-            <div class="icon">
-              <img src="../../assets/icon/other/Group 312.png" alt="" />
-            </div>
-            <div class="arrow" v-if="currentPath == '/entities'">
-              <img src="../../assets/icon/other/Polygon 2.png" alt="" />
-            </div>
-          </div>
+
+
+
+
+
+
+
+
+
+
+         
           <div class="item" @click="changeRoute('response')">
             <div class="icon">
               <img src="../../assets/icon/other/Group 315.png" alt="" />
@@ -66,6 +53,14 @@ function changeRoute(name = "") {
               <img src="../../assets/icon/other/Polygon 2.png" alt="" />
             </div>
           </div>
+          <div class="item" @click="changeRoute('entities')">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 312.png" alt="" />
+            </div>
+            <div class="arrow" v-if="currentPath == '/entities'">
+              <img src="../../assets/icon/other/Polygon 2.png" alt="" />
+            </div>
+          </div>
           <div class="item" @click="changeRoute('synonyms')">
             <div class="icon">
               <img src="../../assets/icon/other/similar-svgrepo-com.png" alt="" />
@@ -75,6 +70,23 @@ function changeRoute(name = "") {
             </div>
           </div>
 
+
+          <div class="item" @click="changeRoute('condition')">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 337.png" alt="" />
+            </div>
+            <div class="arrow" v-if="currentPath == '/condition'">
+              <img src="../../assets/icon/other/Polygon 2.png" alt="" />
+            </div>
+          </div>
+          <div class="item" @click="changeRoute('custom-actions')">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 314.png" alt="" />
+            </div>
+            <div class="arrow" v-if="currentPath == '/custom-actions'">
+              <img src="../../assets/icon/other/Polygon 2.png" alt="" />
+            </div>
+          </div>
 
           <div class="item" @click="changeRoute('task')">
             <div class="icon">

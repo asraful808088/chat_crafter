@@ -25,32 +25,6 @@ function changeRoute(name = "") {
       </div>
     </div>
 
-    <div class="navigation-item" @click="changeRoute('condition')">
-      <div class="icon">
-        <img src="../../assets/icon/nav/condition.png" alt="" />
-      </div>
-      <div class="arrow">
-        <img
-          src="../../assets/icon/nav/active.png"
-          alt=""
-          v-if="currentPath == '/condition'"
-        />
-      </div>
-    </div>
-
-    <div class="navigation-item" @click="changeRoute('custom-actions')">
-      <div class="icon">
-        <img src="../../assets/icon/nav/custom-actions.png" alt="" />
-      </div>
-      <div class="arrow">
-        <img
-          src="../../assets/icon/nav/active.png"
-          alt=""
-          v-if="currentPath == '/custom-actions'"
-        />
-      </div>
-    </div>
-
     <div class="navigation-item" @click="changeRoute('entities')">
       <div class="icon">
         <img src="../../assets/icon/nav/entities.png" alt="" />
@@ -102,6 +76,33 @@ function changeRoute(name = "") {
         />
       </div>
     </div>
+    
+    <div class="navigation-item" @click="changeRoute('condition')">
+      <div class="icon">
+        <img src="../../assets/icon/nav/condition.png" alt="" />
+      </div>
+      <div class="arrow">
+        <img
+          src="../../assets/icon/nav/active.png"
+          alt=""
+          v-if="currentPath == '/condition'"
+        />
+      </div>
+    </div>
+
+    <div class="navigation-item" @click="changeRoute('custom-actions')">
+      <div class="icon">
+        <img src="../../assets/icon/nav/custom-actions.png" alt="" />
+      </div>
+      <div class="arrow">
+        <img
+          src="../../assets/icon/nav/active.png"
+          alt=""
+          v-if="currentPath == '/custom-actions'"
+        />
+      </div>
+    </div>
+
     <div class="navigation-item task" @click="changeRoute('task')">
       <div class="icon">
         <img src="../../assets/icon/nav/task.png" alt="" />

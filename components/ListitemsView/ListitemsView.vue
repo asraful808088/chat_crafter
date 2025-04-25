@@ -9,7 +9,7 @@ import updateAlternative from "~/network/changeAlternativeQ/changeAlternative";
 import geteEntitiesList from "~/network/entities/get";
 import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
 import updateEntitiesItem from "~/network/updateEntites/update";
-
+import { useRoute } from "#app";
 
 
 
@@ -37,6 +37,10 @@ const props = defineProps({
     type: Function,
     require:false
   },
+  of: {
+    type: String,
+    default: "intents",
+  },
 });
 
 const items = ref([]);
@@ -44,6 +48,8 @@ const visibleItems = ref([]);
 const loading = ref(false);
 const dialogInfo = ref(null);
 const targetEntitiesIndex = ref(null)
+const route = useRoute();
+const id = route.params.id;
 
 async function loadNextChunk() {
   if (loading.value) return;
@@ -84,11 +90,11 @@ watch(
 function changesingleAllAlternative(i) {
   updateAlternative(
     {
-      of: "intents",
+      of: props.of,
       change: "allAlter",
       currectStatus: !i.allAlter,
       sent: i.mainsent,
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (err) {
@@ -152,7 +158,7 @@ const textInput = ref("");
 
 function injectEntitiesItem(id) {
   list_of_entities_items.value = [];
-  geteEntitiesList("intents", id, (res, err) => {
+  geteEntitiesList(props.of, id, (res, err) => {
     if (res?.entities) {
       list_of_entities_items.value = res.entities;
     }
@@ -169,13 +175,13 @@ function addEntities() {
 
   addEntitiesItem(
     {
-      item: "bye",
+      item: id,
       items: getUniqueArray([
         { i: b_val },
         { i: j_val },
         ...list_of_entities_items.value,
       ]),
-      of: "intents",
+      of: props.of,
     },
     (res, err) => {
       if (res) {
@@ -196,8 +202,8 @@ function activeDialog(i, sent) {
   listOfAlterWords.value = i?.alter;
   getAlternativeList(
     {
-      of: "intents",
-      item: "bye",
+      of: props.of,
+      item: id,
     },
     (res, err) => {
       if (res.data) {
@@ -218,9 +224,9 @@ function deleteEntitiesItem(nameObj) {
   );
   addEntitiesItem(
     {
-      item: "bye",
+      item: id,
       items: list_of_entities_items.value,
-      of: "intents",
+      of: props.of,
     },
     (res, err) => {
       if (res.items) {
@@ -240,11 +246,11 @@ function changeAlterWordAddStatus(item) {
 function onChange(i, sent, remove = false) {
   updateAlternative(
     {
-      of: "intents",
+      of: props.of,
       change: remove ? "removeAlter" : "addAlter",
       sent: sent,
       add: i,
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (!err) {
@@ -292,9 +298,9 @@ function applyModifyEntities(i){
 function updateEntities(sentItem) {
   updateEntitiesItem(
     {
-      item: "bye",
+      item: id,
       update: sentItem,
-      of: "intents",
+      of: props.of,
     },
     (res, err) => {
       if (res.items) {
@@ -321,9 +327,9 @@ import reCreateItem from "~/network/reCreate/reCreate";
 function reGenerate(i) {
   reCreateItem(
     {
-      of: "intents",
+      of: props.of,
       sent: i ? i.mainsent : null,
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (!err) {
@@ -346,8 +352,8 @@ function delete_main_item(i) {
   deleteMainItem(
     {
       sent: i.mainsent,
-      of: 'intents',
-      item: "bye",
+      of: props.of,
+      item: id,
     },
     (res, err) => {
       if (!err) {
@@ -535,7 +541,7 @@ function delete_main_item(i) {
           }
           dialogInfo['info'] = item;
 
-          injectEntitiesItem('bye');
+          injectEntitiesItem(id);
         }
       "
       @active-alternative="

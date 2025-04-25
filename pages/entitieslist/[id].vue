@@ -1,5 +1,6 @@
 <script setup>
-import { TextstoreView } from "#components";
+import TextstoreboxView from "~/components/TextstoreboxView/TextstoreboxView.vue";
+
 </script>
-<template><TextstoreView name="Entities" of="entities" /></template>
+<template><TextstoreboxView name="Entities" of="entities" /></template>
 <style lang="css"></style>

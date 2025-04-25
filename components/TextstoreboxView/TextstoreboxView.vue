@@ -21,7 +21,17 @@ const wordTextInput = ref("");
 const partOfAlternativeWords = ref([]);
 const regenerationSent = ref([]);
 const listOFGenratedItems = ref([]);
-
+const storeSent = ref([]);
+const props = defineProps({
+  name: {
+    type: String,
+    require: false,
+  },
+  of: {
+    type: String,
+    require: false,
+  },
+});
 
 import postEntities from "~/network/entities/post.";
 
@@ -54,13 +64,13 @@ function onChangeInput(value) {
   });
   
   postEntities(
-    { list: store, of: 'intents', item: 'bye' },
+    { list: store, of: props.of, item: id },
     (res, err) => {
       if (err) {
         return;
       }
       if (res.items) {
-        console.log("!312312313")
+      
         listItems.value =  res.items
       }
     }
@@ -72,20 +82,13 @@ function onChangeInput(value) {
 
 
 
-const props = defineProps({
-  name: {
-    type: String,
-    require: false,
-  },
-  of: {
-    type: String,
-    require: false,
-  },
-});
+
 onMounted(() => {
   setTimeout(() => {
-    geteEntitiesList(props.of ?? "intents", "bye", (res, err) => {
+    geteEntitiesList(props.of ?? "intents", id, (res, err) => {
       if (res) {
+      console.log(res.items);
+
         listItems.value = res.items;
       }
     });
@@ -94,7 +97,7 @@ onMounted(() => {
   getAlternativeList(
     {
       of: "intents",
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       alternativeItemWord.value = res.data;
@@ -102,13 +105,11 @@ onMounted(() => {
   );
 
   setTimeout(() => {
-    getAllReGenerate({ of: "intents", item: "bye" }, (req, err) => {
+    getAllReGenerate({ of: "intents", item:id }, (req, err) => {
       if (!err) {
         if (req?.items) {
-          console.log("find");
-
           listOFGenratedItems.value = req.items;
-          // console.log( req)
+         
         }
       }
     });
@@ -121,12 +122,28 @@ function onTextHanfler(newItems) {
   }
 
   if (!multiline.value) {
-    const textItems = textInput.value.split("\n");
+    let textItems = textInput.value.split("\n");
+    textItems = textItems.map((i) => i.trim());
     if (textItems.length > 1) {
-      dialogInfo.value = {};
+
+      if (safty.value) {
+        dialogInfo.value = {};
+        dialogInfo.value["head"] = 'Warning';
+        let n2 = textItems.filter((i) => i.trim() != "");
+        n2 = n2.filter((i) => i.trim() != " ");
+        storeSent.value = n2;
+        // onChangeInput(n2)
+        // storeSent
+      }else{
+        let n2 = textItems.filter((i) => i.trim() != "");
+        n2 = n2.filter((i) => i.trim() != " ");
+        onChangeInput(n2)
+      }
+      
     } else {
-      // dialogInfo.value = {}
-    onChangeInput(textItems)
+      let n2 = textItems.filter((i) => i.trim() != "");
+        n2 = n2.filter((i) => i.trim() != " ");
+      onChangeInput(n2)
 
     }
   } else {
@@ -144,7 +161,7 @@ function addAlternativeWord(i) {
       {
         name: i,
         of: "intents",
-        item: "bye",
+        item: id,
         syn: true,
       },
       (res, err) => {
@@ -162,7 +179,7 @@ function addAlternativeWord(i) {
     {
       name: wordTextInput.value.trim(),
       of: "intents",
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (err) {
@@ -180,7 +197,7 @@ function deleteWordChunk(name) {
     {
       name: name,
       of: "intents",
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (err) {
@@ -213,7 +230,7 @@ function addAlternativeWords() {
       name: activeSynChanks.value?.name,
       of: "intents",
       alternative: wordTextInput.value.trim(),
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (err) {
@@ -238,7 +255,7 @@ function deletealternativeWord(word) {
       name: activeSynChanks.value?.name,
       of: "intents",
       alternative: word,
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (err) {
@@ -271,7 +288,7 @@ function reGenerate(i) {
     {
       of: "intents",
       sent: i ? i.mainsent : null,
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (!err) {
@@ -291,7 +308,7 @@ function delete_gen(i) {
       sent: i.sent,
       of: 'intents',
       gen: i.gen,
-      item: "bye",
+      item: id,
     },
     (res, err) => {
       if (!err) {
@@ -318,8 +335,12 @@ function delete_gen(i) {
   >
     <div class="dialogbox-text-store">
       <div class="dialogbox-text-store-txt-context-box">
-        <h2>Synonyms</h2>
-        <div class="list-box">
+        <h2>  {{dialogInfo?.head??'Synonyms'}}</h2>
+
+
+
+
+        <div class="list-box" v-if="!dialogInfo?.head" >
           <div class="list-box-item" v-for="(i, n) in listOFGlobleSyn">
             <div class="icon">
               <img src="../../assets/icon/nav/synonym.png" alt="" />
@@ -337,6 +358,25 @@ function delete_gen(i) {
             <div class="icon"></div>
           </div>
         </div>
+
+
+        <p v-if="dialogInfo?.head" >If you enter multi-line text with line breaks (e.g., by pressing Enter), each line break will be treated as a separate line. Do you want to proceed with this behavior?</p>
+
+        <div class="button-box" v-if="dialogInfo?.head">
+            <div class="ans-button" @click="()=>{
+              dialogInfo = null;
+              storeSent=[]
+            }" >No</div>
+            <div class="ans-button" @click="()=>{
+              dialogInfo = null;
+              onChangeInput(storeSent)
+              storeSent=[]
+            }" >Yes</div>
+        </div>
+
+
+
+
       </div>
     </div>
   </AnimationdiglogboxView>
@@ -404,6 +444,7 @@ function delete_gen(i) {
         <div class="list-item-part">
           <div class="head">List</div>
           <TextstoretxtitemView
+          :of="props.of"
             :items="listItems"
             @regenerate="
               (item) => {
@@ -464,7 +505,7 @@ function delete_gen(i) {
             <div
               class="list-item"
               v-for="(i, n) in activeSynChanks?.items ??
-              Object.keys(alternativeItemWord)"
+              Object.keys(alternativeItemWord??{})"
             >
               <div class="icon">
                 <img src="../../assets/icon/nav/synonyms.png" alt="" />
@@ -520,25 +561,25 @@ function delete_gen(i) {
           <div class="icon">
             <img src="../../assets/icon/other/function.png" alt="" />
           </div>
-          <div class="txt">asd</div>
+          <div class="txt"> {{ listItems?.length??0 }} </div>
         </div>
         <div class="info-item">
           <div class="icon">
             <img src="../../assets/icon/other/function.png" alt="" />
           </div>
-          <div class="txt">asd</div>
+          <div class="txt"> {{ regenerationSent.length }} </div>
         </div>
         <div class="info-item">
           <div class="icon">
             <img src="../../assets/icon/other/function.png" alt="" />
           </div>
-          <div class="txt">asd</div>
+          <div class="txt"> {{ Object.keys(alternativeItemWord??{}).length }} </div>
         </div>
         <div class="info-item">
           <div class="icon">
             <img src="../../assets/icon/other/function.png" alt="" />
           </div>
-          <div class="txt">asd</div>
+          <div class="txt"> {{ id }} </div>
         </div>
         <div class="info-item">
           <div class="icon">

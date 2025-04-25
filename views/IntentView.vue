@@ -8,6 +8,6 @@ import TextstoreboxView from "~/components/TextstoreboxView/TextstoreboxView.vue
 <template>
   <!-- <TextstoreView name="Intents" of="intents"/> -->
   <!-- <ItemselectorView of="intents" :state="useIntentesSelectStore()"/> -->
-  <!-- <ItemSelectorView2 /> -->
-  <TextstoreboxView />
+  <ItemSelectorView2 of="intents"/>
+  <!-- <TextstoreboxView /> -->
 </template>

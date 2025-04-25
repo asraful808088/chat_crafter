@@ -43,6 +43,18 @@
   ],
   "entities": [
     {
+      "i": "B-MAMA"
+    },
+    {
+      "i": "J-MAMA"
+    },
+    {
+      "i": "B-DDAS"
+    },
+    {
+      "i": "J-DDAS"
+    },
+    {
       "i": "B-NUMBER"
     },
     {

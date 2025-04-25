@@ -1,5 +1,6 @@
 <script setup>
 import { TextstoreView } from "#components";
+import TextstoreboxView from "~/components/TextstoreboxView/TextstoreboxView.vue";
 </script>
-<template><TextstoreView name="Intents" of="intents" /></template>
+<template><TextstoreboxView name="Intents" of="intents" /></template>
 <style lang="css"></style>

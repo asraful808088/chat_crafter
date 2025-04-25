@@ -17,6 +17,10 @@ const props = defineProps({
     type: Function,
     require: false,
   },
+  of: {
+    type: String,
+    require: false,
+  },
 });
 </script>
 
@@ -24,6 +28,7 @@ const props = defineProps({
   <ListitemsView
     :items="props.items"
     :allAlter="props.allAlter"
+    :of="props.of"
     @delete="
       (item) => {
         if (props.onDelete) {

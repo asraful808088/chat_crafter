@@ -15,7 +15,6 @@
 .container-01111 .container .item-box {
   width: 100%;
   flex-grow: 1;
-
   overflow-y: auto;
 }
 .container-01111 .container .item-box .grid-box {
@@ -131,4 +130,20 @@ color: gray;
 .container-01111 .title-box {
   font-family: "Fugaz One", sans-serif;
   font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.container-01111 .title-box .icon{
+    height: 22px;   
+    aspect-ratio: 1/1;
+    position: relative;
+    cursor: pointer;
+}
+.container-01111 .title-box .icon:hover{
+    transform: scale(.93);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
