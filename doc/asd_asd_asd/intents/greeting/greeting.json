@@ -1,28 +1,10 @@
 {
   "list_of_intent": [
     {
-      "mainsent": "Hi, how’s it going?",
-      "mapword": [
-        "O",
-        "O",
-        "O",
-        "O"
-      ],
-      "wordlist": [
-        "Hi,",
-        "how’s",
-        "it",
-        "going?"
-      ],
-      "alter": [],
-      "allAlter": true,
-      "reCreate": false
-    },
-    {
       "mainsent": "Good afternoon, how are you?",
       "mapword": [
-        "O",
-        "O",
+        "B-ASD",
+        "J-ASD",
         "O",
         "O",
         "O"
@@ -41,7 +23,7 @@
     {
       "mainsent": "Hello, nice to see you!",
       "mapword": [
-        "O",
+        "B-ASD",
         "O",
         "O",
         "O",

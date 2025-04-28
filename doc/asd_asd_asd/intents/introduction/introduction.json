@@ -19,8 +19,8 @@
     {
       "mainsent": "Can you tell me about yourself?",
       "mapword": [
-        "O",
-        "O",
+        "B-MAMA",
+        "J-MAMA",
         "O",
         "O",
         "O",
@@ -4663,6 +4663,14 @@
       "alter": [],
       "allAlter": true,
       "reCreate": false
+    }
+  ],
+  "entities": [
+    {
+      "i": "B-MAMA"
+    },
+    {
+      "i": "J-MAMA"
     }
   ]
 }

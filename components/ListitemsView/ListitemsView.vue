@@ -3,16 +3,13 @@ import { onMounted, ref, watch } from "vue";
 import TextstoreitemView from "../TextstoreitemView/TextstoreitemView.vue";
 // import updateAlternative from "~/network/entities/updateAlternative";
 // import s from '~/'
+import { useRoute } from "#app";
 import getAlternativeList from "~/network/add_alternative/getalternative";
 import addEntitiesItem from "~/network/add_entities/update";
 import updateAlternative from "~/network/changeAlternativeQ/changeAlternative";
 import geteEntitiesList from "~/network/entities/get";
-import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
 import updateEntitiesItem from "~/network/updateEntites/update";
-import { useRoute } from "#app";
-
-
-
+import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
 
 function getUniqueArray(arr) {
   const uniqueMap = new Map();
@@ -23,7 +20,7 @@ function getUniqueArray(arr) {
 const props = defineProps({
   items: {
     type: Array,
-    default:[],
+    default: [],
   },
   chunkSize: {
     type: Number,
@@ -31,15 +28,19 @@ const props = defineProps({
   },
   onRegenerate: {
     type: Function,
-    require:false
+    require: false,
   },
   onDelete: {
     type: Function,
-    require:false
+    require: false,
   },
   of: {
     type: String,
     default: "intents",
+  },
+  onMainItems: {
+    type: Function,
+    require: false,
   },
 });
 
@@ -47,7 +48,7 @@ const items = ref([]);
 const visibleItems = ref([]);
 const loading = ref(false);
 const dialogInfo = ref(null);
-const targetEntitiesIndex = ref(null)
+const targetEntitiesIndex = ref(null);
 const route = useRoute();
 const id = route.params.id;
 
@@ -268,32 +269,14 @@ function onChange(i, sent, remove = false) {
   );
 }
 
-
-function applyModifyEntities(i){
+function applyModifyEntities(i) {
   if (targetEntitiesIndex.value != null) {
-      const sentItem  = dialogInfo.value.info
-      sentItem["mapword"][targetEntitiesIndex.value] = i.i
-     
-      updateEntities(sentItem)
+    const sentItem = dialogInfo.value.info;
+    sentItem["mapword"][targetEntitiesIndex.value] = i.i;
+
+    updateEntities(sentItem);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function updateEntities(sentItem) {
   updateEntitiesItem(
@@ -304,24 +287,23 @@ function updateEntities(sentItem) {
     },
     (res, err) => {
       if (res.items) {
-        dialogInfo.value.info = sentItem
-      items.value =  items.value.map((item) => {
-        if (item.mainsent === sentItem.mainsent) {
-          return { ...sentItem };
-        }
-        return item;
-      });
-      visibleItems.value =  visibleItems.value.map((item) => {
-        if (item.mainsent === sentItem.mainsent) {
-          return { ...sentItem };
-        }
-        return item;
-      });
+        dialogInfo.value.info = sentItem;
+        items.value = items.value.map((item) => {
+          if (item.mainsent === sentItem.mainsent) {
+            return { ...sentItem };
+          }
+          return item;
+        });
+        visibleItems.value = visibleItems.value.map((item) => {
+          if (item.mainsent === sentItem.mainsent) {
+            return { ...sentItem };
+          }
+          return item;
+        });
       }
     }
   );
 }
-
 
 import reCreateItem from "~/network/reCreate/reCreate";
 function reGenerate(i) {
@@ -334,18 +316,14 @@ function reGenerate(i) {
     (res, err) => {
       if (!err) {
         if (res.items) {
-          
           if (props.onRegenerate) {
-            props.onRegenerate(res.items)
-            
+            props.onRegenerate(res.items);
           }
         }
       }
     }
   );
 }
-
-
 
 import deleteMainItem from "~/network/deleteTextItem/deleteItem";
 function delete_main_item(i) {
@@ -357,19 +335,19 @@ function delete_main_item(i) {
     },
     (res, err) => {
       if (!err) {
-        items.value = res.items
+        items.value = res.items;
         visibleItems.value = [];
         loadNextChunk();
+        if (props.onMainItems){
+          props.onMainItems(res.items);
+        }
       }
     }
   );
 }
-
-
 </script>
 
 <template>
-  
   <AnimationdiglogboxView
     :auto-down="dialogInfo"
     @close="
@@ -446,23 +424,26 @@ function delete_main_item(i) {
                 Add
               </div>
             </div>
-            <div class="entities-list-box" >
+            <div class="entities-list-box">
               <div class="entities-list-box-s-item">
                 <div class="icon">
                   <img src="../../assets/icon/other/Group 300.png" alt="" />
                 </div>
-                <div class="txt"  @click="applyModifyEntities({i:'O'})" >--O</div>
+                <div class="txt" @click="applyModifyEntities({ i: 'O' })">
+                  --O
+                </div>
               </div>
 
               <div
                 class="entities-list-box-s-item"
-                
                 v-for="(i, n) in list_of_entities_items"
               >
                 <div class="icon">
                   <img src="../../assets/icon/other/Group 300.png" alt="" />
                 </div>
-                <div class="txt" @click="applyModifyEntities(i)" >{{ i?.i }}</div>
+                <div class="txt" @click="applyModifyEntities(i)">
+                  {{ i?.i }}
+                </div>
                 <div
                   class="icon del"
                   @click="
@@ -481,7 +462,6 @@ function delete_main_item(i) {
           <div class="heads">Entities List</div>
           <div class="map-item">
             <div
-           
               :class="
                 selectIndex == index
                   ? 'map-i green-indicator'
@@ -495,10 +475,10 @@ function delete_main_item(i) {
                 () => {
                   if (selectIndex == index) {
                     selectIndex = -1;
-                    targetEntitiesIndex = null
+                    targetEntitiesIndex = null;
                   } else {
                     selectIndex = index;
-                    targetEntitiesIndex = index
+                    targetEntitiesIndex = index;
                   }
                 }
               "
@@ -519,7 +499,7 @@ function delete_main_item(i) {
     <TextstoreitemView
       v-for="item in visibleItems"
       :key="item.id"
-      :st="item.mainsent??item.gen"
+      :st="item.mainsent ?? item.gen"
       :allAlter="item.allAlter"
       :hide-unbutton="item.gen"
       @update-alternative="
@@ -531,13 +511,11 @@ function delete_main_item(i) {
         () => {
           dialogInfo = {};
           dialogInfo['type'] = 'entites';
-          
-          if (item.gen) {
-            dialogInfo['gen'] = true 
-             item.wordlist = item.gen.split(' ');
-            item.mapword = item.map_sent;
-            
 
+          if (item.gen) {
+            dialogInfo['gen'] = true;
+            item.wordlist = item.gen.split(' ');
+            item.mapword = item.map_sent;
           }
           dialogInfo['info'] = item;
 
@@ -551,22 +529,31 @@ function delete_main_item(i) {
           }
         }
       "
-      @generate="()=>{
-        reGenerate(item)
-      }"
-      @delete="()=>{
-        if (item.gen) {
-          if (props.onDelete) {
-          props.onDelete(item);
+      @generate="
+        () => {
+          reGenerate(item);
         }
-        }else{
-          delete_main_item(item)
+      "
+      @delete="
+        () => {
+          if (item.gen) {
+            if (props.onDelete) {
+              props.onDelete(item);
+            }
+          } else {
+            delete_main_item(item);
+          }
         }
-        
-      }"
+      "
     />
 
     <div v-if="loading" class="loading">Loading more...</div>
+    <div v-if="visibleItems.length == 0" class="empty">
+      <div class="icon">
+        <img src="../../assets/icon/other/Group 392.png" alt="" />
+      </div>
+      <div class="txt">Empty</div>
+    </div>
   </div>
 </template>
 

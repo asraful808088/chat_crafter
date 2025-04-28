@@ -45,6 +45,7 @@ function showToast(val) {
 onMounted(() => {
   getSelectItems({ of: props.of }, (res, err) => {
     if (res.items) {
+      console.log(res.items);
       listOfItems.value = res.items;
     }
   });
@@ -98,6 +99,7 @@ function inputCreateItem(e) {
             :name="i.name"
             :count="i.length"
             :type="i.type"
+            :non_deletable="i.type == 'default_fallback'"
             @select="
               () => {
                 router.push(`/${props.client_path}/${i.name}`);

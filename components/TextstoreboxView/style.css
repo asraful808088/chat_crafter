@@ -111,6 +111,51 @@
     flex-direction: column;
 
 }
+
+.txt-store-box-00111 .part .generate-con .loading{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(250, 123, 38, 0.181);
+}
+.txt-store-box-00111 .part .generate-con  .loading .icon{
+    height: 120px;
+    aspect-ratio: 1/1;
+    animation: loadingicon 1s linear reverse infinite;
+
+}
+
+
+
+@keyframes loadingicon{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.txt-store-box-00111 .part .generate-con  .loading .txt{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: rgb(66, 56, 56);
+}
+
+
+
+
+
+
+
+
+
 .txt-store-box-00111 .part .generate-con  .list-box{
     width: 100%;
     flex-grow: 1;
@@ -118,6 +163,19 @@
     padding-right: 10px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -208,6 +266,49 @@ aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
 }
+.txt-store-box-00111 .part .list-item-box .list-item-part .loading{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(250, 123, 38, 0.181);
+    height: 100%;
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .loading .icon{
+    height: 120px;
+    aspect-ratio: 1/1;
+    animation: loadingicon 1s linear reverse infinite;
+
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .loading .icon-2{
+    height: 120px;
+    aspect-ratio: 1/1;
+
+}
+@keyframes loadingicon{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.txt-store-box-00111 .part .list-item-box .list-item-part .loading .txt{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: rgb(66, 56, 56);
+}
+
+
+
+
+
 .txt-store-box-00111 .part .list-item-box .list-item-part .text-input-box{
     height: 40px;
     width: 100%;

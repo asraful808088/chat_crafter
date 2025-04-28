@@ -16,7 +16,24 @@ export default defineEventHandler((event) => {
     );
     const data = fs.readFileSync(`${filePath}.json`, "utf-8");
     const parseData = JSON.parse(data);
-    return { items: parseData.list_of_intent, entities: parseData?.entities??[] };
+    const details = JSON.parse(
+      fs.readFileSync(
+        path.resolve(
+          process.cwd(),
+          "doc",
+          botname,
+          "entities",
+          entitiesName,
+          "details.json"
+        ),
+        "utf-8"
+      )
+    );
+    return {
+      items: parseData.list_of_intent,
+      entities: parseData?.entities ?? [],
+      details
+    };
   } catch (error) {
     return {};
   }

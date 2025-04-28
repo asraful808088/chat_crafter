@@ -4,6 +4,6 @@ import useIntentesSelectStore from "~/state/intentsSelector/storage";
 import ItemSelectorView2 from "~/components/ItemSelectorView2/ItemSelectorView2.vue";
 </script>
 <template>
-   <ItemSelectorView2 of="scripts" :client_path="'scriptslist'" :header="'Synonyms'"/>
+   <ItemSelectorView2 of="synonyms" :client_path="'synonymslist'" :header="'Synonyms'"/>
 
 </template>

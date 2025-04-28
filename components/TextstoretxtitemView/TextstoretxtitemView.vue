@@ -21,11 +21,20 @@ const props = defineProps({
     type: String,
     require: false,
   },
+  onMainItems: {
+    type: Function,
+    require: false,
+  },
 });
 </script>
 
 <template>
   <ListitemsView
+    @mainItems="(e)=>{
+      if (props.onMainItems) {
+        props.onMainItems(e);
+      }
+    }"
     :items="props.items"
     :allAlter="props.allAlter"
     :of="props.of"

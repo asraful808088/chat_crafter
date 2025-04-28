@@ -1,5 +1,7 @@
 <script setup>
 import { TextstoreView } from "#components";
+import TextstoreboxView from "~/components/TextstoreboxView/TextstoreboxView.vue";
+
 </script>
-<template><TextstoreView name="Response" of="response" /></template>
+<template><TextstoreboxView name="Response" of="response" /></template>
 <style lang="css"></style>

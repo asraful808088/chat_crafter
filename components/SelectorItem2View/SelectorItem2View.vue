@@ -28,6 +28,10 @@ const props = defineProps({
     type: Function,
     require: false,
   },
+  non_deletable: {
+    type: Boolean,
+    require: false,
+  },
 });
 </script>
 <template>
@@ -84,7 +88,7 @@ const props = defineProps({
       <div class="button del">
         <div class="button-x">
           <div class="blur-bg" @click="()=>{
-            if (props.onDrop) {
+            if (props.onDrop && !props.non_deletable) {
               props.onDrop(props.name, props.type, props.count, props.date);
             }
           }">Drop</div>

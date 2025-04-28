@@ -9,6 +9,7 @@ import getAlternativeList from "~/network/add_alternative/getalternative";
 import geteEntitiesList from "~/network/entities/get";
 import getAllReGenerate from "~/network/getRegenerate";
 import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
+
 const listItems = ref([]);
 const safty = ref(false);
 const multiline = ref(false);
@@ -22,6 +23,12 @@ const partOfAlternativeWords = ref([]);
 const regenerationSent = ref([]);
 const listOFGenratedItems = ref([]);
 const storeSent = ref([]);
+const detailsInfo = ref(null);
+
+const mainItemUnload = ref(true);
+const regenerateUnload = ref(true);
+const synUnload = ref(true);
+
 const props = defineProps({
   name: {
     type: String,
@@ -34,8 +41,6 @@ const props = defineProps({
 });
 
 import postEntities from "~/network/entities/post.";
-
-
 
 function splitSentenceByPunctuation(sentence) {
   const sentSplit = sentence.split(" ");
@@ -62,54 +67,47 @@ function onChangeInput(value) {
     }
     return true;
   });
-  
-  postEntities(
-    { list: store, of: props.of, item: id },
-    (res, err) => {
-      if (err) {
-        return;
-      }
-      if (res.items) {
-      
-        listItems.value =  res.items
-      }
+
+  postEntities({ list: store, of: props.of, item: id }, (res, err) => {
+    if (err) {
+      return;
     }
-  );
+    if (res.items) {
+      listItems.value = res.items;
+    }
+  });
 }
-
-
-
-
-
-
 
 onMounted(() => {
   setTimeout(() => {
     geteEntitiesList(props.of ?? "intents", id, (res, err) => {
       if (res) {
-      console.log(res.items);
-
+        mainItemUnload.value = false;
+        detailsInfo.value = res.details;
         listItems.value = res.items;
       }
     });
   }, 1000);
 
-  getAlternativeList(
-    {
-      of: "intents",
-      item: id,
-    },
-    (res, err) => {
-      alternativeItemWord.value = res.data;
-    }
-  );
+  setTimeout(() => {
+    getAlternativeList(
+      {
+        of: props.of,
+        item: id,
+      },
+      (res, err) => {
+        synUnload.value = false;
+        alternativeItemWord.value = res.data;
+      }
+    );
+  }, 1000);
 
   setTimeout(() => {
-    getAllReGenerate({ of: "intents", item:id }, (req, err) => {
+    getAllReGenerate({ of: props.of, item: id }, (req, err) => {
       if (!err) {
         if (req?.items) {
+          regenerateUnload.value = false;
           listOFGenratedItems.value = req.items;
-         
         }
       }
     });
@@ -125,29 +123,24 @@ function onTextHanfler(newItems) {
     let textItems = textInput.value.split("\n");
     textItems = textItems.map((i) => i.trim());
     if (textItems.length > 1) {
-
       if (safty.value) {
         dialogInfo.value = {};
-        dialogInfo.value["head"] = 'Warning';
+        dialogInfo.value["head"] = "Warning";
         let n2 = textItems.filter((i) => i.trim() != "");
         n2 = n2.filter((i) => i.trim() != " ");
         storeSent.value = n2;
-        // onChangeInput(n2)
-        // storeSent
-      }else{
+      } else {
         let n2 = textItems.filter((i) => i.trim() != "");
         n2 = n2.filter((i) => i.trim() != " ");
-        onChangeInput(n2)
+        onChangeInput(n2);
       }
-      
     } else {
       let n2 = textItems.filter((i) => i.trim() != "");
-        n2 = n2.filter((i) => i.trim() != " ");
-      onChangeInput(n2)
-
+      n2 = n2.filter((i) => i.trim() != " ");
+      onChangeInput(n2);
     }
   } else {
-    onChangeInput([textInput.value])
+    onChangeInput([textInput.value]);
   }
   textInput.value = "";
 }
@@ -160,7 +153,7 @@ function addAlternativeWord(i) {
     addalternative(
       {
         name: i,
-        of: "intents",
+        of: props.of,
         item: id,
         syn: true,
       },
@@ -178,7 +171,7 @@ function addAlternativeWord(i) {
   addalternative(
     {
       name: wordTextInput.value.trim(),
-      of: "intents",
+      of: props.of,
       item: id,
     },
     (res, err) => {
@@ -196,7 +189,7 @@ function deleteWordChunk(name) {
   deleteChunk(
     {
       name: name,
-      of: "intents",
+      of: props.of,
       item: id,
     },
     (res, err) => {
@@ -228,7 +221,7 @@ function addAlternativeWords() {
   addAlternatives(
     {
       name: activeSynChanks.value?.name,
-      of: "intents",
+      of: props.of,
       alternative: wordTextInput.value.trim(),
       item: id,
     },
@@ -253,7 +246,7 @@ function deletealternativeWord(word) {
   deleteAlterWords(
     {
       name: activeSynChanks.value?.name,
-      of: "intents",
+      of: props.of,
       alternative: word,
       item: id,
     },
@@ -275,9 +268,7 @@ const listOFGlobleSyn = ref(null);
 function getGlobleSyn() {
   getSelectItems({ of: "synonyms" }, (res, err) => {
     if (res.items) {
-      setTimeout(() => {
-        listOFGlobleSyn.value = res.items;
-      }, 500);
+      listOFGlobleSyn.value = res.items;
     }
   });
 }
@@ -286,7 +277,7 @@ import reCreateItem from "~/network/reCreate/reCreate";
 function reGenerate(i) {
   reCreateItem(
     {
-      of: "intents",
+      of: props.of,
       sent: i ? i.mainsent : null,
       item: id,
     },
@@ -300,28 +291,22 @@ function reGenerate(i) {
   );
 }
 
-
 import deleteGenItem from "~/network/delete_gen/delete";
 function delete_gen(i) {
   deleteGenItem(
     {
       sent: i.sent,
-      of: 'intents',
+      of: props.of,
       gen: i.gen,
       item: id,
     },
     (res, err) => {
       if (!err) {
-        listOFGenratedItems.value = res.items
+        listOFGenratedItems.value = res.items;
       }
     }
   );
 }
-
-
-
-
-
 </script>
 <template>
   <AnimationdiglogboxView
@@ -335,12 +320,9 @@ function delete_gen(i) {
   >
     <div class="dialogbox-text-store">
       <div class="dialogbox-text-store-txt-context-box">
-        <h2>  {{dialogInfo?.head??'Synonyms'}}</h2>
+        <h2>{{ dialogInfo?.head ?? "Synonyms" }}</h2>
 
-
-
-
-        <div class="list-box" v-if="!dialogInfo?.head" >
+        <div class="list-box" v-if="!dialogInfo?.head">
           <div class="list-box-item" v-for="(i, n) in listOFGlobleSyn">
             <div class="icon">
               <img src="../../assets/icon/nav/synonym.png" alt="" />
@@ -349,34 +331,47 @@ function delete_gen(i) {
               class="txt"
               @click="
                 () => {
-                  addAlternativeWord(i);
+                  addAlternativeWord(i.name);
                 }
               "
             >
-              {{ i }}
+              {{ i.name }}
             </div>
             <div class="icon"></div>
           </div>
         </div>
 
-
-        <p v-if="dialogInfo?.head" >If you enter multi-line text with line breaks (e.g., by pressing Enter), each line break will be treated as a separate line. Do you want to proceed with this behavior?</p>
+        <p v-if="dialogInfo?.head">
+          If you enter multi-line text with line breaks (e.g., by pressing
+          Enter), each line break will be treated as a separate line. Do you
+          want to proceed with this behavior?
+        </p>
 
         <div class="button-box" v-if="dialogInfo?.head">
-            <div class="ans-button" @click="()=>{
-              dialogInfo = null;
-              storeSent=[]
-            }" >No</div>
-            <div class="ans-button" @click="()=>{
-              dialogInfo = null;
-              onChangeInput(storeSent)
-              storeSent=[]
-            }" >Yes</div>
+          <div
+            class="ans-button"
+            @click="
+              () => {
+                dialogInfo = null;
+                storeSent = [];
+              }
+            "
+          >
+            No
+          </div>
+          <div
+            class="ans-button"
+            @click="
+              () => {
+                dialogInfo = null;
+                onChangeInput(storeSent);
+                storeSent = [];
+              }
+            "
+          >
+            Yes
+          </div>
         </div>
-
-
-
-
       </div>
     </div>
   </AnimationdiglogboxView>
@@ -443,8 +438,22 @@ function delete_gen(i) {
       <div class="list-item-box">
         <div class="list-item-part">
           <div class="head">List</div>
+
+          <div class="loading" v-if="mainItemUnload">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 394.png" alt="" />
+            </div>
+            <div class="txt">Loading...</div>
+          </div>
+
           <TextstoretxtitemView
-          :of="props.of"
+            @main-items="
+              (e) => {
+                listItems = e;
+              }
+            "
+            v-if="!mainItemUnload"
+            :of="props.of"
             :items="listItems"
             @regenerate="
               (item) => {
@@ -501,11 +510,43 @@ function delete_gen(i) {
               Add
             </div>
           </div>
-          <div class="list-box">
+
+          <br v-if="synUnload" />
+
+          <div class="loading" v-if="synUnload">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 394.png" alt="" />
+            </div>
+            <div class="txt">Loading...</div>
+          </div>
+
+          <br
+            v-if="
+              !synUnload &&
+              (Object.keys(alternativeItemWord ?? {}).length == 0 ||
+                activeSynChanks?.items.length == 0)
+            "
+          />
+
+          <div
+            class="loading"
+            v-if="
+              !synUnload &&
+              (Object.keys(alternativeItemWord ?? {}).length == 0 ||
+                activeSynChanks?.items.length == 0)
+            "
+          >
+            <div class="icon-2">
+              <img src="../../assets/icon/other/Group 392.png" alt="" />
+            </div>
+            <div class="txt">Empty</div>
+          </div>
+
+          <div class="list-box" v-if="!synUnload">
             <div
               class="list-item"
               v-for="(i, n) in activeSynChanks?.items ??
-              Object.keys(alternativeItemWord??{})"
+              Object.keys(alternativeItemWord ?? {})"
             >
               <div class="icon">
                 <img src="../../assets/icon/nav/synonyms.png" alt="" />
@@ -559,39 +600,35 @@ function delete_gen(i) {
       <div class="info-box">
         <div class="info-item">
           <div class="icon">
-            <img src="../../assets/icon/other/function.png" alt="" />
+            <img src="../../assets/icon/other/Group 390.png" alt="" />
           </div>
-          <div class="txt"> {{ listItems?.length??0 }} </div>
+          <div class="txt">{{ listItems?.length ?? 0 }}</div>
         </div>
         <div class="info-item">
           <div class="icon">
-            <img src="../../assets/icon/other/function.png" alt="" />
+            <img src="../../assets/icon/other/Group 387.png" alt="" />
           </div>
-          <div class="txt"> {{ regenerationSent.length }} </div>
+          <div class="txt">{{ listOFGenratedItems.length }}</div>
         </div>
         <div class="info-item">
           <div class="icon">
-            <img src="../../assets/icon/other/function.png" alt="" />
+            <img src="../../assets/icon/other/Group 5.png" alt="" />
           </div>
-          <div class="txt"> {{ Object.keys(alternativeItemWord??{}).length }} </div>
+          <div class="txt">
+            {{ Object.keys(alternativeItemWord ?? {}).length }}
+          </div>
         </div>
         <div class="info-item">
           <div class="icon">
-            <img src="../../assets/icon/other/function.png" alt="" />
+            <img src="../../assets/icon/other/Group 302.png" alt="" />
           </div>
-          <div class="txt"> {{ id }} </div>
+          <div class="txt">{{ id }}</div>
         </div>
         <div class="info-item">
           <div class="icon">
-            <img src="../../assets/icon/other/function.png" alt="" />
+            <img src="../../assets/icon/other/Group 298.png" alt="" />
           </div>
-          <div class="txt">asd</div>
-        </div>
-        <div class="info-item">
-          <div class="icon">
-            <img src="../../assets/icon/other/function.png" alt="" />
-          </div>
-          <div class="txt">asd</div>
+          <div class="txt">{{ detailsInfo?.type }}</div>
         </div>
       </div>
       <div class="generate-con">
@@ -607,9 +644,22 @@ function delete_gen(i) {
             Generate
           </div>
         </div>
-        <TextstoretxtitemView :items="listOFGenratedItems" @delete="(item)=>{
-          delete_gen(item)
-        }" />
+
+        <div class="loading" v-if="regenerateUnload">
+          <div class="icon">
+            <img src="../../assets/icon/other/Group 394.png" alt="" />
+          </div>
+          <div class="txt">Loading...</div>
+        </div>
+        <TextstoretxtitemView
+          v-if="!regenerateUnload"
+          :items="listOFGenratedItems"
+          @delete="
+            (item) => {
+              delete_gen(item);
+            }
+          "
+        />
       </div>
     </div>
   </div>
