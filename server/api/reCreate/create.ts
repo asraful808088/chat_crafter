@@ -2,12 +2,18 @@ import * as fs from "fs";
 import * as path from "path";
 import { botinfo } from "~/server/cache/botinfo";
 import sentMaping from "~/util/alterBinding";
-function isPartOfSentence(sentence, part) {
-  const words = sentence.split(/\s+/); 
-  const sentenceRegex = new RegExp(`\\b${part}\\b`, 'i'); 
+// function isPartOfSentence(sentence, part) {
+//   const words = sentence.split(/\s+/); 
+//   const sentenceRegex = new RegExp(`\\b${part}\\b`, 'i'); 
   
+//   return sentenceRegex.test(sentence);
+// }
+
+function isPartOfSentence(sentence, part) {
+  const sentenceRegex = new RegExp(`\\b${part}\\b`); 
   return sentenceRegex.test(sentence);
 }
+
 function generateRandomCode(length = 32) {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let result = '';
@@ -135,7 +141,7 @@ export default defineEventHandler(async (event) => {
             const mapArray = allAlterItems.map(
               (ele, indexx) => startIndex + indexx
             );
-
+            console.log(mapArray)
             newItems.push({
               targetIndex: mapArray,
               list_of_alter: [element2],

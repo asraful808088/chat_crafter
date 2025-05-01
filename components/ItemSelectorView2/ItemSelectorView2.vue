@@ -45,7 +45,6 @@ function showToast(val) {
 onMounted(() => {
   getSelectItems({ of: props.of }, (res, err) => {
     if (res.items) {
-      console.log(res.items);
       listOfItems.value = res.items;
     }
   });
@@ -151,7 +150,7 @@ function inputCreateItem(e) {
             <div class="icon">
               <img src="../../assets/icon/other/Group 300.png" alt="" />
             </div>
-            <div class="txt">Intents</div>
+            <div class="txt">{{ router.currentRoute.value.path.replaceAll("/","").length!=0?router.currentRoute.value.path.replaceAll("/",""):"intents" }}</div>
           </div>
 
           <div class="info-container-item">
@@ -165,7 +164,7 @@ function inputCreateItem(e) {
             <div class="icon">
               <img src="../../assets/icon/other/Group 301.png" alt="" />
             </div>
-            <div class="txt">113(count)</div>
+            <div class="txt">{{listOfItems.length}} (count)</div>
           </div>
 
           <div class="info-container-item">
@@ -176,6 +175,42 @@ function inputCreateItem(e) {
               asd1231asdasdasdasdasdasdasdasdasdasdasdasd231
             </div>
           </div>
+
+
+
+
+          <div class="info-container-item">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 3.png" alt="" />
+            </div>
+            <div class="txt">
+              Create-Item
+            </div>
+          </div>
+
+
+
+          <div class="info-container-item">
+            <div class="icon">
+              <img src="../../assets/icon/head/profile.png" alt="" />
+            </div>
+            <div class="txt">
+              profile-name
+            </div>
+          </div>
+
+<div class="info-container-item">
+            <div class="icon">
+              <img src="../../assets/icon/head/profile.png" alt="" />
+            </div>
+            <div class="txt">
+              profile-name
+            </div>
+          </div>
+
+
+
+
         </div>
 
         <div class="type-input">

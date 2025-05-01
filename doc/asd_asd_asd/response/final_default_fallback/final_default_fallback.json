@@ -1,0 +1,18 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "this is fgal",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "this",
+        "is",
+        "fgal"
+      ],
+      "allAlter": true
+    }
+  ]
+}

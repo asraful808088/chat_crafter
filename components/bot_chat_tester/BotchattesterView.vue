@@ -1,9 +1,12 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref, watch } from "vue";
+import changeLinkStatus from "~/network/changeEntitiesStatus/linker";
+import deleteTrainEntitiesModel from "~/network/deleteTrainEntitiesModel/delete";
 import getSelectItems from "~/network/get_intentes/get_intents";
 import { useBotbuilderStore } from "~/state/state";
+import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
 import { socket } from "../socketIO/socket";
-
+import deleteMainTrainEntitiesModel from "~/network/deleteMainModel/delete";
 const info = useBotbuilderStore();
 const current_model = ref(null);
 const listOfMainBot = ref([]);
@@ -18,6 +21,11 @@ const activeEntitiesModelBlog = ref(null);
 const activeEntitiesBlog = ref(null);
 const chat_model_name = ref(Date.now());
 const meno_script = ref(null);
+
+const allModelName = ref([]);
+
+const dialogInfo = ref(null);
+
 const chatBotModelInfo = ref({
   model: "",
   script: "",
@@ -54,13 +62,20 @@ function clearEntitesAllBlog() {
     script: "",
   };
 }
+
+function loadEntitiesModel() {
+  getSelectItems({ of: "entities_box" }, (res, err) => {
+    if (res.items) {
+      allModelName.value = res.items.map((ele) => ele.model);
+    }
+  });
+}
 onMounted(() => {
   socket.on("msg_return", (data) => {
     messageBox.value = [{ txt: data.result, type: "bot" }, ...messageBox.value];
     sendEnable.value = true;
   });
   socket.on("get_msg_return_chat", (data) => {
-    console.log(data)
     if (data.result) {
       if (data.result["stage"] == "before_res") {
       } else if (data.result["stage"] == "after_res") {
@@ -128,6 +143,7 @@ onMounted(() => {
   //     localStorage.setItem("store_chat_obj", null);
   //   }
   // }
+  loadEntitiesModel();
 });
 
 watch(
@@ -214,9 +230,107 @@ function activedModel(name, type = "type_check") {
   }
   current_model.value = { type, name };
 }
+
+function storeEntitesPack(i) {
+  dialogInfo.value = {
+    value: i,
+    type: "entities",
+    pack: true,
+  };
+}
+
+function deleteEntitesPack() {
+  deleteTrainEntitiesModel(
+    {
+      item: dialogInfo.value?.value,
+      of:null
+    },
+    (res, err) => {
+      if (res.items) {
+        entitiesBlog.value = res.items;
+      }
+    }
+  );
+}
+
+function deleteEntites(name, model) {
+  deleteTrainEntitiesModel(
+    {
+      of: name,
+      item: model,
+    },
+    (res, err) => {
+      if (res.items) {
+        entitiesModelBlog.value = res.items;
+      }
+    }
+  );
+}
+
+function addLink(name, model) {
+  changeLinkStatus(
+    {
+      item: name,
+      model_name: model,
+      link: true,
+    },
+    (res, err) => {
+      if (res.success) {
+        loadEntitiesModel();
+      }
+    }
+  );
+}
+
+function deleteMainModel(i){
+  deleteMainTrainEntitiesModel({
+    item:i
+  }, (res, err) => {
+      if (res.items) {
+        listOfMainBot.value = res.items;
+      }
+    })
+}
+
+
 </script>
 <template>
   <div class="tester-main">
+    <AnimationdiglogboxView
+      :autoDown="dialogInfo"
+      @close="
+        () => {
+          dialogInfo = null;
+        }
+      "
+    >
+      <div class="delete-permission-0001001">
+        <h2>Do You Delete This Item ???</h2>
+        <div class="button-boxx">
+          <div
+            class="buttonx"
+            @click="
+              () => {
+                deleteEntitesPack();
+                dialogInfo = null;
+              }
+            "
+          >
+            Yes
+          </div>
+          <div
+            class="buttonx"
+            @click="
+              () => {
+                dialogInfo = null;
+              }
+            "
+          >
+            No
+          </div>
+        </div>
+      </div>
+    </AnimationdiglogboxView>
     <div class="back-box"><span @click="props.onClose()">Close</span></div>
     <div class="logo">
       <img src="../../assets/icon/other/tester.png" alt="" />
@@ -263,7 +377,16 @@ function activedModel(name, type = "type_check") {
           <img src="../../assets/icon/other/model.png" alt="" />
         </div>
         <div class="txt" @click="getEntitiesModelBlog(i)">{{ i }}</div>
-        <div class="icon"></div>
+        <div
+          class="icon p-e"
+          @click="
+            () => {
+              storeEntitesPack(i);
+            }
+          "
+        >
+          <img src="../../assets/icon/other/delete.png" alt="" />
+        </div>
       </div>
     </div>
 
@@ -283,7 +406,35 @@ function activedModel(name, type = "type_check") {
         <div class="txt" @click="setEntitiesActiveEntitiesModelBlog(i)">
           {{ i }}
         </div>
-        <div class="icon"></div>
+        <div
+          class="icon p-e"
+          @click="
+            () => {
+              addLink(activeEntitiesBlog, i);
+            }
+          "
+        >
+          <img
+            src="../../assets/icon/other/Group400.png"
+            alt=""
+            v-if="allModelName.includes(i)"
+          />
+          <img
+            src="../../assets/icon/other/Group 235.png"
+            alt=""
+            v-if="!allModelName.includes(i)"
+          />
+        </div>
+        <div
+          class="icon p-e"
+          @click="
+            () => {
+              deleteEntites(activeEntitiesBlog, i);
+            }
+          "
+        >
+          <img src="../../assets/icon/other/delete.png" alt="" />
+        </div>
       </div>
     </div>
 
@@ -325,8 +476,14 @@ function activedModel(name, type = "type_check") {
         <div class="icon">
           <img src="../../assets/icon/other/model.png" alt="" />
         </div>
-        <div class="txt" @click="activedModel(i)">{{ i }}</div>
-        <div class="icon"></div>
+        <div class="txt" @click="activedModel(i.name ?? i)">
+          {{ i.name ?? i }}1
+        </div>
+        <div class="icon p-e"  v-if="!i.name" @click="()=>{
+            deleteMainModel(i)
+        }" >
+          <img src="../../assets/icon/other/delete.png" alt="" />
+        </div>
       </div>
     </div>
 
@@ -343,8 +500,13 @@ function activedModel(name, type = "type_check") {
         <div class="icon">
           <img src="../../assets/icon/other/model.png" alt="" />
         </div>
-        <div class="txt" @click="activedModel(i)">{{ i }}</div>
-        <div class="icon"></div>
+        <!-- <div class="txt" @click="activedModel(i)">{{ i }}</div> -->
+        <div class="icon">
+
+         
+
+
+        </div>
       </div>
     </div>
 

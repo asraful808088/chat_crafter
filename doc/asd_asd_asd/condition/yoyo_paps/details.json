@@ -143,6 +143,73 @@
       "id": 1744576188282,
       "target": "introduction",
       "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1745871599567,
+      "target": {
+        "length": 228,
+        "name": "greeting",
+        "des": "this is greeting intents",
+        "time": 1742729386844,
+        "type": "greeting"
+      },
+      "nolvl": 3
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1745872693221,
+      "target": {
+        "length": 228,
+        "name": "greeting",
+        "des": "this is greeting intents",
+        "time": 1742729386844,
+        "type": "greeting"
+      },
+      "nolvl": 1
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1745873126812,
+      "target": {
+        "length": 228,
+        "name": "greeting",
+        "des": "this is greeting intents",
+        "time": 1742729386844,
+        "type": "greeting"
+      },
+      "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1745873159511,
+      "target": "greeting",
+      "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1745873169583,
+      "target": "greeting",
+      "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama",
+      "id": 1746101220770,
+      "target": "greeting",
+      "nolvl": 2
+    },
+    {
+      "consdition": "yoyo_paps",
+      "condition_type": "mama2",
+      "id": 1746101239230,
+      "target": "introduction",
+      "nolvl": 2
     }
   ],
   "task_list": [

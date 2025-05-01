@@ -85,7 +85,28 @@ function responseAndConditionFetcher(d, p, profileName, randomModel, botname) {
     });
   };
   getResponseWithCondition(d, p);
-  for (const element of getUniqueList(response)) {
+
+
+  copyDirectory(
+    path.join(
+      process.cwd(),
+      "doc",
+      botname,
+      "response",
+      `${'final_default_fallback'}`
+    ),
+    path.join(
+      profileName,
+      
+      "response",
+      "final_default_fallback"
+    )
+  );
+
+
+  
+  for (const element of [...getUniqueList(response)]) {
+    
     try {
       if (element["type"] == "response") {
         checkAndCreateDir(

@@ -370,11 +370,13 @@ function getItems(i) {
     selectorBoxInfo.value.type == "response" &&
     i?.type == "custom-actions"
   ) {
+
     getSelectItems(
       {
         of: "custom-actions",
       },
       (res, err) => {
+        console.log(res)
         if (res.items) {
           isActionsItemsHold.value = true;
           listOfSelecItems.value = res.items;
@@ -639,7 +641,8 @@ function clearCondition() {
                     listOfSelecItems = null;
                   }
                 } else {
-                  addNext(selectorBoxInfo.intype, i);
+                  
+                   addNext(selectorBoxInfo.intype, i.name);
                   selectorBoxInfo = null;
                   listOfSelecItems = null;
                 }
@@ -662,8 +665,8 @@ function clearCondition() {
             "
             @click="
               () => {
-                addNext(isActionsItemsHold ? 'actions' : 'response', i);
-                isActionsItemsHold.value = null;
+                addNext(isActionsItemsHold ? 'actions' : 'response', i.name);
+                isActionsItemsHold = null;
                 selectorBoxInfo = null;
                 listOfSelecItems = null;
               }
@@ -672,7 +675,7 @@ function clearCondition() {
             <div class="icon">
               <img src="../../assets/icon/other/response.png" alt="" />
             </div>
-            <div class="txt">{{ i }}</div>
+            <div class="txt">{{ i.name}}</div>
           </div>
 
           <div
@@ -713,7 +716,7 @@ function clearCondition() {
                   } else {
                     addNext(
                       'add_condition',
-                      i,
+                      i.name,
                       null,
                       conditionObj['name'],
                       conditionObj['type']

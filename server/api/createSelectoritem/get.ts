@@ -27,24 +27,34 @@ export default defineEventHandler(async (event) => {
         "utf-8"
       );
 
-      const sitems = fs.readFileSync(
-        path.resolve(
-          process.cwd(),
-          "doc",
-          botname,
-          body["of"].replace("-", "_"),
-          element,
-          `${element}.json`
-        ),
-        "utf-8"
-      );
-      itemObj.push({
-        length: JSON.parse(sitems)["list_of_intent"].length,
-        ...JSON.parse(details),
-      });
+      let sitems = null
+      try {
+        sitems = fs.readFileSync(
+          path.resolve(
+            process.cwd(),
+            "doc",
+            botname,
+            body["of"].replace("-", "_"),
+            element,
+            `${element}.json`
+          ),
+          "utf-8"
+        );
+        itemObj.push({
+          length: JSON.parse(sitems)["list_of_intent"].length,
+          ...JSON.parse(details),
+        });
+      } catch (error) {
+        
+        itemObj.push({
+          ...JSON.parse(details),
+        });
+      }
+     
     }
     return { items: itemObj };
   } catch (error) {
+    console.error("Error reading files:", error);
     return {};
   }
 

@@ -44,7 +44,10 @@ export default function sentMapping(bot) {
     let templist = [];
     const sentType = jsonData3["type"];
     for (const item of jsonData2["sents"]) {
-      templist.push(item);
+      for (const ii of item.list) {
+        templist.push(ii.gen);
+      }
+      
     }
     for (const itemobj of jsonData1["list_of_intent"]) {
       templist.push(itemobj["mainsent"]);

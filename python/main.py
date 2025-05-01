@@ -171,11 +171,13 @@ async def handle_connection(websocket):
         async for message in websocket:
                parsed_message  = json.loads(message)  
                if parsed_message["type"] == "main_model":
-                    
+                    model_path = os.path.join(os.path.dirname(__file__), "temp.json")
+                    with open(model_path, "r") as file:
+                         data = json.load(file)
                     main_traning_start()
                     task_list["main_task_loop"] = threading.Thread(target=applyToClient,args=(store_main_traning,websocket))
                     task_list["main_task_loop"].start()
-                    task_list["main_task"] = threading.Thread(target=traning_main_model,args=(parsed_message["map_cat"],passToNodeItems,main_traning_status,parsed_message["network"],main_traning_stop,parsed_message["test_rate"]["active"], parsed_message["out_dim"]["active"], parsed_message["learning_rate"]["active"], parsed_message["epoch"]["active"], parsed_message["batch"]["active"],parsed_message["profileName"],parsed_message["model_name"]))
+                    task_list["main_task"] = threading.Thread(target=traning_main_model,args=(data["map_cat"],passToNodeItems,main_traning_status,parsed_message["network"],main_traning_stop,parsed_message["test_rate"]["active"], parsed_message["out_dim"]["active"], parsed_message["learning_rate"]["active"], parsed_message["epoch"]["active"], parsed_message["batch"]["active"],parsed_message["profileName"],parsed_message["model_name"]))
                     task_list["main_task"].start()
                elif parsed_message["type"] == "stop_main_model":
                     del task_list["main_task_loop"]
@@ -250,6 +252,7 @@ async def handle_connection(websocket):
                     except Exception as a:
                          print(a)
                     def onResponse(data_info):
+                         
                          async def send_data():
                               await websocket.send(json.dumps({
                                   "result": data_info,

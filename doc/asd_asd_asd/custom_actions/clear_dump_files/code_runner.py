@@ -4,6 +4,7 @@ def run_task(memo={}):
     #             "response":"asda12",
     #             "data":{}asdasdasdasdasdasdas dhjashdjkashashdklashdlkjahsldhasdhaskj hakjshd jlkashdkljhasjkd asd asd asdsa asd asd
     # }
+    print("text")
     return {
                 "memo":memo,
                 "txt":"all clear successfully",

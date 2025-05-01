@@ -61,7 +61,6 @@ onMounted(() => {
     );
   });
   socket.on("traning_info", (data) => {
-    console.log("log");
     buttonName.value = "Stop Training";
     storeEph.value = [...storeEph.value, ...data.items];
     rateload.value = calculatePercentage(
@@ -115,12 +114,22 @@ onMounted(() => {
         traningMsg.value = null;
       }, 2000);
     } else {
-      traningMsg.value = "invalid layer architecture";
+      if (data.dataset_error) {
+        traningMsg.value = "invalid dataset";
+        buttonName.value = "Train-Now";
+        setTimeout(() => {
+        error.value = data.dataset_error;
+        traningMsg.value = null;
+      }, 2000);
+      }else{
+        traningMsg.value = "invalid layer architecture";
       buttonName.value = "Train-Now";
       setTimeout(() => {
         error.value = data.msg;
         traningMsg.value = null;
       }, 2000);
+      }
+      
     }
   });
 });

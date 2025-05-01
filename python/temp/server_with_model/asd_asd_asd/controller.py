@@ -32,32 +32,21 @@ models_path = os.path.join(current_file_path.replace("controller.py",""), "model
 
 
 
-# temp function,it will be dynamic 
 def get_alternative_response():
-    responses = [
-        "Sorry, I can't process that request.",
-        "I'm not equipped to handle that.",
-        "That’s beyond my current knowledge.",
-        "I’m not sure how to do that.",
-        "I don’t have the training for that.",
-        "I’m unable to assist with that.",
-        "I don’t have enough information to respond.",
-        "That’s outside my expertise.",
-        "I’m not programmed for that task.",
-        "I can’t provide a response to that.",
-        "I'm not set up to handle that request.",
-        "That’s beyond my capabilities.",
-        "I don’t have the knowledge to help with that.",
-        "I don’t have an answer for that.",
-        "I haven’t learned how to do that yet.",
-        "I can’t process that request right now.",
-        "That’s not something I can do.",
-        "I don’t understand that request.",
-        "That’s outside my training scope.",
-        "I’m not designed for that function."
-    ]
-    
-    return random.choice(responses)
+      responses = []
+      with open(os.path.join(response_path, "final_default_fallback", "final_default_fallback.json"), "r") as file:
+              mainContent = json.load(file)
+              for item in mainContent["list_of_intent"]:
+                 responses.append(item["mainsent"])
+      with open(os.path.join(response_path, "final_default_fallback", "regenerate.json"), "r") as file:
+              generateContent = json.load(file)
+              for item in generateContent["sents"]:
+                    for subitem in item["list"]:
+                       responses.append(subitem["gen"])
+      if len(responses) != 0:
+          return random.choice(responses)
+      else:
+       return "unset response"
 
 
 
@@ -80,6 +69,7 @@ class CovController():
             self.script = content["script"]
         else:
            pass
+       
         self.store_covtimeline = m["store_covtimeline"] 
         self.current_index = m["current_index"] 
         self.current_obj = m["current_obj"] 
@@ -110,7 +100,8 @@ class CovController():
                  "id":self.current_obj["id"],"sent":sent,"target":self.current_obj["target"]
               }
               self.ans_response(self.current_obj,self.current_obj["target"],response,intent_info)
-              self.store_covtimeline.append(intent_info)
+              if self.is_unique_item(self.store_covtimeline,intent_info):
+                  self.store_covtimeline.append(intent_info)
               if self.on_respose_script != None:
                   self.on_respose_script({
                       "store_covtimeline":self.store_covtimeline, 
@@ -119,7 +110,6 @@ class CovController():
                       "current_stap_obj":self.current_stap_obj ,
                       "old_obj":self.old_obj ,
                       "memo":self.memo
-
                   })
               return
             else:
@@ -151,7 +141,21 @@ class CovController():
                         self.on_respose_stage({"stage":"after_res","type":"not_found"})
            else:
                self.conv_recreation(self.current_obj,  self.store_covtimeline  ,prediction_value["value"],sent=sent)
-     
+
+
+
+
+
+    def is_unique_item(self,data_list, new_item):
+      for item in data_list:
+          if item.get('id') == new_item.get('id'):
+              return False
+      return True
+
+
+
+
+
     def prediction(self,sent):
       import importlib.util
       import sys
@@ -160,6 +164,7 @@ class CovController():
       module_name = 'generated'
       spec = importlib.util.spec_from_file_location(module_name, module_path)
       module = importlib.util.module_from_spec(spec)
+      
       sys.modules[module_name] = module
       spec.loader.exec_module(module)
       getResult = module.getResult(sent)
@@ -221,7 +226,8 @@ class CovController():
               if item["type"] == "t_next":
                 intent_info = {"id":item["id"],"sent":sent,"target":item["target"]}
                 self.ans_response(item,prediction,item["list_of_response"],intent_info)
-                self.store_covtimeline.append(intent_info)
+                if self.is_unique_item(self.store_covtimeline,intent_info):
+                  self.store_covtimeline.append(intent_info)
                 if self.on_respose_script != None:
                   self.on_respose_script({
                       "store_covtimeline":self.store_covtimeline, 
@@ -260,7 +266,8 @@ class CovController():
                 if isAllow:
                   intent_info = {"id":item["id"],"sent":sent,"target":item["target"]}
                   self.ans_response(item,prediction,item["list_of_response"],intent_info)
-                  self.store_covtimeline.append(intent_info)
+                  if self.is_unique_item(self.store_covtimeline,intent_info):
+                     self.store_covtimeline.append(intent_info)
                   if self.on_respose_script != None:
                      self.on_respose_script({
                          "store_covtimeline":self.store_covtimeline, 
@@ -303,7 +310,8 @@ class CovController():
                               intent_info = {
                                  "id":self.current_obj["id"],"sent":sent,"target":self.current_obj["target"]
                               }
-                              self.store_covtimeline.append(intent_info)
+                              if self.is_unique_item(self.store_covtimeline,intent_info):
+                                 self.store_covtimeline.append(intent_info)
                               self.ans_response(self.current_obj,self.current_obj["target"],response,intent_info)
                               access_fail = False
                               break

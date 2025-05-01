@@ -3,8 +3,8 @@
 from controller import CovController
 def create_conv_controller(input,callback,m=None):
     conv = None
-    if m != None:
-        conv = CovController()
+    if m != None: 
+        conv = CovController(None, m)
     else:
         conv = CovController()
 

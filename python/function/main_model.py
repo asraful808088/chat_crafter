@@ -397,6 +397,7 @@ def traning_main_model(map_cat, callBack=None, isFinish=None, listOflayers=[], m
                 }
                 callBack(final_eph)
     tokenizer = Tokenizer()
+    print(map_cat["label"])
     tokenizer.fit_on_texts(map_cat["texts"])
     sequences = tokenizer.texts_to_sequences(map_cat["texts"])
     label_encoder = LabelEncoder()
@@ -421,10 +422,10 @@ def traning_main_model(map_cat, callBack=None, isFinish=None, listOflayers=[], m
     classifier_model.summary()
 
     classifier_model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size,validation_data=(X_test, y_test), callbacks=[LossAndErrorPrintingCallback()])
-    classifier_model.save('classifier_model.keras')
+    # classifier_model.save('classifier_model.keras')
     test_loss, test_acc = classifier_model.evaluate(X_test, y_test)
-    with open('tokenizer.pkl', 'wb') as handle:
-        pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    # with open('tokenizer.pkl', 'wb') as handle:
+    #     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     import os
     import json

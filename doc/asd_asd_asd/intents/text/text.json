@@ -1,0 +1,28 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "Hi, hope you’re having a good day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "hope",
+        "you’re",
+        "having",
+        "a",
+        "good",
+        "day!"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ]
+}

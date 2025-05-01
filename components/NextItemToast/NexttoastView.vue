@@ -119,12 +119,12 @@ function nextCondition(val) {
       <h2 class="intra-head">What's Next Target ??</h2>
 
       <div class="listbox" v-if="!props.condition">
-        <div class="item" v-for="(i, n) in items" @click="addItem(i)">
+        <div class="item" v-for="(i, n) in items" @click="addItem(i.name)">
           <div class="icon">
             <img src="../../assets/icon/nav/intents.png" alt="" />
           </div>
           <div class="txt" v-if="i.target" :title="i.id">{{ i.target }}</div>
-          <div class="txt" v-if="!i.target">{{ i }}</div>
+          <div class="txt" v-if="!i.target">{{ i.name }}</div>
         </div>
       </div>
 
