@@ -8,7 +8,7 @@ def run_task(memo={}):
                    
     #             }
     # }
-    item = memo["last_intents_info"]
+    # item = memo["last_intents_info"]
     
     
     return {

@@ -10,6 +10,8 @@ const router = useRouter();
 const dialogToast1 = ref(null);
 const listOfItems = ref([]);
 const dialogInfoObj = ref(null);
+const listOfEnchangeItem = ref([])
+const propertyInfo = ref(null)
 const props = defineProps({
   of: {
     type: String,
@@ -65,9 +67,52 @@ function inputCreateItem(e) {
     dialogInfoObj.value = null;
   });
 }
+
+
+function exchangeTO(){
+  getSelectItems({
+    of:props.of == "intents"?"entities":"intents"
+  },(res,err)=>{
+    if (res.items) {
+      
+      listOfEnchangeItem.value = {
+        items:res.items
+      }
+    }
+  })
+}
+import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
+import convertT from "~/network/convertTO/post";
+function applyToExchange(convertTO){
+  if (!propertyInfo.value?.from_name) {
+    return
+  }
+  convertT({
+    to:props.of == "intents"?"entities":"intents",
+    from_name: propertyInfo.value.from_name,
+    to_name:convertTO,
+    from:props.of
+  },(res,err)=>{
+    listOfEnchangeItem.value = null
+  })
+}
 </script>
 <template>
   <div class="container-01111">
+    <AnimationdiglogboxView :auto-down="listOfEnchangeItem?.items">
+        <h3>{{ props.of =="intents" ? "Entities":"Intents" }}</h3>
+        <br>
+        <div class="list-box-990901" >
+            <div class="item" v-for="(i) in listOfEnchangeItem?.items" @click="()=>{
+              applyToExchange(i.name)
+            }" >
+              <div class="icon">
+                <img src="../../assets/icon/other/Group 390.png" alt="">
+              </div>
+              <div class="txt">{{ i.name }} </div>
+            </div>
+        </div>
+    </AnimationdiglogboxView>
     <CreatedialogView
       :info="dialogInfoObj"
       @apply="
@@ -105,6 +150,11 @@ function inputCreateItem(e) {
               }
             "
             :date="i.time"
+            @properties="()=>{
+              propertyInfo = {
+                from_name:i.name
+              }
+            }"
             @drop="
               (i) => {
                 deleteSItems(i);
@@ -167,23 +217,27 @@ function inputCreateItem(e) {
             <div class="txt">{{listOfItems.length}} (count)</div>
           </div>
 
-          <div class="info-container-item">
+          <div class="info-container-item" v-if="propertyInfo?.from_name" >
             <div class="icon">
               <img src="../../assets/icon/other/Group 302.png" alt="" />
             </div>
             <div class="txt">
-              asd1231asdasdasdasdasdasdasdasdasdasdasdasd231
+              {{ propertyInfo?.from_name }}
             </div>
           </div>
 
 
 
 
-          <div class="info-container-item">
+          <div class="info-container-item"  @click="
+            () => {
+              dialogInfoObj = {};
+            }
+          ">
             <div class="icon">
               <img src="../../assets/icon/other/Group 3.png" alt="" />
             </div>
-            <div class="txt">
+            <div class="txt cur-p">
               Create-Item
             </div>
           </div>
@@ -198,13 +252,16 @@ function inputCreateItem(e) {
               profile-name
             </div>
           </div>
-
-<div class="info-container-item">
+          
+          
+<div class="info-container-item" v-if="(props.of == 'entities' || props.of == 'intents') && propertyInfo" >
             <div class="icon">
-              <img src="../../assets/icon/head/profile.png" alt="" />
+              <img src="../../assets/icon/other/exchange-diagonal-svgrepo-com.png" alt="" />
             </div>
-            <div class="txt">
-              profile-name
+            <div class="txt cur-p" @click="()=>{
+                  exchangeTO()
+            }">
+              Exchange
             </div>
           </div>
 

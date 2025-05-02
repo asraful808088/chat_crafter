@@ -32,6 +32,10 @@ const props = defineProps({
     type: Boolean,
     require: false,
   },
+  onInfo:{
+    type: Function,
+    require: false,
+  }
 });
 </script>
 <template>
