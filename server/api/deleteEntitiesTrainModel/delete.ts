@@ -1,9 +1,9 @@
+import fs from "fs";
 import { getQuery } from "h3";
 import * as path from "path";
 import { botinfo } from "~/server/cache/botinfo";
 import deleteDirWithContents from "~/util/deleteFiles";
 import readAllDirs from "~/util/readDir";
-
 export default defineEventHandler((event) => {
   if (event.method != "DELETE") {
     throw createError({ statusCode: 405, msg: "Method Not Allowed" });
@@ -50,9 +50,26 @@ export default defineEventHandler((event) => {
       query["of"]
     );
     deleteDirWithContents(parentDirPath);
-    deleteDirWithContents(
-      path.join(process.cwd(), "doc", botname, "entities_box", query["of"])
-    );
+    try {
+      const details = JSON.parse(
+        fs.readFileSync(
+          path.join(
+            process.cwd(),
+            "doc",
+            botname,
+            "entities_box",
+            query["of"],
+            "details.json"
+          )
+        )
+      );
+      if (details?.model == query["item"]) {
+        deleteDirWithContents(
+          path.join(process.cwd(), "doc", botname, "entities_box", query["of"])
+        );
+      }
+    } catch (error) {}
+
     const items = readAllDirs(parentDirForReadPath);
     return { items: items };
   } catch (error) {

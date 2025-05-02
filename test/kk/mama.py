@@ -1,0 +1,2 @@
+def mama():
+    print("ASd")

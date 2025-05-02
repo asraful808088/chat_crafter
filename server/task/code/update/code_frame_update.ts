@@ -6,16 +6,28 @@ import getModuleObj from "~/util/getModulesObj";
 import readAllDirs from "~/util/readDir";
 
 export default function codeFrameUpdateCode(data, socket, io) {
-    const parentDir = path.join(
-      process.cwd(),
-      "doc",
-      botinfo["name"],
-      data.of,
-      data.name,
-      data?.type?`${data?.type}`:"code_runner.py"
-    );
 
-
+    let parentDir = null
+ 
+    if (data.of != "task") {
+       parentDir = path.join(
+        process.cwd(),
+        "doc",
+        botinfo["name"],
+        data.of,
+        data.name,
+        data?.type?`${data?.type}`:"code_runner.py"
+      );
+    }else{
+       parentDir = path.join(
+        process.cwd(),
+        "doc",
+        botinfo["name"],
+        data.of,
+        data.name,
+        data?.type?`${data?.type}`:"code_runners.py"
+      );
+    }
 
 
 
@@ -32,7 +44,7 @@ export default function codeFrameUpdateCode(data, socket, io) {
       data.name
       
     ),true)
-    taskFiles = taskFiles.filter((element)=>!(element=="details.json" || element=="code_runner.py"|| element=="dev_test.py"|| element=="run.py" ||element =="__pycache__"))
+    taskFiles = taskFiles.filter((element)=>!(element=="details.json" || element=="code_runner.py"|| element=="code_runners.py"||element=="dev_test.py"|| element=="run.py" ||element =="__pycache__"))
     for (const element of taskFiles) {
       
       reco.push({
@@ -101,6 +113,21 @@ export default function codeFrameUpdateCode(data, socket, io) {
         botinfo["name"],
         "task"        
       ))
+
+      const listOfTaskList = readAllDirs(path.join(
+        process.cwd(),
+        "doc",
+        botinfo["name"],
+        "entities_box"        
+      ))
+      for (const element of listOfTaskList) {
+        reco.push({
+          label: `from entities_box.${element}.generated import predict_entities`,
+          type: "function",
+          detail: "function",
+        });
+      }
+
       for (const element of listOfTask) {
         reco.push({
           label: `from task.${element}.run import run`,

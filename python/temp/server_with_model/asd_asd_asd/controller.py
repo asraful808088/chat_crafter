@@ -79,7 +79,7 @@ class CovController():
         self.on_respose_script:function = None
         self.old_obj = m["old_obj"] 
         self.memo = m["memo"] 
-        self.model_name = "model-1744109967606"
+        self.model_name = "model-1746123232520"
         self.target_rate = 0.9
 
     def input(self,sent):

@@ -81,7 +81,7 @@ export default function checkmodel(data, socket, io) {
   // socket.emit("traing", { success: true });
     if (wsinfo["ws"]) {
       const txtProcess = sentMapping(data["profile"]);
-      if (txtProcess.sentTxt.length < 1000000000000000000000000) {
+      if (txtProcess.sentTxt.length < 100) {
         socket.emit("traing", { success: false,dataset_error:["Data must contain at least 100 items."] });
         return 
       }

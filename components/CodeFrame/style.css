@@ -218,3 +218,25 @@
     flex-grow: 1;
     width: 100%;
 }
+.code-frame .code-box  .code .seletor_banner{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 218, 155, 0.334);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.code-frame .code-box  .code .seletor_banner .icon{
+    height: 150px;
+    aspect-ratio: 1/1;
+    position: relative;
+
+}
+.code-frame .code-box  .code .seletor_banner .txt{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}

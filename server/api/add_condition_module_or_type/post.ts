@@ -120,7 +120,8 @@ export default defineEventHandler(async (event) => {
               element == "dev_test.py" ||
               element == "__pycache__" ||
               element == "run.py" ||
-              element == "condition_runner.py"
+              element == "condition_runner.py"||
+              element == "condition_runners.py"
             )
         );
         let detailsPath2 = path.resolve(

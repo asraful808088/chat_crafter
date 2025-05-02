@@ -143,6 +143,28 @@ function codeRunner() {
     of: props.of,
   });
 }
+
+import deleteCodeframe from "~/network/deleteCodeframe/delete";
+function deleteItem(name){
+  
+
+if (name == activeDetails?.value?.name) {
+  activeDetails.value = null
+  showModuleList.value = null
+}
+  deleteCodeframe({
+    of:props.of,
+    name:name
+  },(res,err)=>{
+    if (res?.items) {
+                  listOfItems.value = res?.items;
+
+                }
+  })
+
+}
+
+
 </script>
 <template>
   <div class="code-frame">
@@ -161,12 +183,12 @@ function codeRunner() {
           showToast = false;
         }
       "
-      :show="showToast"
+      :info="showToast"
       :input-type="false"
       @apply="
         (e) => {
           createCodeFrame(
-            { ...e, of: props.of ?? 'custom-actions' },
+            { ...e, of: props.of ?? 'custom_actions' },
             (res, err) => {
               if (res) {
                 if (res?.items) {
@@ -200,19 +222,17 @@ function codeRunner() {
               : 'list-item'
           "
           v-for="(i, n) in listOfItems"
-          @click="
-            () => {
-              showModuleList = true;
-              taskCode = null;
-            }
-          "
+          
         >
           <div
             class="icon"
             @click="
               () => {
+                taskCode = null
                 activeDetails = i;
                 showModuleList = i?.task_list;
+                showModuleList = true;
+                taskCode = null;
               }
             "
           >
@@ -222,6 +242,7 @@ function codeRunner() {
             class="txt"
             @click="
               () => {
+                taskCode = null
                 activeDetails = i;
                 showModuleList = i?.task_list;
               }
@@ -229,10 +250,17 @@ function codeRunner() {
           >
             {{ i.name }}
           </div>
-          <div class="icon">
+          <div class="icon" @click="()=>{
+             showModuleList = true;
+             taskCode = null;
+             activeDetails = i;
+                showModuleList = i?.task_list;
+          }">
             <img src="../../assets/icon/other/arrowx.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon" @click="()=>{
+            deleteItem(i.name)
+          }">
             <img src="../../assets/icon/other/delete.png" alt="" />
           </div>
         </div>
@@ -250,6 +278,7 @@ function codeRunner() {
       </div>
       <div class="code">
         <CodemirrorView
+        v-if="activeDetails?.name"
           :recommend="recom"
           :value="taskCode ? taskTempCode?.code : activeDetails?.code"
           @text="
@@ -266,6 +295,14 @@ function codeRunner() {
             }
           "
         />
+        <div class="seletor_banner" v-if="!activeDetails?.name">
+            <div class="icon">
+              <img src="../../assets/icon/other/Group 391.png" alt="">
+            </div>
+            <div class="txt">
+              Select Custom Actions
+            </div>
+        </div>
       </div>
       <!-- showModuleList  active-list-pad-->
       <div :class="showModuleList ? 'list-pad active-list-pad' : 'list-pad'">

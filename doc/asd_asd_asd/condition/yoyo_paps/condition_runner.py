@@ -7,6 +7,6 @@ def run_condition(memo={}):
    return {asd
         "cat":getCondition(),
         "memo":{
-            "data":"modidy"
+            "data":"modidy asdsadasd"
         }
    }

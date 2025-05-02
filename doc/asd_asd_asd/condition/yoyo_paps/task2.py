@@ -1,7 +1,7 @@
 from cat import ConditionTypes
 
 def getCondition():
-    asdasd
+    asdasdasd123123123
     return ConditionTypes.mama2
 
 

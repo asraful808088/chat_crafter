@@ -1,4 +1,4 @@
-# from task.yoyotask.code_runner import run_task
+from task.yoyotask.code_runner import run_task
 def run_task(memo={}):
     return {
                 "memo":memo,

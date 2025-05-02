@@ -74,6 +74,13 @@ for root, dirs, files in os.walk(base_path):
     sys.path.append(os.path.abspath(root))
 for root, dirs, files in os.walk(f'{current_file_path_to_base}\\python\\temp'):
     sys.path.append(os.path.abspath(root))
+
+
+
+
+
+
+
 import subprocess
 store_main_traning = []
 main_traning_off = False
@@ -227,6 +234,8 @@ async def handle_connection(websocket):
                     except Exception as e:
                         await websocket.send(json.dumps({"result":{"output": f"{str(e)}"},"emit_type": 'condition_check_type_msg_return',"err":True}))
                elif parsed_message["type"] == "code_frame":
+                  
+
                     module_path = parsed_message["path"]
                     result = subprocess.run(["python", module_path], capture_output=True, text=True)
                     try:
