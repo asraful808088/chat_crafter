@@ -248,29 +248,118 @@ async def handle_connection(websocket):
                     except Exception as e:
                         await websocket.send(json.dumps({"result":{"output": f"{str(e)}"},"emit_type": 'codeFrames_check_type_msg_return',"err":True}))
                elif parsed_message["type"] == "chat_h":
-                    for root, dirs, files in os.walk(parsed_message["dir_path"]):
-                         sys.path.append(os.path.abspath(root))
-                    module_path = parsed_message["path"]
-                    module_name = "handler"
-                    spec = importlib.util.spec_from_file_location(module_name, module_path)
-                    module = importlib.util.module_from_spec(spec)
+                    import uuid
+                    # import time
+                    # module_name = f"handler{time.time()}"
+                    # if module_name in sys.modules:
+                    #     del sys.modules[module_name]
                     
-                    sys.modules[module_name] = module
-                    try:
-                         spec.loader.exec_module(module)
-                    except Exception as a:
-                         print(a)
-                    def onResponse(data_info):
-                         
-                         async def send_data():
-                              await websocket.send(json.dumps({
-                                  "result": data_info,
-                                  "emit_type": 'get_msg_return_chat',
-                              }))
+                    # # Also clean up any submodules
+                    # to_delete = [m for m in sys.modules if m.startswith(f"{module_name}.")]
+                    # for m in to_delete:
+                    #     del sys.modules[m]
+                    # importlib.invalidate_caches()
 
-                         loop = asyncio.get_event_loop()
-                         loop.create_task(send_data())
-                    module.create_conv_controller(parsed_message["msg"],onResponse,m=parsed_message["meno_script"])
+
+                    # for root, dirs, files in os.walk(parsed_message["dir_path"]):
+                    #      sys.path.append(os.path.abspath(root))
+                    # module_path = parsed_message["path"]
+                    # spec = importlib.util.spec_from_file_location(module_name, module_path)
+                    # module = importlib.util.module_from_spec(spec)
+                    
+                    # sys.modules[module_name] = module
+                    # # try:
+                    # #      spec.loader.exec_module(module)
+                    # # except Exception as a:
+                    # #      print(a)
+                    # # def onResponse(data_info):
+                         
+                    # #      async def send_data():
+                    # #           await websocket.send(json.dumps({
+                    # #               "result": data_info,
+                    # #               "emit_type": 'get_msg_return_chat',
+                    # #           }))
+
+                    # #      loop = asyncio.get_event_loop()
+                    # #      loop.create_task(send_data())
+                    # # module.create_conv_controller(parsed_message["msg"],onResponse,m=parsed_message["meno_script"])
+                    # try:
+                    #      spec = importlib.util.spec_from_file_location(module_name, module_path)
+                    #      if spec is None:
+                    #          raise ImportError(f"Could not load spec from {module_path}")
+
+                    #      module = importlib.util.module_from_spec(spec)
+                    #      sys.modules[module_name] = module
+                    #      spec.loader.exec_module(module)
+
+                    #      def onResponse(data_info):
+                    #          async def send_data():
+                    #              await websocket.send(json.dumps({
+                    #                  "result": data_info,
+                    #                  "emit_type": 'get_msg_return_chat',
+                    #              }))
+                    #          loop = asyncio.get_event_loop()
+                    #          loop.create_task(send_data())
+
+                    #      module.create_conv_controller(
+                    #          parsed_message["msg"],
+                    #          onResponse,
+                    #          m=parsed_message["meno_script"]
+                    #      )
+                    # except Exception as e:
+                    #      print(f"Failed to load module: {str(e)}")
+                    #      # Handle error appropriately
+                    module_name = "handler"
+                    module_path = parsed_message["path"]
+
+                    if module_name in sys.modules:
+                        del sys.modules[module_name]
+
+                        submodules = [m for m in sys.modules.keys() if m.startswith(f"{module_name}.")]
+                        for sm in submodules:
+                            del sys.modules[sm]
+
+                    importlib.invalidate_caches()
+
+                    for key in list(sys.modules.keys()):
+                        if key == module_name or key.startswith(f"{module_name}."):
+                            del sys.modules[key]
+
+                    new_paths = [os.path.abspath(root) for root, _, _ in os.walk(parsed_message["dir_path"])]
+                    for path in new_paths:
+                        if path not in sys.path:
+                            sys.path.insert(0, path)  
+
+                    try:
+                        spec = importlib.util.spec_from_file_location(module_name, module_path)
+                        if spec is None:
+                            raise ImportError(f"Could not create spec for {module_path}")
+
+                        module = importlib.util.module_from_spec(spec)
+                        sys.modules[module_name] = module
+
+                        if spec.loader is None:
+                            raise ImportError(f"No loader found for {module_path}")
+
+                        spec.loader.exec_module(module)
+
+                        def onResponse(data_info):
+                            async def send_data():
+                                await websocket.send(json.dumps({
+                                    "result": data_info,
+                                    "emit_type": 'get_msg_return_chat',
+                                }))
+                            asyncio.create_task(send_data())
+
+                        module.create_conv_controller(
+                            parsed_message["msg"],
+                            onResponse,
+                            m=parsed_message["meno_script"]
+                        )
+
+                    except Exception as e:
+                        print(f"Module reloading failed: {str(e)}")
+                        # Send error back to client if needed
                     
                     
                
