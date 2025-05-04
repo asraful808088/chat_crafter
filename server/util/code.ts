@@ -1028,14 +1028,33 @@ export function createChatHandel() {
   const code = `
     
 from controller import CovController
-def create_conv_controller():
-    return  CovController()
+def create_conv_controller(input,callback,m=None):
+    conv = None
+    if m != None: 
+        conv = CovController(None, m)
+    else:
+        conv = CovController()
+
+    def onRespobseState(data_info):
+        if callback != None:
+            callback(data_info)
+    def onRespobse(data_info):
+        if callback != None:
+            callback(data_info)
+    def onRespobseScripts(data_info):
+        if callback != None:
+            callback(data_info)
+    conv.on_respose = onRespobse
+    conv.on_respose_stage = onRespobseState
+    conv.on_respose_script = onRespobseScripts 
+    conv.input(input)
 
 `;
   return code;
 }
 export function createServerCode() {
   const code = `
+
 
 from fastapi import FastAPI, WebSocket
 import json
@@ -1045,16 +1064,10 @@ from handler import create_conv_controller
 async def data_handler(data,websocket,conv_obj):
     parsedata = json.loads(data)
     if parsedata["type"] == "send_msg":
-        def onRespobseState(data_info):
+        def callback(data_info):
             asyncio.create_task(websocket.send_text(json.dumps(data_info)))
-        def onRespobse(data_info):
-            asyncio.create_task(websocket.send_text(json.dumps(data_info)))
-        def onRespobseScripts(data_info):
-            asyncio.create_task(websocket.send_text(json.dumps(data_info)))
-        conv_obj["convObj"].on_respose = onRespobse
-        conv_obj["convObj"].on_respose_stage = onRespobseState
-        conv_obj["convObj"].on_respose_script = onRespobseScripts 
-        conv_obj["convObj"].input(parsedata["txt"])
+        create_conv_controller(parsedata["txt"],callback=callback,m=parsedata["memo"])
+        
         
 
 clients = {}
@@ -1065,28 +1078,35 @@ async def websocket_endpoint(websocket: WebSocket):
         data = await websocket.receive_text()
         parsed_data = json.loads(data)
         user_id = parsed_data.get("user_id")
-
         if not user_id:
             await websocket.send_text(json.dumps({"error": "user_id is required"}))
             await websocket.close()
-              return
-          clients[user_id] = {
-              "ws":websocket,
-              "convObj":create_conv_controller()
-          }
-          await websocket.send_text(json.dumps({"connect":1}))
-          while True:
-              data = await websocket.receive_text()
-              await data_handler(data, websocket,clients[user_id])
+            return
+        clients[user_id] = {
+            "ws":websocket,
+        }
+        await websocket.send_text(json.dumps({"connect":1}))
+        while True:
+            data = await websocket.receive_text()
+            await data_handler(data, websocket,clients[user_id])
   
-      except Exception as e:
-          print(f"Client {user_id} disconnected: {e}")
-      finally:
-          if user_id in clients:
-              del clients[user_id]
+    except Exception as e:
+        print(f"Client {user_id} disconnected: {e}")
+    finally:
+        if user_id in clients:
+            del clients[user_id]
        
-  
-     
+
+
+
+# {
+#     "type":"send_msg",
+#     "txt":"hello",
+#     "user_id":"123123123asdasd132123"
+#     "memo":null
+# }
+       
+        
 `;
   return code;
 }

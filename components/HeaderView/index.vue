@@ -250,14 +250,14 @@ watchEffect(()=>{
           
           <div class="txt" @click="()=>{
             if (storeData.type == 'scripts_only') {
-              selectScripts(i)
+              selectScripts(i.name??i)
             }else if (storeData.type == 'training_model')  {
-              selectModel(i)
+              selectModel(i.name??i)
             } else {
-              selectModel(i)
+              selectModel(i.name??i)
               
             }
-          }" >{{ i }}</div>
+          }" >{{ i.name??i }}</div>
           <div class="icon">
             <img src="./../../assets/icon/other/delete.png" alt="">
           </div>
