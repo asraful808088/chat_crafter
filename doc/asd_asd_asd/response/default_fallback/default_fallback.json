@@ -1,16 +1,617 @@
 {
   "list_of_intent": [
     {
-      "mainsent": "this is fgal",
+      "mainsent": "I'm sorry, I didn't understand that.",
       "mapword": [
+        "O",
+        "O",
+        "O",
         "O",
         "O",
         "O"
       ],
       "wordlist": [
-        "this",
+        "I'm",
+        "sorry,",
+        "I",
+        "didn't",
+        "understand",
+        "that."
+      ]
+    },
+    {
+      "mainsent": "Could you please rephrase?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Could",
+        "you",
+        "please",
+        "rephrase?"
+      ]
+    },
+    {
+      "mainsent": "I'm not sure what you mean.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "not",
+        "sure",
+        "what",
+        "you",
+        "mean."
+      ]
+    },
+    {
+      "mainsent": "Hmm, I didn’t catch that. Can you try again?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hmm,",
+        "I",
+        "didn’t",
+        "catch",
+        "that.",
+        "Can",
+        "you",
+        "try",
+        "again?"
+      ]
+    },
+    {
+      "mainsent": "I didn’t get that. Can you say it differently?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "didn’t",
+        "get",
+        "that.",
+        "Can",
+        "you",
+        "say",
+        "it",
+        "differently?"
+      ]
+    },
+    {
+      "mainsent": "Sorry, can you clarify what you meant?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Sorry,",
+        "can",
+        "you",
+        "clarify",
+        "what",
+        "you",
+        "meant?"
+      ]
+    },
+    {
+      "mainsent": "I'm still learning — could you reword that?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "still",
+        "learning",
+        "—",
+        "could",
+        "you",
+        "reword",
+        "that?"
+      ]
+    },
+    {
+      "mainsent": "That doesn't seem familiar to me.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "That",
+        "doesn't",
+        "seem",
+        "familiar",
+        "to",
+        "me."
+      ]
+    },
+    {
+      "mainsent": "Oops! I don't know how to respond to that.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Oops!",
+        "I",
+        "don't",
+        "know",
+        "how",
+        "to",
+        "respond",
+        "to",
+        "that."
+      ]
+    },
+    {
+      "mainsent": "Can you please explain it in another way?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "please",
+        "explain",
+        "it",
+        "in",
+        "another",
+        "way?"
+      ]
+    },
+    {
+      "mainsent": "I didn’t understand — can you ask it another way?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "didn’t",
+        "understand",
+        "—",
+        "can",
+        "you",
+        "ask",
+        "it",
+        "another",
+        "way?"
+      ]
+    },
+    {
+      "mainsent": "My brain is still catching up. Try rephrasing it!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "My",
+        "brain",
         "is",
-        "fgal"
+        "still",
+        "catching",
+        "up.",
+        "Try",
+        "rephrasing",
+        "it!"
+      ]
+    },
+    {
+      "mainsent": "Sorry, I didn’t get your point.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Sorry,",
+        "I",
+        "didn’t",
+        "get",
+        "your",
+        "point."
+      ]
+    },
+    {
+      "mainsent": "Not sure what that means, but I’m listening.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Not",
+        "sure",
+        "what",
+        "that",
+        "means,",
+        "but",
+        "I’m",
+        "listening."
+      ]
+    },
+    {
+      "mainsent": "Can you try typing that a bit differently?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "try",
+        "typing",
+        "that",
+        "a",
+        "bit",
+        "differently?"
+      ]
+    },
+    {
+      "mainsent": "I'm having trouble understanding.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "having",
+        "trouble",
+        "understanding."
+      ]
+    },
+    {
+      "mainsent": "Hmm… that’s new to me.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hmm…",
+        "that’s",
+        "new",
+        "to",
+        "me."
+      ]
+    },
+    {
+      "mainsent": "Sorry! I missed that.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Sorry!",
+        "I",
+        "missed",
+        "that."
+      ]
+    },
+    {
+      "mainsent": "I wish I knew how to answer that.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "wish",
+        "I",
+        "knew",
+        "how",
+        "to",
+        "answer",
+        "that."
+      ]
+    },
+    {
+      "mainsent": "Could you be more specific?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Could",
+        "you",
+        "be",
+        "more",
+        "specific?"
+      ]
+    },
+    {
+      "mainsent": "I’m not sure what to do with that info.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I’m",
+        "not",
+        "sure",
+        "what",
+        "to",
+        "do",
+        "with",
+        "that",
+        "info."
+      ]
+    },
+    {
+      "mainsent": "Can you simplify that a bit for me?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "simplify",
+        "that",
+        "a",
+        "bit",
+        "for",
+        "me?"
+      ]
+    },
+    {
+      "mainsent": "I don’t have an answer for that right now.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "don’t",
+        "have",
+        "an",
+        "answer",
+        "for",
+        "that",
+        "right",
+        "now."
+      ]
+    },
+    {
+      "mainsent": "Try asking something else!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Try",
+        "asking",
+        "something",
+        "else!"
+      ]
+    },
+    {
+      "mainsent": "Let’s try something different.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Let’s",
+        "try",
+        "something",
+        "different."
+      ]
+    },
+    {
+      "mainsent": "Sorry, that went over my head.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Sorry,",
+        "that",
+        "went",
+        "over",
+        "my",
+        "head."
+      ]
+    },
+    {
+      "mainsent": "I’m confused… want to try again?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I’m",
+        "confused…",
+        "want",
+        "to",
+        "try",
+        "again?"
+      ]
+    },
+    {
+      "mainsent": "I'm not programmed for that yet.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "not",
+        "programmed",
+        "for",
+        "that",
+        "yet."
+      ]
+    },
+    {
+      "mainsent": "Oops, didn’t follow. Try again?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Oops,",
+        "didn’t",
+        "follow.",
+        "Try",
+        "again?"
+      ]
+    },
+    {
+      "mainsent": "That doesn’t match anything I know.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "That",
+        "doesn’t",
+        "match",
+        "anything",
+        "I",
+        "know."
       ]
     }
   ]

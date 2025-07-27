@@ -38,7 +38,7 @@ export default defineEventHandler(async (event) => {
               botname,
               "condition",
               element,
-              "condition_runner.py"
+              `${element}_condition_runner.py`
             ),
             "utf-8"
           )

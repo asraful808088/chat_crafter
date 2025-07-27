@@ -64,3 +64,8 @@ img {
   background:linear-gradient(45deg, #fdedd9, #ffe4c6) ;
   z-index: -1;
 }
+
+body {
+  overflow: hidden;
+
+}

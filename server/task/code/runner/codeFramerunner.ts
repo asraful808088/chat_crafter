@@ -10,9 +10,8 @@ export default function CodeFrameRunner(data, socket, io) {
     botinfo["name"],
     data?.of,
     data.name,
-    "dev_test.py"
+    `${data.name}_${data?.of=='task'?'task':'custom'}_dev_test.py`
   );
-
   if (wsinfo["ws"]) {
     wsinfo["ws"].once("message", (va) => {
       const parseData = JSON.parse(va.toString());

@@ -1,0 +1,39 @@
+{
+  "sents": [
+    {
+      "sent": "this is fgal",
+      "list": [
+        {
+          "gen": "this is fgal",
+          "sent": "this is fgal",
+          "map_sent": [
+            "O",
+            "O",
+            "O"
+          ],
+          "id": "oGk0EyNTLLyBiLNl52HqYkCIY3PYppi7"
+        },
+        {
+          "gen": "This is fgal",
+          "sent": "this is fgal",
+          "map_sent": [
+            "O",
+            "O",
+            "O"
+          ],
+          "id": "ZcOFFvJhfOpRAAff9JdaunwWeDFrCV0d"
+        },
+        {
+          "gen": "it is fgal",
+          "sent": "this is fgal",
+          "map_sent": [
+            "O",
+            "O",
+            "O"
+          ],
+          "id": "8A5pgjt9GUGcsPujTbx729JQjhBTWOCr"
+        }
+      ]
+    }
+  ]
+}

@@ -172,3 +172,44 @@
     font-weight: 500;
     color: rgb(74, 74, 74);
 }
+
+
+@media (max-width: 720px) {
+    .card-0000002222  .button-box {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 638px) {
+    .card-0000002222{
+    /* height: 100%;
+    width: 100%; */
+    aspect-ratio: 2/1;
+}
+    .card-0000002222  .button-box {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 566px) {
+    .card-0000002222{
+    /* height: 100%;
+    width: 100%; */
+    aspect-ratio: 1.5/1;
+}
+    .card-0000002222  .button-box {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+
+    .card-0000002222  .button-box {
+        font-size: 12px;
+    }
+}

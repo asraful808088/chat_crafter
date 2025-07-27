@@ -10,9 +10,9 @@ export default function CodeRunner(data, socket, io) {
     botinfo["name"],
     "condition",
     data.name,
-    "dev_test.py"
+    `${data.name}_dev_test.py`
   );
-
+  console.log(pyfilePath)
   if (wsinfo["ws"]) {
     wsinfo["ws"].once("message", (va) => {
       const parseData = JSON.parse(va.toString());

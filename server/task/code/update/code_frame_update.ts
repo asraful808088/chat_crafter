@@ -16,7 +16,7 @@ export default function codeFrameUpdateCode(data, socket, io) {
         botinfo["name"],
         data.of,
         data.name,
-        data?.type?`${data?.type}`:"code_runner.py"
+        data?.type?`${data?.type}`:`${data.name}_custom_code_runners.py`
       );
     }else{
        parentDir = path.join(
@@ -25,7 +25,7 @@ export default function codeFrameUpdateCode(data, socket, io) {
         botinfo["name"],
         data.of,
         data.name,
-        data?.type?`${data?.type}`:"code_runners.py"
+        data?.type?`${data?.type}`:`${data.name}_task_code_runners.py`
       );
     }
 
@@ -44,7 +44,7 @@ export default function codeFrameUpdateCode(data, socket, io) {
       data.name
       
     ),true)
-    taskFiles = taskFiles.filter((element)=>!(element=="details.json" || element=="code_runner.py"|| element=="code_runners.py"||element=="dev_test.py"|| element=="run.py" ||element =="__pycache__"))
+    taskFiles = taskFiles.filter((element)=>!(element=="details.json" || element==`${data.name}_custom_code_runner.py`|| element==`${data.name}_task_code_runners.py`||element==`${data.name}_custom_dev_test.py`||element==`${data.name}_task_dev_test.py`|| element=="run.py" ||element =="__pycache__"))
     for (const element of taskFiles) {
       
       reco.push({
@@ -204,7 +204,9 @@ export default function codeFrameUpdateCode(data, socket, io) {
                 }
               }
             }
-          } catch (error) {}
+          } catch (error) {
+
+          }
         } else if (element["type"] && element["name"] && element["star"]) {
           const filePath2 = path.join(
             process.cwd(),
@@ -243,7 +245,9 @@ export default function codeFrameUpdateCode(data, socket, io) {
                 });
               }
             }
-          } catch (error) {}
+          } catch (error) {
+
+          }
         } else {
           const filePath2 = path.join(
             process.cwd(),
@@ -292,11 +296,12 @@ export default function codeFrameUpdateCode(data, socket, io) {
                 });
               }
             }
-          } catch (error) {}
+          } catch (error) {
+          }
         }
       }
-    } catch (error) {}
-
+    } catch (error) {
+    }
     socket.emit("update_code_code_frame", {
       code: fs.readFileSync(parentDir, "utf-8"),
       name: data.name,

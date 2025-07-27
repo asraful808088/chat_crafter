@@ -36,7 +36,7 @@ export default function updateCode(data, socket, io) {
       botinfo["name"],
       "condition",
       data.name,
-      data?.type?`${data?.type}`:"condition_runner.py"
+      data?.type?`${data?.type}`:`${data.name}_condition_runner.py`
     );
     fs.writeFileSync(parentDir, data.code);
     const reco = [];

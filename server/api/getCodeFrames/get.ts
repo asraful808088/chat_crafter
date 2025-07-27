@@ -40,12 +40,13 @@ export default defineEventHandler(async (event) => {
                 botname,
                 body["of"],
                 element,
-                "code_runner.py"
+                `${parseData["name"]}_custom_code_runners.py`
               ),
               "utf-8"
             )
           });
         } catch (error) {
+          console.log(error)
         }
       }
   
@@ -86,12 +87,13 @@ export default defineEventHandler(async (event) => {
                 botname,
                 body["of"],
                 element,
-                "code_runners.py"
+                `${parseData["name"]}_task_code_runners.py`
               ),
               "utf-8"
             )
           });
         } catch (error) {
+          console.log(error)
         }
       }
   

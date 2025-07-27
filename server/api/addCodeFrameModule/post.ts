@@ -98,7 +98,7 @@ export default defineEventHandler(async (event) => {
         botname,
         body["of"],
         body["item_name"],
-        `${body["name"].trim().replaceAll(" ", "_").toLocaleLowerCase()}.py`
+        `${body["name"].trim().replaceAll(" ", "_").toLocaleLowerCase()}_${body["of"] == 'task'?"task":"custom"}_${body["item_name"]}.py`
       );
       if (!fs.existsSync(detailsPath)) {
         fs.writeFileSync(detailsPath, NewPageRemake(), "utf8");
@@ -116,16 +116,16 @@ export default defineEventHandler(async (event) => {
           (element, index) =>
             !(
               element == "details.json" ||
-              element == "dev_test.py" ||
+              element == `${body["item_name"]}_${body["of"] == 'task'?"task":"custom"}_dev_test.py` ||
               element == "__pycache__" ||
               element == "run.py" ||
-              element == "code_runner.py"||
-              element == "code_runners.py"
+              element == `${body["item_name"]}_${body["of"] == 'task'?"task":"custom"}_code_runner.py`||
+              element == `${body["item_name"]}_${body["of"] == 'task'?"task":"custom"}_code_runners.py`
             )
         );
         let detailsPath2 = path.resolve(
           process.cwd(),
-          "doc",
+          "doc", 
           botname,
           body["of"],
           body["item_name"],

@@ -13,8 +13,18 @@ const dev_test = `
 import  run 
 print(run.run({}))
 `;
+// const condition_runnercode = `
+// from cat import ConditionTypes
+// def run_condition(memo={}):
+//     # return {
+//     #     "cat":"<-ConditionTypes->",
+//     #     "memo":memo
+//     # }
+//     pass
+// `;
+function condition_runnercode_writer(name){
 const condition_runnercode = `
-from cat import ConditionTypes
+from ${name}_cat import ConditionTypes
 def run_condition(memo={}):
     # return {
     #     "cat":"<-ConditionTypes->",
@@ -22,7 +32,8 @@ def run_condition(memo={}):
     # }
     pass
 `;
-
+return condition_runnercode
+}
 // const runcode = `
 // from condition_runner import run_condition
 // from cat import ConditionTypes
@@ -51,11 +62,39 @@ def run_condition(memo={}):
 
 
 // `;
+// const runcode = `
+// from condition_runner import run_condition
+// from cat import ConditionTypes
+// import json
 
+// def run(memo={}):
+//     try:
+//         value = run_condition(memo)
+//         if value == None:
+//             return None
+//         if value["cat"] == None:
+//             return None
+//         if not isinstance(value["cat"], ConditionTypes):
+//             return None
+//         if not isinstance(value["memo"], dict):
+//             return None
+//         return json.dumps({
+//             "success":True,
+//             "cat":value["cat"].value,
+//             "memo":value["memo"]
+//         })
+//     except Exception as e:
+        
+//         return json.dumps({
+//             "success":False,
+//             "error":str(e)
+//         })
+// `;
 
+function runcode_writer(name){
 const runcode = `
-from condition_runner import run_condition
-from cat import ConditionTypes
+from ${name}_condition_runner import run_condition
+from ${name}_cat import ConditionTypes
 import json
 
 def run(memo={}):
@@ -81,6 +120,8 @@ def run(memo={}):
             "error":str(e)
         })
 `;
+return runcode
+}
 
 
 
@@ -90,7 +131,6 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 405, msg: "Method Not Allowed" });
   }
   const botname = botinfo["name"];
-
   try {
     const body = await readBody(event);
     let filePath = path.resolve(
@@ -104,10 +144,10 @@ export default defineEventHandler(async (event) => {
     if (!fs.existsSync(filePath)) {
       fs.mkdirSync(filePath, { recursive: true });
       const files = [
-        { name: "cat.py", content: catcode },
-        { name: "condition_runner.py", content: condition_runnercode },
-        { name: "run.py", content: runcode },
-        { name: "dev_test.py", content: dev_test },
+        { name: `${body["name"].replaceAll(" ", "_").trim()}_cat.py`, content: catcode },
+        { name: `${body["name"].replaceAll(" ", "_").trim()}_condition_runner.py`, content: condition_runnercode_writer(body["name"].replaceAll(" ", "_").trim()) },
+        { name: "run.py", content: runcode_writer(body["name"].replaceAll(" ", "_").trim()) },
+        { name: `${body["name"].replaceAll(" ", "_").trim()}_dev_test.py`, content: dev_test },
         {
           name: "details.json",
           content: `{"name":"${body["name"].replaceAll(" ", "_").trim()}","des":"${body["des"].trim()}","time":${Date.now()},"types":[],"use_list":[],"task_list":[],"recommendation_list":[] }`,
@@ -142,7 +182,8 @@ export default defineEventHandler(async (event) => {
             types: parseData["types"],
             task_list: parseData["task_list"],
           });
-        } catch (error) {}
+        } catch (error) {
+        }
       }
       return { items: listOfIems };
     }

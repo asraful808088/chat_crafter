@@ -56,7 +56,6 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 405, msg: "Method Not Allowed" });
   }
   const botname = botinfo["name"];
-
   try {
     const body = await readBody(event);
 
@@ -79,7 +78,7 @@ export default defineEventHandler(async (event) => {
         botname,
         "condition",
         body["item_name"],
-        "cat.py"
+        `${body["item_name"]}_cat.py`
       );
       fs.writeFileSync(detailsPath, JSON.stringify(parseJsonDetails), "utf8");
       fs.writeFileSync(
@@ -98,7 +97,7 @@ export default defineEventHandler(async (event) => {
         botname,
         "condition",
         body["item_name"],
-        `${body["name"].trim().replaceAll(" ", "_").toLocaleLowerCase()}.py`
+        `${body["name"].trim().replaceAll(" ", "_").toLocaleLowerCase()}_${body["item_name"]}_.py`
       );
       if (!fs.existsSync(detailsPath)) {
         fs.writeFileSync(detailsPath, NewPageRemake(), "utf8");
@@ -115,13 +114,13 @@ export default defineEventHandler(async (event) => {
         const filterItem = fileitems.filter(
           (element, index) =>
             !(
-              element == "cat.py" ||
+              element == `${body["item_name"]}_cat.py` ||
               element == "details.json" ||
-              element == "dev_test.py" ||
+              element == `${body["item_name"]}_dev_test.py` ||
               element == "__pycache__" ||
               element == "run.py" ||
-              element == "condition_runner.py"||
-              element == "condition_runners.py"
+              element == `${body["item_name"]}_condition_runner.py`||
+              element == `${body["item_name"]}_condition_runners.py`
             )
         );
         let detailsPath2 = path.resolve(

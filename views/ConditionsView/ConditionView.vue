@@ -118,6 +118,7 @@ function createModuleOrtypes() {
     <CreatdialogView
       :show="showCreateDialog"
       :input-type="false"
+      :info="showCreateDialog"
       @apply="
         (e) => {
           createCondition(

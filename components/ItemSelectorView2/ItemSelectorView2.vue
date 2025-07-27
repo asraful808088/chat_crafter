@@ -10,8 +10,9 @@ const router = useRouter();
 const dialogToast1 = ref(null);
 const listOfItems = ref([]);
 const dialogInfoObj = ref(null);
-const listOfEnchangeItem = ref([])
-const propertyInfo = ref(null)
+const listOfEnchangeItem = ref([]);
+const propertyInfo = ref(null);
+const showDetails = ref(false);
 const props = defineProps({
   of: {
     type: String,
@@ -68,50 +69,60 @@ function inputCreateItem(e) {
   });
 }
 
-
-function exchangeTO(){
-  getSelectItems({
-    of:props.of == "intents"?"entities":"intents"
-  },(res,err)=>{
-    if (res.items) {
-      
-      listOfEnchangeItem.value = {
-        items:res.items
+function exchangeTO() {
+  getSelectItems(
+    {
+      of: props.of == "intents" ? "entities" : "intents",
+    },
+    (res, err) => {
+      if (res.items) {
+        listOfEnchangeItem.value = {
+          items: res.items,
+        };
       }
     }
-  })
+  );
 }
 import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
 import convertT from "~/network/convertTO/post";
-function applyToExchange(convertTO){
+function applyToExchange(convertTO) {
   if (!propertyInfo.value?.from_name) {
-    return
+    return;
   }
-  convertT({
-    to:props.of == "intents"?"entities":"intents",
-    from_name: propertyInfo.value.from_name,
-    to_name:convertTO,
-    from:props.of
-  },(res,err)=>{
-    listOfEnchangeItem.value = null
-  })
+  convertT(
+    {
+      to: props.of == "intents" ? "entities" : "intents",
+      from_name: propertyInfo.value.from_name,
+      to_name: convertTO,
+      from: props.of,
+    },
+    (res, err) => {
+      listOfEnchangeItem.value = null;
+    }
+  );
 }
 </script>
 <template>
   <div class="container-01111">
     <AnimationdiglogboxView :auto-down="listOfEnchangeItem?.items">
-        <h3>{{ props.of =="intents" ? "Entities":"Intents" }}</h3>
-        <br>
-        <div class="list-box-990901" >
-            <div class="item" v-for="(i) in listOfEnchangeItem?.items" @click="()=>{
-              applyToExchange(i.name)
-            }" >
-              <div class="icon">
-                <img src="../../assets/icon/other/Group 390.png" alt="">
-              </div>
-              <div class="txt">{{ i.name }} </div>
-            </div>
+      <h3>{{ props.of == "intents" ? "Entities" : "Intents" }}</h3>
+      <br />
+      <div class="list-box-990901">
+        <div
+          class="item"
+          v-for="i in listOfEnchangeItem?.items"
+          @click="
+            () => {
+              applyToExchange(i.name);
+            }
+          "
+        >
+          <div class="icon">
+            <img src="../../assets/icon/other/Group 390.png" alt="" />
+          </div>
+          <div class="txt">{{ i.name }}</div>
         </div>
+      </div>
     </AnimationdiglogboxView>
     <CreatedialogView
       :info="dialogInfoObj"
@@ -124,15 +135,28 @@ function applyToExchange(convertTO){
     <div class="container">
       <div class="title-box">
         <div>{{ props.header }}</div>
-        <div
-          class="icon"
-          @click="
-            () => {
-              dialogInfoObj = {};
-            }
-          "
-        >
-          <img src="../../assets/icon/other/Group 3.png" alt="" />
+
+        <div class="icon-box" >
+          <div
+            class="icon"
+            @click="
+              () => {
+                dialogInfoObj = {};
+              }
+            "
+          >
+            <img src="../../assets/icon/other/Group 3.png" alt="" />
+          </div>
+           <div
+            class="icon menu"
+            @click="
+              () => {
+                showDetails = !showDetails  
+              }
+            "
+          >
+            <img src="../../assets/icon/other/menu.png" alt="" />
+          </div>
         </div>
       </div>
       <div class="item-box">
@@ -150,11 +174,13 @@ function applyToExchange(convertTO){
               }
             "
             :date="i.time"
-            @properties="()=>{
-              propertyInfo = {
-                from_name:i.name
+            @properties="
+              () => {
+                propertyInfo = {
+                  from_name: i.name,
+                };
               }
-            }"
+            "
             @drop="
               (i) => {
                 deleteSItems(i);
@@ -164,8 +190,16 @@ function applyToExchange(convertTO){
         </div>
       </div>
     </div>
-    <div class="details">
-      <div class="title-box">Properties</div>
+    <div :class="showDetails ? 'details active' : 'details deactive'">
+      <div class="title-box">
+        <span>Properties</span><span class="cross" 
+        @click="
+              () => {
+                showDetails = !showDetails  
+              }
+            " 
+        >Close</span>
+      </div>
       <div class="info-box">
         <div class="info-container">
           <div class="info-container-item">
@@ -200,7 +234,13 @@ function applyToExchange(convertTO){
             <div class="icon">
               <img src="../../assets/icon/other/Group 300.png" alt="" />
             </div>
-            <div class="txt">{{ router.currentRoute.value.path.replaceAll("/","").length!=0?router.currentRoute.value.path.replaceAll("/",""):"intents" }}</div>
+            <div class="txt">
+              {{
+                router.currentRoute.value.path.replaceAll("/", "").length != 0
+                  ? router.currentRoute.value.path.replaceAll("/", "")
+                  : "intents"
+              }}
+            </div>
           </div>
 
           <div class="info-container-item">
@@ -214,10 +254,10 @@ function applyToExchange(convertTO){
             <div class="icon">
               <img src="../../assets/icon/other/Group 301.png" alt="" />
             </div>
-            <div class="txt">{{listOfItems.length}} (count)</div>
+            <div class="txt">{{ listOfItems.length }} (count)</div>
           </div>
 
-          <div class="info-container-item" v-if="propertyInfo?.from_name" >
+          <div class="info-container-item" v-if="propertyInfo?.from_name">
             <div class="icon">
               <img src="../../assets/icon/other/Group 302.png" alt="" />
             </div>
@@ -226,48 +266,50 @@ function applyToExchange(convertTO){
             </div>
           </div>
 
-
-
-
-          <div class="info-container-item"  @click="
-            () => {
-              dialogInfoObj = {};
-            }
-          ">
+          <div
+            class="info-container-item"
+            @click="
+              () => {
+                dialogInfoObj = {};
+              }
+            "
+          >
             <div class="icon">
               <img src="../../assets/icon/other/Group 3.png" alt="" />
             </div>
-            <div class="txt cur-p">
-              Create-Item
-            </div>
+            <div class="txt cur-p">Create-Item</div>
           </div>
-
-
 
           <div class="info-container-item">
             <div class="icon">
               <img src="../../assets/icon/head/profile.png" alt="" />
             </div>
-            <div class="txt">
-              profile-name
-            </div>
+            <div class="txt">profile-name</div>
           </div>
-          
-          
-<div class="info-container-item" v-if="(props.of == 'entities' || props.of == 'intents') && propertyInfo" >
+
+          <div
+            class="info-container-item"
+            v-if="
+              (props.of == 'entities' || props.of == 'intents') && propertyInfo
+            "
+          >
             <div class="icon">
-              <img src="../../assets/icon/other/exchange-diagonal-svgrepo-com.png" alt="" />
+              <img
+                src="../../assets/icon/other/exchange-diagonal-svgrepo-com.png"
+                alt=""
+              />
             </div>
-            <div class="txt cur-p" @click="()=>{
-                  exchangeTO()
-            }">
+            <div
+              class="txt cur-p"
+              @click="
+                () => {
+                  exchangeTO();
+                }
+              "
+            >
               Exchange
             </div>
           </div>
-
-
-
-
         </div>
 
         <div class="type-input">

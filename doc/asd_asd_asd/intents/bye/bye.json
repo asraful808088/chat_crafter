@@ -1,0 +1,462 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "Bye",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Bye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Goodbye",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Goodbye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "See you later",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "you",
+        "later"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Talk to you later",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Talk",
+        "to",
+        "you",
+        "later"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Catch you later",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Catch",
+        "you",
+        "later"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Take care",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Take",
+        "care"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "See ya",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "ya"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Bye bye",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Bye",
+        "bye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I'm leaving now",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "leaving",
+        "now"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Gotta go",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Gotta",
+        "go"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I have to go",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "have",
+        "to",
+        "go"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "See you soon",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "you",
+        "soon"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Later",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Later"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I'm out",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "out"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Talk soon",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Talk",
+        "soon"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Alright, bye",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Alright,",
+        "bye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Peace out",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Peace",
+        "out"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "It's time to go",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It's",
+        "time",
+        "to",
+        "go"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "See you tomorrow",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "you",
+        "tomorrow"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Good night",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "night"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Have a good day",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Have",
+        "a",
+        "good",
+        "day"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I'm heading out",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "heading",
+        "out"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Alright then, goodbye",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Alright",
+        "then,",
+        "goodbye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Catch you next time",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Catch",
+        "you",
+        "next",
+        "time"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Signing off",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Signing",
+        "off"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I'm done for now",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "done",
+        "for",
+        "now"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Bye, talk later",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Bye,",
+        "talk",
+        "later"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "That’s it, bye",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "That’s",
+        "it,",
+        "bye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I’m logging off",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I’m",
+        "logging",
+        "off"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Ok bye",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Ok",
+        "bye"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ]
+}

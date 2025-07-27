@@ -1,0 +1,542 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "Clear the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please clear my cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Please",
+        "clear",
+        "my",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you delete the cache?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "delete",
+        "the",
+        "cache?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to clear the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "clear",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Remove all cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Remove",
+        "all",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Flush the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Flush",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clean cache files",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clean",
+        "cache",
+        "files"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "How to clear cache?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "to",
+        "clear",
+        "cache?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Delete app cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Delete",
+        "app",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clear system cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "system",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clear browser cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "browser",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clear the temporary files",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "the",
+        "temporary",
+        "files"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Free up space by clearing cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Free",
+        "up",
+        "space",
+        "by",
+        "clearing",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clear all stored cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "all",
+        "stored",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Reset cache data",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Reset",
+        "cache",
+        "data"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Erase cached files",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Erase",
+        "cached",
+        "files"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clean junk files",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clean",
+        "junk",
+        "files"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Wipe the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Wipe",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Cache is full, clean it",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Cache",
+        "is",
+        "full,",
+        "clean",
+        "it"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Can you flush the memory cache?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "flush",
+        "the",
+        "memory",
+        "cache?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Get rid of cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Get",
+        "rid",
+        "of",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I need to clean the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "to",
+        "clean",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Is it safe to clear the cache?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Is",
+        "it",
+        "safe",
+        "to",
+        "clear",
+        "the",
+        "cache?"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clear cache for better performance",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "cache",
+        "for",
+        "better",
+        "performance"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Empty the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Empty",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Clear recent cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Clear",
+        "recent",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Wipe out cache files",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Wipe",
+        "out",
+        "cache",
+        "files"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Remove browser data",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Remove",
+        "browser",
+        "data"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Purge the cache",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Purge",
+        "the",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Restart with cleared cache",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Restart",
+        "with",
+        "cleared",
+        "cache"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ]
+}

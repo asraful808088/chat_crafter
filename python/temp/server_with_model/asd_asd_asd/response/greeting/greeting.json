@@ -1,0 +1,484 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "Hello! How can I help you today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello!",
+        "How",
+        "can",
+        "I",
+        "help",
+        "you",
+        "today?"
+      ]
+    },
+    {
+      "mainsent": "Hi there!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "there!"
+      ]
+    },
+    {
+      "mainsent": "Hey! What can I do for you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey!",
+        "What",
+        "can",
+        "I",
+        "do",
+        "for",
+        "you?"
+      ]
+    },
+    {
+      "mainsent": "Good to see you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "to",
+        "see",
+        "you!"
+      ]
+    },
+    {
+      "mainsent": "Welcome!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Welcome!"
+      ]
+    },
+    {
+      "mainsent": "Hello! Need any assistance?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello!",
+        "Need",
+        "any",
+        "assistance?"
+      ]
+    },
+    {
+      "mainsent": "Hi! How’s your day going?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi!",
+        "How’s",
+        "your",
+        "day",
+        "going?"
+      ]
+    },
+    {
+      "mainsent": "Hey there! Ready to get started?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey",
+        "there!",
+        "Ready",
+        "to",
+        "get",
+        "started?"
+      ]
+    },
+    {
+      "mainsent": "Greetings!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Greetings!"
+      ]
+    },
+    {
+      "mainsent": "How can I assist you today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "How",
+        "can",
+        "I",
+        "assist",
+        "you",
+        "today?"
+      ]
+    },
+    {
+      "mainsent": "Hello, friend!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello,",
+        "friend!"
+      ]
+    },
+    {
+      "mainsent": "Hi! I'm here to help.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi!",
+        "I'm",
+        "here",
+        "to",
+        "help."
+      ]
+    },
+    {
+      "mainsent": "Good day!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "day!"
+      ]
+    },
+    {
+      "mainsent": "What's up?",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "What's",
+        "up?"
+      ]
+    },
+    {
+      "mainsent": "Hey! How can I support you?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey!",
+        "How",
+        "can",
+        "I",
+        "support",
+        "you?"
+      ]
+    },
+    {
+      "mainsent": "Hello! What would you like to do?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello!",
+        "What",
+        "would",
+        "you",
+        "like",
+        "to",
+        "do?"
+      ]
+    },
+    {
+      "mainsent": "I'm glad you're here!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "glad",
+        "you're",
+        "here!"
+      ]
+    },
+    {
+      "mainsent": "Welcome back!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Welcome",
+        "back!"
+      ]
+    },
+    {
+      "mainsent": "Nice to see you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Nice",
+        "to",
+        "see",
+        "you!"
+      ]
+    },
+    {
+      "mainsent": "Hi! What brings you here today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi!",
+        "What",
+        "brings",
+        "you",
+        "here",
+        "today?"
+      ]
+    },
+    {
+      "mainsent": "Yo!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Yo!"
+      ]
+    },
+    {
+      "mainsent": "Hi, how can I assist you today?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi,",
+        "how",
+        "can",
+        "I",
+        "assist",
+        "you",
+        "today?"
+      ]
+    },
+    {
+      "mainsent": "Hello again!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello",
+        "again!"
+      ]
+    },
+    {
+      "mainsent": "I'm here, how can I help?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "here,",
+        "how",
+        "can",
+        "I",
+        "help?"
+      ]
+    },
+    {
+      "mainsent": "Hey, good to see you again!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey,",
+        "good",
+        "to",
+        "see",
+        "you",
+        "again!"
+      ]
+    },
+    {
+      "mainsent": "Hey! Let me know how I can assist.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey!",
+        "Let",
+        "me",
+        "know",
+        "how",
+        "I",
+        "can",
+        "assist."
+      ]
+    },
+    {
+      "mainsent": "Hello! Looking for something?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hello!",
+        "Looking",
+        "for",
+        "something?"
+      ]
+    },
+    {
+      "mainsent": "Hi there! Let’s get started.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi",
+        "there!",
+        "Let’s",
+        "get",
+        "started."
+      ]
+    },
+    {
+      "mainsent": "Hi! Feel free to ask me anything.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hi!",
+        "Feel",
+        "free",
+        "to",
+        "ask",
+        "me",
+        "anything."
+      ]
+    },
+    {
+      "mainsent": "Hey! I'm always ready to help.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Hey!",
+        "I'm",
+        "always",
+        "ready",
+        "to",
+        "help."
+      ]
+    }
+  ]
+}
