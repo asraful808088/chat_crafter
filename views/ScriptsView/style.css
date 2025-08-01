@@ -28,6 +28,7 @@
 }
 .script-main .script-box{
     width:  calc(100% - 420px);
+
 }
 .script-main .list-box .list-box-2{
     flex-grow: 1;
@@ -45,7 +46,25 @@
     padding-left: 5px;
     padding-right: 5px;
     height: calc(100vh - 185px);
+
 }
 
 
 
+@media (max-width: 1006px){
+  .script-main .list-box{
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(255, 243, 224);
+    padding: 10px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    left: -200%;
+  }
+  .script-main .script-box{
+    width: 100%;
+    /* z-index: -1; */
+
+  }
+} 

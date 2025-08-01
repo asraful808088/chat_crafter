@@ -1,7 +1,7 @@
 <script setup>
 import { BotselectorView } from "#components";
 import { ref, watchEffect } from "vue";
-import { useRouter } from "vue-router";
+// import { useRouter } from "vue-router";
 import EntitiesImage from "~/assets/icon/other/criteria_18112775.png";
 import ImageModel from "~/assets/icon/other/model.png";
 import PackModel from "~/assets/icon/other/parcel-box-package-icon.png";
@@ -15,6 +15,7 @@ import BotchattesterView from "../bot_chat_tester/BotchattesterView.vue";
 import getSelectItems from "~/network/get_intentes/get_intents";
 import { socket } from "../socketIO/socket";
 const chatBoxShow = ref(false);
+const route = useRoute();
 const router = useRouter();
 const showBuild = ref(null);
 const storeData = ref({
@@ -165,15 +166,21 @@ watchEffect(() => {
     });
   }
 });
-const navItems = [{ name: "Intents", path: "",icon:'Group 295.png' }];
-
-function routering(name){
-
+const currentPathObj = computed(() => route.path);
+let currentPath = ref(currentPathObj.value);
+let mobile_nav_active = ref(false);
+function routering(name = "") {
+  router.push(`/${name}`);
+  currentPath.value = `/${name}`;
+  swtMobile_nav()
+}
+function swtMobile_nav(){
+  mobile_nav_active.value = !mobile_nav_active.value 
 }
 </script>
 
 <template>
-  <div class="mobile-menu-bar">
+  <div :class="mobile_nav_active?`mobile-menu-bar mobile-menu-bar-on`:`mobile-menu-bar mobile-menu-bar-off`">
     <div class="icon_w_txt">
       <div class="icon">
         <img src="./../../assets/logo/chat_charfter.png" alt="" />
@@ -181,76 +188,82 @@ function routering(name){
       <div class="txt">Chat Crafter</div>
     </div>
 
-
-
-    <div class="nav-item">
+    <div class="nav-item" @click="routering()">
       <div class="icon">
         <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
       </div>
       <div class="txt">Intents</div>
+      <div class="icon2" v-if="currentPath == '/'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
     </div>
- <div class="nav-item">
+    <div class="nav-item" @click="routering('response')">
       <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
+        <img src="`./../../assets/icon/other/Group%20315.png`" alt="" />
       </div>
       <div class="txt">Response</div>
-    </div> <div class="nav-item">
+      <div class="icon2" v-if="currentPath == '/response'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
+    </div>
+    <div class="nav-item" @click="routering('scripts')">
       <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
+        <img src="`./../../assets/icon/other/Group%20336.png`" alt="" />
       </div>
       <div class="txt">Scripts</div>
-    </div> <div class="nav-item">
+      <div class="icon2" v-if="currentPath == '/scripts'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
+    </div>
+    <div class="nav-item" @click="routering('entities')">
       <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
+        <img src="`./../../assets/icon/other/Group%20312.png`" alt="" />
       </div>
       <div class="txt">Entities</div>
-    </div>
-
- <div class="nav-item">
-      <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
-      </div>
-      <div class="txt">Synonyms</div>
-    </div>
-
- <div class="nav-item">
-      <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
-      </div>
-      <div class="txt">Conditions</div>
-    </div>
-
-
- <div class="nav-item">
-      <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
-      </div>
-      <div class="txt">Custom</div>
-      <div class="icon2">
+      <div class="icon2" v-if="currentPath == '/entities'">
         <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
       </div>
     </div>
 
-
-
-
- <div class="nav-item">
+    <div class="nav-item" @click="routering('synonyms')">
       <div class="icon">
-        <img src="`./../../assets/icon/other/Group 295.png`" alt="" />
+        <img src="`./../../assets/icon/other/similar-svgrepo-com.png`" alt="" />
       </div>
-      <div class="txt">Task</div>
+      <div class="txt">Synonyms</div>
+      <div class="icon2" v-if="currentPath == '/synonyms'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
     </div>
 
+    <div class="nav-item" @click="routering('condition')">
+      <div class="icon">
+        <img src="`./../../assets/icon/other/Group%20337.png`" alt="" />
+      </div>
+      <div class="txt">Conditions</div>
+      <div class="icon2" v-if="currentPath == '/condition'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
+    </div>
 
+    <div class="nav-item" @click="routering('custom-actions')">
+      <div class="icon">
+        <img src="`./../../assets/icon/other/Group%20314.png`" alt="" />
+      </div>
+      <div class="txt">Custom</div>
+      <div class="icon2" v-if="currentPath == '/custom-actions'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-
+    <div class="nav-item" @click="routering('task')">
+      <div class="icon">
+        <img src="`./../../assets/icon/other/Group%20316.png`" alt="" />
+      </div>
+      <div class="txt">Task</div>
+      <div class="icon2" v-if="currentPath == '/task'">
+        <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
+      </div>
+    </div>
   </div>
   <div class="build-dialog-box" v-if="showBuild">
     <div class="dialog-box">
@@ -437,7 +450,7 @@ function routering(name){
     </div>
 
     <div class="part exp-0 part-2">
-      <div :class="'option-item'">
+      <div :class="'option-item'"  @click="swtMobile_nav()" >
         <img
           src="./../../assets/icon/other/menu2-svgrepo-com.png"
           alt="Power"

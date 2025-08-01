@@ -8,9 +8,84 @@
         {
           "type": "response",
           "target": "bye"
+        },
+        {
+          "type": "response",
+          "target": "greeting"
         }
       ],
-      "list_of_store": [],
+      "list_of_store": [
+        {
+          "id": 1753813919472,
+          "type": "fallback",
+          "target": "bye",
+          "list_of_response": [],
+          "list_of_store": [],
+          "store_id": [],
+          "target_id": null,
+          "condition_type": null,
+          "condition": null,
+          "nolvl": 0,
+          "list_of_next_stap": [
+            {
+              "type": "next_add",
+              "label": "next-intents"
+            },
+            {
+              "type": "backward_add",
+              "label": "backwards-add"
+            },
+            {
+              "type": "serial_break_add",
+              "val": false,
+              "label": "serial-break"
+            },
+            {
+              "type": "serial_break_err_add",
+              "label": "serial break fallout"
+            },
+            {
+              "type": "add_condition",
+              "label": "add-condition"
+            }
+          ]
+        },
+        {
+          "id": 1753813927640,
+          "type": "t_next",
+          "target": "cache clear",
+          "list_of_response": [],
+          "list_of_store": [],
+          "store_id": [],
+          "target_id": null,
+          "condition_type": null,
+          "condition": null,
+          "nolvl": 0,
+          "list_of_next_stap": [
+            {
+              "type": "next_add",
+              "label": "next-intents"
+            },
+            {
+              "type": "backward_add",
+              "label": "backwards-add"
+            },
+            {
+              "type": "serial_break_add",
+              "val": false,
+              "label": "serial-break"
+            },
+            {
+              "type": "serial_break_err_add",
+              "label": "serial break fallout"
+            },
+            {
+              "type": "add_condition",
+              "label": "add-condition"
+            }
+          ]
+        }
+      ],
       "store_id": [],
       "target_id": null,
       "condition_type": null,

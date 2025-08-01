@@ -478,6 +478,11 @@ function clearCondition() {
     props.onUpdate(conv_info.value);
   }
 }
+
+const activeResponse = ref(true)
+const swtResponseStatus = ()=>{
+  activeResponse.value = !activeResponse.value
+}
 </script>
 <template>
   <AnimationDiglogBoxAnimationdiglogboxView
@@ -856,7 +861,19 @@ function clearCondition() {
     </div>
     <div class="slide-boxs">
       <div class="slide-box">
-        <div class="head">Intents</div>
+        <div class="head">
+          
+          
+          <p>Intents</p>
+        
+          <div class="icon" @click="swtResponseStatus()" >
+ <img
+                      src="../../assets/icon/nav/response.png"
+                      alt=""
+                    />
+          </div>
+        
+        </div>
         <div class="spr">
           <div class="swiper-wrapper-fixed">
             <swiper
@@ -974,8 +991,21 @@ function clearCondition() {
           </div>
         </div>
       </div>
-      <div class="slide-box">
-        <div class="head">Response</div>
+      <div :class="activeResponse? 'slide-box active-response':'slide-box'">
+        <div class="head">
+          
+          
+          
+         <p>Response</p>
+        
+          <div class="icon" @click="swtResponseStatus()"  >
+                  <img
+                      src="../../assets/icon/other/cross_2.png"
+                      alt=""
+                    />
+          </div>
+        
+        </div>
         <div class="spr">
           <div class="swiper-wrapper-fixed">
            

@@ -307,6 +307,16 @@ function delete_gen(i) {
     }
   );
 }
+
+const activeAsidebar = ref(false);
+function activeASide() {
+  activeAsidebar.value = !activeAsidebar.value;
+}
+
+const activeAsidebar2 = ref(false);
+function activeASide2() {
+  activeAsidebar2.value = !activeAsidebar2.value;
+}
 </script>
 <template>
   <AnimationdiglogboxView
@@ -377,7 +387,14 @@ function delete_gen(i) {
   </AnimationdiglogboxView>
   <div class="txt-store-box-00111">
     <div class="part">
-      <h2>Response</h2>
+      <div class="heading-box">
+        <h2>Response</h2>
+        <div class="icon" @click="activeASide()">
+           <img src="../../assets/icon/other/Group 387.png" alt="" />
+          
+        </div>
+      </div>
+
       <div class="txt-box-0011">
         <div class="txt-input">
           <textarea
@@ -437,7 +454,15 @@ function delete_gen(i) {
       </div>
       <div class="list-item-box">
         <div class="list-item-part">
-          <div class="head">List</div>
+          <div class="head">
+            <div class="heading-box">
+              <h2>List</h2>
+              <div class="icon icon-2" @click="activeASide2()">
+                  <img src="../../assets/icon/nav/synonyms.png" alt="" />
+
+              </div>
+            </div>
+          </div>
 
           <div class="loading" v-if="mainItemUnload">
             <div class="icon">
@@ -462,7 +487,14 @@ function delete_gen(i) {
             "
           />
         </div>
-        <div class="list-item-part">
+
+        <div
+          :class="
+            activeAsidebar2
+              ? `list-item-part list-item-part-2 `
+              : `list-item-part list-item-part-2 a-part-deactive`
+          "
+        >
           <div class="head">
             <div
               @click="
@@ -476,15 +508,21 @@ function delete_gen(i) {
               {{ activeSynChanks?.name ? `(${activeSynChanks?.name})` : "" }}
             </div>
             <div
-              @click="
+             
+            >
+              <!-- import -->
+              <div class="heading-box">
+                <p class="extra-margin-left" @click="
                 () => {
                   dialogInfo = {};
 
                   getGlobleSyn();
                 }
-              "
-            >
-              import
+              ">import</p>
+                <div class="icon icon-2" @click="activeASide2()">
+                  <img src="../../assets/icon/other/cross_2.png" alt="" />
+                </div>
+              </div>
             </div>
           </div>
           <div class="text-input-box">
@@ -595,8 +633,17 @@ function delete_gen(i) {
         </div>
       </div>
     </div>
-    <div class="part">
-      <h2>Properties</h2>
+
+    <div
+      :class="activeAsidebar ? 'part a-part ' : 'part a-part a-part-deactive'"
+    >
+      <div class="heading-box">
+        <h2>Properties</h2>
+        <div class="icon" @click="activeASide()">
+                <img src="../../assets/icon/other/cross_2.png" alt="" />
+        </div>
+      </div>
+
       <div class="info-box">
         <div class="info-item">
           <div class="icon">
@@ -631,6 +678,7 @@ function delete_gen(i) {
           <div class="txt">{{ detailsInfo?.type }}</div>
         </div>
       </div>
+
       <div class="generate-con">
         <div class="head">
           <div>Items</div>

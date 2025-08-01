@@ -162,6 +162,9 @@ function updateScriptsList(update) {
         />
       </div>
     </div>
+
+
+    
     <div class="script-box">
       <h2>Chat-Scripts</h2>
       <div class="list-box-2">
