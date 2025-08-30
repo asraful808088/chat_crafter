@@ -1,46 +1,25 @@
 {
   "list_of_intent": [
     {
-      "mainsent": "My name Is Asraful Islam Momen.",
+      "mainsent": "asdasd12312321\nthis is no more",
       "mapword": [
         "O",
         "O",
         "O",
-        "B-NAME",
-        "J-NAME",
-        "J-NAME"
+        "O",
+        "O"
       ],
       "wordlist": [
-        "My",
-        "name",
-        "Is",
-        "Asraful",
-        "Islam",
-        "Momen."
+        "asdasd12312321",
+        "this",
+        "is",
+        "no",
+        "more"
       ],
       "alter": [],
       "allAlter": true,
       "reCreate": false
     }
   ],
-  "entities": [
-    {
-      "i": "B-OOAMA"
-    },
-    {
-      "i": "J-OOAMA"
-    },
-    {
-      "i": "B-MAAA"
-    },
-    {
-      "i": "J-MAAA"
-    },
-    {
-      "i": "B-NAME"
-    },
-    {
-      "i": "J-NAME"
-    }
-  ]
+  "entities": []
 }

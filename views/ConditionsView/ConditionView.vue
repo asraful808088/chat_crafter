@@ -17,7 +17,10 @@ const task_code = ref(null);
 const inputTxt = ref("");
 const recom = ref([]);
 const codeRunner = ref(null);
-
+const activeArightSideBar = ref(false)
+const changeActiveArightSideBarStatus = () =>{
+  activeArightSideBar.value = !activeArightSideBar.value
+} 
 function getPyCodeFile(name) {
   getCodefile(
     {
@@ -72,6 +75,8 @@ function getCodePage(i) {
   activeFileAndCondition.value = listOfCondition.value.find(
     (element) => element.name == i
   );
+  activeArightSideBar.value = true
+  activeListItembox.value = true
   task_code.value = null;
 }
 
@@ -112,6 +117,21 @@ function createModuleOrtypes() {
     }
   );
 }
+
+const activeListItembox = ref(false)
+
+
+const  changeActiveListItemStatus = ()=>{
+  activeListItembox.value = !activeListItembox.value
+  activeArightSideBar.value = false
+
+}
+
+
+
+
+
+
 </script>
 <template>
   <div class="condition-main">
@@ -143,7 +163,7 @@ function createModuleOrtypes() {
     <CoderunnerView v-if="codeRunner" :cmdtxt="codeRunner"  @close="()=>{
       codeRunner = null
     }"/>
-    <div class="menu">
+    <div :class="activeListItembox? 'menu deactive-menu-bar-00001':'menu '">
       <h2>
         <span>Conditions</span>
         <span
@@ -184,11 +204,20 @@ function createModuleOrtypes() {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
+
+
+    
+
+
+
+
+    
+
     <div class="codebox">
       <h3>
         <div>
-          Code / {{ activeFileAndCondition?.name }} /
+          <span @click="changeActiveListItemStatus()" >Code</span> / {{ activeFileAndCondition?.name }} /
           {{ !task_code ? "condition_runner" : task_code.name }}
         </div>
         <div
@@ -219,9 +248,34 @@ function createModuleOrtypes() {
         <div class="" v-if="!activeFileAndCondition">Select</div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div
       :class="
-        !activeFileAndCondition ? 'aside-box' : ' aside-box active-aside-box'
+        !activeArightSideBar ? 'aside-box' : ' aside-box active-aside-box'
       "
     >
       <h2>
@@ -230,7 +284,7 @@ function createModuleOrtypes() {
           class="button"
           @click="
             () => {
-              activeFileAndCondition = null;
+              activeArightSideBar = false;
             }
           "
         >

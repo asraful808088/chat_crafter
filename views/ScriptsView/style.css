@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
 }
+ .script-box h2 .icon{
+  display: none;
+ }
 .script-main .list-box {
   width: 420px;
   height: 100%;
@@ -60,11 +63,27 @@
     padding-right: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    transition: .2s;
+  }
+  .deactive-list-view{
     left: -200%;
+
   }
   .script-main .script-box{
     width: 100%;
     /* z-index: -1; */
 
   }
+  .script-box h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .script-box h2 .icon{
+    display: block;
+    height: 22px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+  } 
 } 
+

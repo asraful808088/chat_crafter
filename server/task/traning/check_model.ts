@@ -9,17 +9,15 @@ import {
 } from "~/server/cache/traningState";
 import { getWsInfo } from "~/server/cache/ws";
 import sentMapping from "~/server/util/sentMaping";
-import validateLayers from "~/util/layer_validator";
-import { createDirAndSaveJSON } from "~/util/recordEnty";
 import { createJsonFile } from "~/util/json_read_write";
+import { createDirAndSaveJSON } from "~/util/recordEnty";
 
-import fs from 'fs'
-let init_stream = false
+let init_stream = false;
 export default function checkmodel(data, socket, io) {
   const wsinfo = getWsInfo();
   if (wsinfo["ws"]) {
-    if (init_stream==false) {
-      init_stream = true
+    if (init_stream == false) {
+      init_stream = true;
       wsinfo["ws"].on("message", (va) => {
         const parseData = JSON.parse(va.toString());
         if (parseData["emit_type"] == "updateing_model") {
@@ -59,7 +57,6 @@ export default function checkmodel(data, socket, io) {
         }
       });
     }
-    
   }
 
   if (data["stop_mode"] == false && state.RUNNING == getTrainState()) {
@@ -79,46 +76,45 @@ export default function checkmodel(data, socket, io) {
   }
 
   // socket.emit("traing", { success: true });
-    if (wsinfo["ws"]) {
-      const txtProcess = sentMapping(data["profile"]);
-      if (txtProcess.sentTxt.length < 100) {
-        socket.emit("traing", { success: false,dataset_error:["Data must contain at least 100 items."] });
-        return 
-      }
-      socket.emit("traing", { success: true });
-
-
-
-
-
-      const newMOdelname = `model-${Date.now()}`;
-      clearTraningInfo();
-      setTrainState(state.RUNNING);
-      io.emit("reflection");
-
-
-
-      const parentDir = path.join(process.cwd(), "python", "temp.json");
-      createJsonFile(parentDir, {
-              map_cat: {
-                texts: [...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"]], // temp process
-            label: [...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],], // temp process
-              },
-            });
-
-
-
-
-
-
-      wsinfo["ws"].send(
-        JSON.stringify({
-          ...data["otherSets"],
-          network: data["network"],
-          type: "main_model",
-          model_name: newMOdelname,
-          profileName: data["profile"],
-        })
-      );
+  if (wsinfo["ws"]) {
+    const txtProcess = sentMapping(data["profile"]);
+    if (txtProcess.sentTxt.length < 100) {
+      socket.emit("traing", {
+        success: false,
+        dataset_error: ["Data must contain at least 100 items."],
+      });
+      return;
     }
+    socket.emit("traing", { success: true });
+
+    const newMOdelname = `model-${Date.now()}`;
+    clearTraningInfo();
+    setTrainState(state.RUNNING);
+    io.emit("reflection");
+
+    const parentDir = path.join(process.cwd(), "python", "temp.json");
+    // createJsonFile(parentDir, {
+    //         map_cat: {
+    //           texts: [...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"],...txtProcess["sentTxt"]], // temp process
+    //       label: [...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],...txtProcess["sentKey"],], // temp process
+    //         },
+    //       });
+
+    createJsonFile(parentDir, {
+      map_cat: {
+        texts: [...txtProcess["sentTxt"]],
+        label: [...txtProcess["sentKey"]],
+      },
+    });
+
+    wsinfo["ws"].send(
+      JSON.stringify({
+        ...data["otherSets"],
+        network: data["network"],
+        type: "main_model",
+        model_name: newMOdelname,
+        profileName: data["profile"],
+      })
+    );
+  }
 }

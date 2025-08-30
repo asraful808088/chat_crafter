@@ -81,3 +81,6 @@
 .generate-pattern-box-item-001 .button{
     white-space: nowrap;
 }
+@media (max-width: 460px){
+
+}

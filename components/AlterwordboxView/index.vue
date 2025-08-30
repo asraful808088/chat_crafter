@@ -33,14 +33,14 @@ const props = defineProps({
     type: Function,
     require: false,
   },
-  dotHide:{
+  dotHide: {
     type: Boolean,
     require: false,
   },
-  onChange:{
+  onChange: {
     type: Function,
     require: false,
-  }
+  },
 });
 const items = ref([]);
 onMounted(() => {
@@ -95,12 +95,19 @@ function onChange(i, remove = false) {
           <div class="icon">
             <img src=".././../assets/icon/other/Group 5.png" alt="" />
           </div>
-          <div class="txt" @click="()=>{
-            if (props.dotHide) {
-              props.onChange(i)
-            }
-          }" >{{ i }}</div>
-          <div class="icon" v-if="!props.dotHide" >
+          <div
+            class="txt"
+            @click="
+              () => {
+                if (props.dotHide) {
+                  props.onChange(i);
+                }
+              }
+            "
+          >
+            {{ i }}
+          </div>
+          <div class="icon" v-if="!props.dotHide">
             <div class="circle" @click="onChange(i, items.includes(i))">
               <div class="dot" v-if="items.includes(i)"></div>
             </div>

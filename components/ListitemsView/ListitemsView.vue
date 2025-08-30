@@ -385,7 +385,6 @@ function delete_main_item(i) {
         </div>
       </div>
     </div>
-
     <div class="list-item-dialog-0009088" v-if="dialogInfo?.type == 'entites'">
       <h2>Words & Entities</h2>
       <div class="text-box">

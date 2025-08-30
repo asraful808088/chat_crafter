@@ -483,6 +483,12 @@ const activeResponse = ref(true)
 const swtResponseStatus = ()=>{
   activeResponse.value = !activeResponse.value
 }
+
+
+const activeSInforStatus = ref(true)
+const changeInfoSStatus = ()=>{
+  activeSInforStatus.value =!activeSInforStatus.value 
+}
 </script>
 <template>
   <AnimationDiglogBoxAnimationdiglogboxView
@@ -745,12 +751,15 @@ const swtResponseStatus = ()=>{
   </AnimationDiglogBoxAnimationdiglogboxView>
 
   <div class="ScriptslistView">
-    <div class="info-box">
+    <div :class="activeSInforStatus? 'info-box':'info-box display-none-info-box'"   >
       <div class="item-box box-1st">
         <div class="icon">
           <img src="../../assets/icon/other/Group 164.png" alt="" />
         </div>
         <div class="txt-box">I-{{ props.indexlvl ?? 0 }}</div>
+        <div class="icon2"  @click="changeInfoSStatus()" >
+          <img src="../../assets/icon/other/resume.png" alt="" />
+        </div>
       </div>
 
       <div class="item-box">
@@ -859,20 +868,25 @@ const swtResponseStatus = ()=>{
         </div>
       </div>
     </div>
-    <div class="slide-boxs">
+    <div   :class="activeSInforStatus? 'slide-boxs display-none-slide-boxs':'slide-boxs '">
       <div class="slide-box">
         <div class="head">
           
           
           <p>Intents</p>
         
-          <div class="icon" @click="swtResponseStatus()" >
+          <div class="icon inside-info-tag" @click="changeInfoSStatus()" >
+ <img
+                      src="../../assets/icon/other/info (1).png"
+                      alt=""
+                    />
+          </div>
+        <div class="icon response-huk" @click="swtResponseStatus()" >
  <img
                       src="../../assets/icon/nav/response.png"
                       alt=""
                     />
           </div>
-        
         </div>
         <div class="spr">
           <div class="swiper-wrapper-fixed">
@@ -998,7 +1012,7 @@ const swtResponseStatus = ()=>{
           
          <p>Response</p>
         
-          <div class="icon" @click="swtResponseStatus()"  >
+          <div class="icon response-huk" @click="swtResponseStatus()"  >
                   <img
                       src="../../assets/icon/other/cross_2.png"
                       alt=""

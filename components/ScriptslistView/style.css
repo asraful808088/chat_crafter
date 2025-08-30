@@ -1,3 +1,10 @@
+.inside-info-tag{
+  display: none;
+}
+.response-huk{
+  display: none;
+
+}
 .ScriptslistView{
     width: 100%;
     height: 500px;
@@ -117,8 +124,16 @@
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    flex-grow: 1;
 }
-
+.ScriptslistView .info-box .item-box .icon2{
+   height: 22px;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
 .ScriptslistView .info-box .box-1st .txt-box{
     font-size: 18px;
     font-weight: 900;
@@ -471,9 +486,7 @@
 
 
 @media (max-width: 1450px){
-    /* .ScriptslistView{
-      padding-right: 0;
-    } */
+    
   .ScriptslistView .swiper-wrapper-fixed {
   /* height: 250px; */
   display: flex ;
@@ -534,7 +547,10 @@
 
 }
 
+.response-huk{
+  display: block;
 
+}
 .ScriptslistView  .slide-boxs .active-response{
   right: -100%;
 
@@ -554,6 +570,36 @@
 }
 }
 
-@media (max-width: 1006px){
+@media (max-width: 650px){
+.ScriptslistView{
+      padding-right: 0;
+    }
 
+.ScriptslistView  .slide-boxs .slide-box:nth-child(2){
+    border-top-right-radius: 0;
+    border-top-right-radius: 0;
+}
 } 
+
+
+@media (max-width: 650px){
+  .inside-info-tag{
+  display: block;
+}
+    .ScriptslistView  .info-box{
+      width: 100%;
+      /* position: absolute;
+      z-index: 111; */
+      /* background-color: #fcf1e7; */
+    }
+    .display-none-info-box{
+      display: none;
+    }
+    .display-none-slide-boxs{
+      display: none !important;
+      
+    }
+    .ScriptslistView .info-box .item-box .icon2{
+      display: block;
+    }
+}

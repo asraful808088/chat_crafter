@@ -6,7 +6,6 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 405, msg: "Method Not Allowed" });
   }
   const botname = botinfo["name"];
-
   try {
     const body = await readBody(event);
     const entitiesName = body["item"];

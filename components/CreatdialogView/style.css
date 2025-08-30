@@ -91,3 +91,30 @@
 .Create-txt-input-box .board .button:hover{
     transform: scale(.99);
 }
+@media (max-width:850px) {
+    .Create-txt-input-box .board{
+       height: 410px;
+        max-width: 845px;
+        width: 100% ;
+    }
+}
+
+@media (max-width:520px) {
+ .Create-txt-input-box .board{
+       height: 410px;
+        max-width: 545px;
+        width: 410px;
+    }
+    .Create-txt-input-box .board .input-box {
+        width: 100%;
+
+    }
+    .Create-txt-input-box .board .input-box2 {
+        width: 100%;
+
+    }
+     .Create-txt-input-box .board .button {
+        width: 100%;
+
+    }
+}

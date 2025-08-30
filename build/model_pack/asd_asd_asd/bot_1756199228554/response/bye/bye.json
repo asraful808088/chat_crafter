@@ -1,0 +1,420 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "Goodbye! Have a great day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Goodbye!",
+        "Have",
+        "a",
+        "great",
+        "day!"
+      ]
+    },
+    {
+      "mainsent": "See you later!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "you",
+        "later!"
+      ]
+    },
+    {
+      "mainsent": "Take care!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Take",
+        "care!"
+      ]
+    },
+    {
+      "mainsent": "Bye! Come back anytime.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Bye!",
+        "Come",
+        "back",
+        "anytime."
+      ]
+    },
+    {
+      "mainsent": "See you soon!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "you",
+        "soon!"
+      ]
+    },
+    {
+      "mainsent": "Talk to you later!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Talk",
+        "to",
+        "you",
+        "later!"
+      ]
+    },
+    {
+      "mainsent": "Bye for now!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Bye",
+        "for",
+        "now!"
+      ]
+    },
+    {
+      "mainsent": "Farewell!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Farewell!"
+      ]
+    },
+    {
+      "mainsent": "Catch you later!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Catch",
+        "you",
+        "later!"
+      ]
+    },
+    {
+      "mainsent": "Until next time!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Until",
+        "next",
+        "time!"
+      ]
+    },
+    {
+      "mainsent": "Thanks for stopping by!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Thanks",
+        "for",
+        "stopping",
+        "by!"
+      ]
+    },
+    {
+      "mainsent": "Peace out!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Peace",
+        "out!"
+      ]
+    },
+    {
+      "mainsent": "It was nice talking to you!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "It",
+        "was",
+        "nice",
+        "talking",
+        "to",
+        "you!"
+      ]
+    },
+    {
+      "mainsent": "I'm always here if you need me.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I'm",
+        "always",
+        "here",
+        "if",
+        "you",
+        "need",
+        "me."
+      ]
+    },
+    {
+      "mainsent": "Have a good one!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Have",
+        "a",
+        "good",
+        "one!"
+      ]
+    },
+    {
+      "mainsent": "Stay safe, bye!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Stay",
+        "safe,",
+        "bye!"
+      ]
+    },
+    {
+      "mainsent": "See you next time!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "See",
+        "you",
+        "next",
+        "time!"
+      ]
+    },
+    {
+      "mainsent": "Have a wonderful day ahead!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Have",
+        "a",
+        "wonderful",
+        "day",
+        "ahead!"
+      ]
+    },
+    {
+      "mainsent": "Bye! Hope to see you again.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Bye!",
+        "Hope",
+        "to",
+        "see",
+        "you",
+        "again."
+      ]
+    },
+    {
+      "mainsent": "Logging off, goodbye!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Logging",
+        "off,",
+        "goodbye!"
+      ]
+    },
+    {
+      "mainsent": "Take it easy!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Take",
+        "it",
+        "easy!"
+      ]
+    },
+    {
+      "mainsent": "Closing the session, bye!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Closing",
+        "the",
+        "session,",
+        "bye!"
+      ]
+    },
+    {
+      "mainsent": "Bye-bye!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Bye-bye!"
+      ]
+    },
+    {
+      "mainsent": "Good night!",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Good",
+        "night!"
+      ]
+    },
+    {
+      "mainsent": "All the best, bye!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "All",
+        "the",
+        "best,",
+        "bye!"
+      ]
+    },
+    {
+      "mainsent": "Disconnecting now.",
+      "mapword": [
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Disconnecting",
+        "now."
+      ]
+    },
+    {
+      "mainsent": "Have a relaxing day!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Have",
+        "a",
+        "relaxing",
+        "day!"
+      ]
+    },
+    {
+      "mainsent": "Thanks and goodbye!",
+      "mapword": [
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Thanks",
+        "and",
+        "goodbye!"
+      ]
+    },
+    {
+      "mainsent": "Cheers!",
+      "mapword": [
+        "O"
+      ],
+      "wordlist": [
+        "Cheers!"
+      ]
+    },
+    {
+      "mainsent": "You’re all set. Goodbye!",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "You’re",
+        "all",
+        "set.",
+        "Goodbye!"
+      ]
+    }
+  ]
+}

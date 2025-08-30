@@ -123,6 +123,11 @@ function updateScriptsList(update) {
     }
   });
 }
+
+const activeListItemsBox = ref(true);
+const changeListItemsBoxStatus = () => {
+  activeListItemsBox.value = !activeListItemsBox.value;
+};
 </script>
 <template>
   <NexttoastView
@@ -137,7 +142,9 @@ function updateScriptsList(update) {
     @add="(element) => addNext(element.type, element.target, element.id)"
   />
   <div class="script-main">
-    <div class="list-box">
+    <div
+      :class="activeListItemsBox ? 'list-box' : 'list-box deactive-list-view'"
+    >
       <h2>
         <span>Scripts</span>
         <span @click="openToast">+</span>
@@ -149,13 +156,13 @@ function updateScriptsList(update) {
           @delete="
             () => {
               deleteStartWithItem(i?.id);
-              activecurrentItem = null
-
+              activecurrentItem = null;
             }
           "
           @click="
             () => {
               activeItem(i);
+              activeListItemsBox = false;
             }
           "
           :activecurrentItem="activecurrentItem?.target"
@@ -163,10 +170,20 @@ function updateScriptsList(update) {
       </div>
     </div>
 
-
-    
     <div class="script-box">
-      <h2>Chat-Scripts</h2>
+      <h2>
+        <p>Chat-Scripts</p>
+        <div
+          class="icon"
+          @click="
+            () => {
+              activeListItemsBox = true;
+            }
+          "
+        >
+          <img src="../../assets/icon/other/procurement.png" alt="" />
+        </div>
+      </h2>
       <div class="list-box-2">
         <ScriptslistView
           v-if="activecurrentItem"

@@ -102,6 +102,21 @@ function responseAndConditionFetcher(d, p, profileName, randomModel, botname) {
       "final_default_fallback"
     )
   );
+ copyDirectory(
+    path.join(
+      process.cwd(),
+      "doc",
+      botname,
+      "response",
+      `${'default_fallback'}`
+    ),
+    path.join(
+      profileName,
+      
+      "response",
+      "default_fallback"
+    )
+  );
 
 
   

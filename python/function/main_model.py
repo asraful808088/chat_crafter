@@ -397,7 +397,7 @@ def traning_main_model(map_cat, callBack=None, isFinish=None, listOflayers=[], m
                 }
                 callBack(final_eph)
     tokenizer = Tokenizer()
-    print(map_cat["label"])
+    # print(map_cat["label"])
     tokenizer.fit_on_texts(map_cat["texts"])
     sequences = tokenizer.texts_to_sequences(map_cat["texts"])
     label_encoder = LabelEncoder()

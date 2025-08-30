@@ -267,8 +267,25 @@ def entities_model_builder(map_cat=None, callBack=None, isFinish=None, listOflay
 
     X = tf.keras.preprocessing.sequence.pad_sequences(X, maxlen=max_len, padding="post")
 
-    y = np.array([tag_encoder.transform(t) for t in map_cat["label"]])
-    y = tf.keras.preprocessing.sequence.pad_sequences(y, maxlen=max_len, padding="post", value=-100)
+    # y = np.array([tag_encoder.transform(t) for t in map_cat["label"]])
+    # y = tf.keras.preprocessing.sequence.pad_sequences(y, maxlen=max_len, padding="post", value=-100)
+    y_list = [tag_encoder.transform(t) for t in map_cat["label"]]
+    y = tf.keras.preprocessing.sequence.pad_sequences(y_list, maxlen=max_len, padding="post", value=-100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     model = build_ner_model(max_len, vocab_size, num_tags,out_dim,listOflayers=listOflayers)
     model.compile(

@@ -185,7 +185,8 @@
     .card-0000002222{
     /* height: 100%;
     width: 100%; */
-    aspect-ratio: 2/1;
+    aspect-ratio: 2/1.5;
+
 }
     .card-0000002222  .button-box {
         font-size: 16px;
@@ -198,14 +199,22 @@
     .card-0000002222{
     /* height: 100%;
     width: 100%; */
-    aspect-ratio: 1.5/1;
+    aspect-ratio: 2.6/1.5;
+
 }
     .card-0000002222  .button-box {
         font-size: 16px;
     }
 }
 
+@media (max-width: 510px) {
+       .card-0000002222{
+    /* height: 100%;
+    width: 100%; */
+    aspect-ratio: 2.3/1.5;
 
+}
+}
 
 @media (max-width: 450px) {
 

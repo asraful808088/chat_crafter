@@ -164,7 +164,10 @@ if (name == activeDetails?.value?.name) {
 
 }
 
-
+const activeListItemActive = ref(true)
+const changeActiveListItemActive = ()=>{
+  activeListItemActive.value = !activeListItemActive.value
+}
 </script>
 <template>
   <div class="code-frame">
@@ -200,7 +203,7 @@ if (name == activeDetails?.value?.name) {
         }
       "
     />
-    <div class="menu">
+    <div :class="activeListItemActive?'menu ':'menu deavtive-code-list'">
       <div class="header">
         <div>Custom-Items</div>
         <div
@@ -245,6 +248,8 @@ if (name == activeDetails?.value?.name) {
                 taskCode = null
                 activeDetails = i;
                 showModuleList = i?.task_list;
+                activeListItemActive = false
+
               }
             "
           >
@@ -269,7 +274,13 @@ if (name == activeDetails?.value?.name) {
     <div class="code-box">
       <div class="head-box">
         <div class="name">
-          Code {{ activeDetails?.name ? `/ ${activeDetails.name}` : null
+          <span 
+          @click="()=>{
+                activeListItemActive = true
+                 showModuleList = null;
+
+          }"
+          >Code</span> {{ activeDetails?.name ? `/ ${activeDetails.name}` : null
           }}{{ taskCode?.code ? `/ ${taskCode.name}` : null }}
         </div>
         <div class="icon" @click="codeRunner">

@@ -240,3 +240,30 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 30px;
 }
+
+
+@media (max-width:900px) {
+      .code-frame .menu {
+        min-width: auto;
+        max-width: 400px;
+        width: 100%;
+        position: absolute;
+        background-color: rgb(255, 235, 218);
+        padding: 10px;
+        z-index: 1;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.034);
+        transition: .2s;
+      }  
+      .deavtive-code-list{
+        left: -200%;
+      }
+      .code-box > .head-box > .name > span{
+        cursor: pointer;
+      }
+      .code-frame  .list-pad{
+        max-width: 400px;
+        width: 100%;
+      }
+}

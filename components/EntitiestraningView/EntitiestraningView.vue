@@ -328,6 +328,11 @@ function validatorLayer(i) {
   //   }
   // }, 3000);
 }
+const activeProgressbarView = ref(false)
+const changeActiveProgressbarView = ()=>{
+  activeProgressbarView.value = !activeProgressbarView.value
+}
+
 </script>
 <template>
   <div class="traning">
@@ -350,7 +355,14 @@ function validatorLayer(i) {
 
     <div class="option">
       <div class="t-part">
-        <h2>Entities Training-Model</h2>
+        <h2>Entities Training-Model
+
+
+          <div class="icon"  @click="changeActiveProgressbarView" >
+                                <img src="../../assets/icon/other/menu.png" alt="" />
+
+              </div>
+        </h2>
         <div class="loading-boxs" v-if="model_storage.model.fetching">
           <div class="loading">
             <LoadingRequestView />
@@ -1031,7 +1043,17 @@ function validatorLayer(i) {
           </div>
         </div>
       </div>
-      <div class="t-part">
+      <div :class="activeProgressbarView? `t-part  `:`t-part deactive-part `">
+
+
+
+         <div class="icon-box" >
+              <div class="icon"  @click="changeActiveProgressbarView" >
+                                <img src="../../assets/icon/other/cross_2.png" alt="" />
+
+              </div>
+        </div>
+
         <div class="anim-icon">
           <TraninganimationView />
         </div>

@@ -11,11 +11,22 @@
   padding-right: 0;
   overflow-x: hidden;
   transition: 0.1s;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 2px solid orange;
+  border-top: 2px solid orange;
+  right: -200%;
 }
 .condition-main .active-aside-box {
   width: 400px;
   padding-left: 5px;
   padding-right: 5px;
+  right: 0;
+
 }
 .condition-main .aside-box h2 {
   display: flex;
@@ -55,6 +66,7 @@
 .condition-main .menu {
   width: 400px;
   height: 100%;
+    
 }
 
 .condition-main .aside-box .list-of-items {
@@ -146,6 +158,11 @@
   font-size: larger;
   display: flex;
   justify-content: space-between;
+    font-family: "Fugaz One", sans-serif !important;
+  font-size: 22px;
+    font-weight: 300;
+
+
 }
 .condition-main .menu h2 .icon {
   height: 20px;
@@ -228,6 +245,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .condition-main .codebox h3 {
@@ -238,6 +256,14 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 18px;
+    font-family: "Fugaz One", sans-serif !important;
+    font-weight: 300;
+
+  
+}
+.condition-main .codebox span{
+  cursor: pointer;
 }
 .condition-main .codebox h3 .icon {
   height: 20px;
@@ -246,4 +272,35 @@
 }
 .condition-main .codebox .codepad {
   flex-grow: 1;
+}
+
+
+@media (max-width: 950px) {
+.condition-main .menu{
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  background-color: rgb(255, 235, 218);
+  z-index: 1;
+  padding: 10px;
+  padding-right: 15px;
+  padding-top: 15px;
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px ;
+  box-shadow: 2px 2px 5px rgba(13, 13, 13, 0.057);
+  transition: .2s;
+}
+.condition-main .active-aside-box {
+    max-width: 400px;
+    width: 100%;
+}
+.deactive-menu-bar-00001{
+  left: -200%;
+  display: none;
+}
+}
+
+@media (max-width: 950px){
+
+
 }

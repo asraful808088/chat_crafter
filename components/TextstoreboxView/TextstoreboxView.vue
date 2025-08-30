@@ -43,7 +43,8 @@ const props = defineProps({
 import postEntities from "~/network/entities/post.";
 
 function splitSentenceByPunctuation(sentence) {
-  const sentSplit = sentence.split(" ");
+  
+  let sentSplit = sentence.split(/[\s\n]+/);
   const enArr = new Array(sentSplit.length).fill("O");
   const mapIndex = sentSplit.map((element, index) => element);
   return [sentence, enArr, mapIndex];

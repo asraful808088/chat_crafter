@@ -259,6 +259,16 @@ function deletePatternSequnce(i) {
     }
   );
 }
+
+const activeGenPattern = ref(true);
+const changeActiveGenPatternStatus = () => {
+  activeGenPattern.value = !activeGenPattern.value;
+};
+
+const alterNativeBoxActive = ref(false);
+const changealterNativeBoxActiveStatus = () => {
+  alterNativeBoxActive.value = !alterNativeBoxActive.value;
+};
 </script>
 <template>
   <div class="syn-main">
@@ -295,9 +305,20 @@ function deletePatternSequnce(i) {
           >
             Undivided
           </div>
-          <div class="option-button add-button" @click="addItems">
-            <div class="icon">
-              <img src="../../assets/icon/other/next.png" alt="" />
+
+          <div class="icon-box">
+            <div
+              class="option-button add-button-2 "
+              @click="changealterNativeBoxActiveStatus()"
+            >
+              <div class="icon">
+                <img src="../../assets/icon/nav/synonym.png" alt="" />
+              </div>
+            </div>
+            <div class="option-button add-button" @click="addItems">
+              <div class="icon">
+                <img src="../../assets/icon/other/next.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -327,12 +348,26 @@ function deletePatternSequnce(i) {
         </div>
       </div>
     </div>
-    <div class="item">
+    <div
+      :class="alterNativeBoxActive ? 'item ' : 'item item-display-noneeeeeee'"
+    >
       <div class="sub-item">
         <div class="sub-head">
           <h3>Alternative</h3>
-          <div class="icon" v-if="activeSyc" @click="deleteAllAlterItems">
-            <img src="../../assets/icon/other/delete-all.png" alt="" />
+          <div class="icon-box">
+            <div class="icon" v-if="activeSyc" @click="deleteAllAlterItems">
+              <img src="../../assets/icon/other/delete-all.png" alt="" />
+            </div>
+            <div :class="'icon icon-m'" @click="changeActiveGenPatternStatus()">
+              <img src="../../assets/icon/other/Group 387.png" alt="" />
+            </div>
+
+            <div
+              class="icon icon-mm"
+              @click="changealterNativeBoxActiveStatus()"
+            >
+              <img src="../../assets/icon/other/cross_2.png" alt="" />
+            </div>
           </div>
         </div>
         <div class="sub-add-box">
@@ -362,17 +397,22 @@ function deletePatternSequnce(i) {
           </div>
         </div>
       </div>
-      <div class="sub-item">
+      <div :class="activeGenPattern ? 'sub-item display-none-d' : 'sub-item '">
         <div class="sub-head">
           <h3>Generative</h3>
-          <div class="icon" v-if="activeSyc" @click="patternBuilder">
-            <img src="../../assets/icon/other/pngegg.png" alt="" />
+          <div class="icon-box">
+            <div class="icon" v-if="activeSyc" @click="patternBuilder">
+              <img src="../../assets/icon/other/pngegg.png" alt="" />
+            </div>
+            <div :class="'icon icon-m'" @click="changeActiveGenPatternStatus()">
+              <img src="../../assets/icon/other/cross_2.png" alt="" />
+            </div>
           </div>
         </div>
         <div class="sub-add-box">
           <div class="add-buttonx" @click="addPatternSecounce">
             <div class="icon">
-              <img src="../../assets/icon/other/generative.png" alt="" />
+              <img src="../../assets/icon/other/gen1.png" alt="" />
             </div>
             <div class="txt">Add-Pattern</div>
           </div>

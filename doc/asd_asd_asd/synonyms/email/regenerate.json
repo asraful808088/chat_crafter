@@ -1,0 +1,35 @@
+{
+  "sents": [
+    {
+      "id": 1756124848054,
+      "randomly_add": false,
+      "word_list": [
+        "qwertyuioplmnbvcxzasdfghjkl"
+      ],
+      "latters": "qwertyuiopasdfghjklzxcvbnm",
+      "useWord": false,
+      "length": "10",
+      "useList": false
+    },
+    {
+      "id": 1756126809938,
+      "randomly_add": true,
+      "word_list": [],
+      "latters": "123456789",
+      "useWord": false,
+      "length": 9,
+      "useList": false
+    },
+    {
+      "id": 1756126816329,
+      "randomly_add": false,
+      "word_list": [
+        "@gmail.com"
+      ],
+      "latters": "qwertyuiopasdfghjklzxcvbnm",
+      "useWord": false,
+      "length": 1,
+      "useList": true
+    }
+  ]
+}

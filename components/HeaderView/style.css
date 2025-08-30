@@ -242,10 +242,38 @@
   }
 
   .mobile-menu-bar .icon_w_txt .txt {
-    font-weight: 900;
+    font-weight: 100;
     font-family: "Fugaz One", sans-serif;
     font-size: 25px;
+    color: white;
+    white-space: nowrap;
   }
+  .mobile-menu-bar  .more-option{
+    width: 100%;
+    margin-top: 5px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .mobile-menu-bar  .more-option .item{
+    height: 40px;
+    aspect-ratio: 1/1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .mobile-menu-bar  .more-option .active-item{
+    border: 2px solid white;
+  }
+   .mobile-menu-bar  .more-option .item:hover{
+      background-color: wheat;
+   }
   .mobile-menu-bar .nav-item {
     width: 100%;
     margin-top: 0px;
@@ -260,6 +288,7 @@
     aspect-ratio: 1/1;
     margin-right: 10px;
   }
+  
    .mobile-menu-bar .nav-item .icon2 {
     height: 15px;
     aspect-ratio: 1/1.2;

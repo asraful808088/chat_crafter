@@ -1,0 +1,576 @@
+{
+  "list_of_intent": [
+    {
+      "mainsent": "Please provide your email, username, and password to create an account.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Please",
+        "provide",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password",
+        "to",
+        "create",
+        "an",
+        "account."
+      ]
+    },
+    {
+      "mainsent": "Can you give me your email, desired username, and a password?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "give",
+        "me",
+        "your",
+        "email,",
+        "desired",
+        "username,",
+        "and",
+        "a",
+        "password?"
+      ]
+    },
+    {
+      "mainsent": "To get started, I need your email, username, and password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "To",
+        "get",
+        "started,",
+        "I",
+        "need",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "Enter your email, username, and password so we can create your account.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Enter",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password",
+        "so",
+        "we",
+        "can",
+        "create",
+        "your",
+        "account."
+      ]
+    },
+    {
+      "mainsent": "I need your email address, a username, and a password to sign you up.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "your",
+        "email",
+        "address,",
+        "a",
+        "username,",
+        "and",
+        "a",
+        "password",
+        "to",
+        "sign",
+        "you",
+        "up."
+      ]
+    },
+    {
+      "mainsent": "Please type your email, username, and password for registration.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Please",
+        "type",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password",
+        "for",
+        "registration."
+      ]
+    },
+    {
+      "mainsent": "Can you provide your email, account name, and password?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "provide",
+        "your",
+        "email,",
+        "account",
+        "name,",
+        "and",
+        "password?"
+      ]
+    },
+    {
+      "mainsent": "To create your account, give me your email, username, and password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "To",
+        "create",
+        "your",
+        "account,",
+        "give",
+        "me",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "Enter your email, pick a username, and set a password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Enter",
+        "your",
+        "email,",
+        "pick",
+        "a",
+        "username,",
+        "and",
+        "set",
+        "a",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "I need your email, a username you want, and your password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "your",
+        "email,",
+        "a",
+        "username",
+        "you",
+        "want,",
+        "and",
+        "your",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "Please share your email, desired username, and password to continue.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Please",
+        "share",
+        "your",
+        "email,",
+        "desired",
+        "username,",
+        "and",
+        "password",
+        "to",
+        "continue."
+      ]
+    },
+    {
+      "mainsent": "Can you tell me your email, username, and password?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "tell",
+        "me",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password?"
+      ]
+    },
+    {
+      "mainsent": "To sign you up, I need your email, username, and password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "To",
+        "sign",
+        "you",
+        "up,",
+        "I",
+        "need",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "Enter your email address, username, and password to register.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Enter",
+        "your",
+        "email",
+        "address,",
+        "username,",
+        "and",
+        "password",
+        "to",
+        "register."
+      ]
+    },
+    {
+      "mainsent": "Please provide your email, create a username, and choose a password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Please",
+        "provide",
+        "your",
+        "email,",
+        "create",
+        "a",
+        "username,",
+        "and",
+        "choose",
+        "a",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "Give me your email, the username you want, and a password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Give",
+        "me",
+        "your",
+        "email,",
+        "the",
+        "username",
+        "you",
+        "want,",
+        "and",
+        "a",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "I need your email, username, and password to set up your account.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password",
+        "to",
+        "set",
+        "up",
+        "your",
+        "account."
+      ]
+    },
+    {
+      "mainsent": "To get started, type your email, username, and password.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "To",
+        "get",
+        "started,",
+        "type",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password."
+      ]
+    },
+    {
+      "mainsent": "Please enter your email, username, and password to create your profile.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Please",
+        "enter",
+        "your",
+        "email,",
+        "username,",
+        "and",
+        "password",
+        "to",
+        "create",
+        "your",
+        "profile."
+      ]
+    },
+    {
+      "mainsent": "Can you give me your email, a username, and a password so we can proceed?",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Can",
+        "you",
+        "give",
+        "me",
+        "your",
+        "email,",
+        "a",
+        "username,",
+        "and",
+        "a",
+        "password",
+        "so",
+        "we",
+        "can",
+        "proceed?"
+      ]
+    }
+  ]
+}

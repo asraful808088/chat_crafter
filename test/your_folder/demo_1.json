@@ -1,0 +1,8270 @@
+{
+  "data": [
+    {
+      "mainsent": "My email is exp@gmail.com, username is exp, and password is QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "My",
+        "email",
+        "is",
+        "B-EMAIL",
+        "username",
+        "is",
+        "B-USERNAME",
+        "and",
+        "password",
+        "is",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login details – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "details",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account info: email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "info:",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "User credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "User",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Access account using email: exp@gmail.com, username: exp, and password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Access",
+        "account",
+        "using",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Profile info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Profile",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign in with email: exp@gmail.com, username: exp, and password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "in",
+        "with",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account login – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "login",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email: exp@gmail.com, username: exp, password: QQqq!!11 for login.",
+      "mapword": [
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD",
+        "for",
+        "login."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "My login info: email: exp@gmail.com, username: exp, and password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "My",
+        "login",
+        "info:",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Access info: email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Access",
+        "info:",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign in details – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "in",
+        "details",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email: exp@gmail.com, username: exp, password: QQqq!!11 to access account.",
+      "mapword": [
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD",
+        "to",
+        "access",
+        "account."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "User account info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "User",
+        "account",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login credentials: email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "credentials:",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "My account details – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "My",
+        "account",
+        "details",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Profile credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Profile",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign in using email: exp@gmail.com, username: exp, and password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "in",
+        "using",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email: exp@gmail.com, username: exp, and password: QQqq!!11 for account login.",
+      "mapword": [
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD",
+        "for",
+        "account",
+        "login."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account access – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "access",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "User login details – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "User",
+        "login",
+        "details",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Credentials for account – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Credentials",
+        "for",
+        "account",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email account: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Email",
+        "account:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account login info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "login",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Profile info – email: exp@gmail.com, username: exp, and password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Profile",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login details: email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "details:",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Access credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Access",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "User account credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "User",
+        "account",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email: exp@gmail.com, username: exp, password: QQqq!!11 for login access.",
+      "mapword": [
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11",
+        "O",
+        "O",
+        "O"
+      ],
+      "wordlist": [
+        "Email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD",
+        "for",
+        "login",
+        "access."
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login info – email: exp@gmail.com, username: exp, and password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "and",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign in credentials: email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "in",
+        "credentials:",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email account login – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Email",
+        "account",
+        "login",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Profile login – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Profile",
+        "login",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "User login – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "User",
+        "login",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login details – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "details",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account access info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "access",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Email",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "My profile login – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "My",
+        "profile",
+        "login",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign in info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "in",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Account login details – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Account",
+        "login",
+        "details",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "User credentials info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "User",
+        "credentials",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Email login info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Email",
+        "login",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Profile account credentials – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Profile",
+        "account",
+        "credentials",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Login credentials info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Login",
+        "credentials",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Access account info – email: exp@gmail.com, username: exp, password: QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Access",
+        "account",
+        "info",
+        "–",
+        "email:",
+        "B-EMAIL",
+        "username:",
+        "B-USERNAME",
+        "password:",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to create an account with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "create",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign me up using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "me",
+        "up",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register a new account with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Register",
+        "a",
+        "new",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I would like to open an account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "open",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please create my account using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "create",
+        "my",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I need to sign up with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "to",
+        "sign",
+        "up",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up a new account for me with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "a",
+        "new",
+        "account",
+        "for",
+        "me",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to register using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "register",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create a new profile with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "a",
+        "new",
+        "profile",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Help me create an account using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Help",
+        "me",
+        "create",
+        "an",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I would like to register an account with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "register",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign me up for a new account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "me",
+        "up",
+        "for",
+        "a",
+        "new",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please register me using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "register",
+        "me",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to open a profile with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "open",
+        "a",
+        "profile",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create my account using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "my",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to sign up with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "sign",
+        "up",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register me with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Register",
+        "me",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I need an account using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "an",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up my account using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "my",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Help me register a new account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Help",
+        "me",
+        "register",
+        "a",
+        "new",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please create a profile with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "create",
+        "a",
+        "profile",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to make an account using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "make",
+        "an",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register a profile for me using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Register",
+        "a",
+        "profile",
+        "for",
+        "me",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create an account for me using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "an",
+        "account",
+        "for",
+        "me",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I would like to sign up using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "sign",
+        "up",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please help me create an account with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "help",
+        "me",
+        "create",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to register a new account using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "register",
+        "a",
+        "new",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create my profile using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "my",
+        "profile",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I need to create an account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "to",
+        "create",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign me up for an account with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "me",
+        "up",
+        "for",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register me for a new profile using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Register",
+        "me",
+        "for",
+        "a",
+        "new",
+        "profile",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please sign me up using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "sign",
+        "me",
+        "up",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to set up an account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "set",
+        "up",
+        "an",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create a new account for me using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "a",
+        "new",
+        "account",
+        "for",
+        "me",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I would like to make a profile with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "make",
+        "a",
+        "profile",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Help me set up an account using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Help",
+        "me",
+        "set",
+        "up",
+        "an",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please register a new account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "register",
+        "a",
+        "new",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to open a new account using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "open",
+        "a",
+        "new",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up for me using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "for",
+        "me",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create an account now with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "an",
+        "account",
+        "now",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I need to register with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "need",
+        "to",
+        "register",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please help me set up a profile using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "help",
+        "me",
+        "set",
+        "up",
+        "a",
+        "profile",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I would like to create a new account with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "create",
+        "a",
+        "new",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Help me register using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Help",
+        "me",
+        "register",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign me up for a profile using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Sign",
+        "me",
+        "up",
+        "for",
+        "a",
+        "profile",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create a new user account with email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Create",
+        "a",
+        "new",
+        "user",
+        "account",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "I want to make a new account using email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "I",
+        "want",
+        "to",
+        "make",
+        "a",
+        "new",
+        "account",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Please set up an account for me using email exp@gmail.com, username exp, and password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Please",
+        "set",
+        "up",
+        "an",
+        "account",
+        "for",
+        "me",
+        "using",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "and",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register my account now with email exp@gmail.com, username exp, password QQqq!!11.",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com,",
+        "O",
+        "exp,",
+        "O",
+        "QQqq!!11."
+      ],
+      "wordlist": [
+        "Register",
+        "my",
+        "account",
+        "now",
+        "with",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create account now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "account",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New account now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "account",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open account now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "account",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make account now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "account",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add account now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "account",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up account now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "account",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up profile now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "profile",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up user now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "user",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up login now email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "login",
+        "now",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create account fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "account",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New account fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "account",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open account fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "account",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make account fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "account",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add account fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "account",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up account fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "account",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up profile fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "profile",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up user fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "user",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Create login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Create",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Register login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Register",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Sign up login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Sign",
+        "up",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "New login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "New",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Open login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Open",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Make login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Make",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Add login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Add",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "Set up login fast email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "Set",
+        "up",
+        "login",
+        "fast",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup account email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "account",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup profile email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "profile",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup user email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "user",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup login email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "login",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup acc email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "acc",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup prof email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "prof",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup u email exp@gmail.com username exp password QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "O",
+        "exp@gmail.com",
+        "O",
+        "exp",
+        "O",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "u",
+        "email",
+        "B-EMAIL",
+        "username",
+        "B-USERNAME",
+        "password",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create account exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "account",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new account exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "account",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open account exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "account",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make account exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "account",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add account exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "account",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup account exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "account",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup profile exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "profile",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup user exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "user",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup login exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "login",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup acc exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "acc",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "create prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "create",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "signup prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "signup",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "register prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "register",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "new prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "new",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "open prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "open",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "make prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "make",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "add prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "add",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    },
+    {
+      "mainsent": "setup prof exp@gmail.com exp QQqq!!11",
+      "mapword": [
+        "O",
+        "O",
+        "exp@gmail.com",
+        "exp",
+        "QQqq!!11"
+      ],
+      "wordlist": [
+        "setup",
+        "prof",
+        "B-EMAIL",
+        "B-USERNAME",
+        "B-PASSWORD"
+      ],
+      "alter": [],
+      "allAlter": true,
+      "reCreate": false
+    }
+  ]
+}

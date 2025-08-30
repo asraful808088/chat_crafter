@@ -12,6 +12,8 @@ import copyDirectory from "~/util/copy";
 import checkAndCreateDir from "~/util/createDir";
 import deleteDirWithContents from "~/util/deleteFiles";
 import readAllDirs from "~/util/readDir";
+import zipFolder from "~/util/convertZip";
+
 function getUniqueList(arr, key) {
   const uniqueMap = new Map();
 
@@ -88,6 +90,35 @@ function responseAndConditionFetcher(d, p, profileName, randomModel, botname) {
       "final_default_fallback"
     )
   );
+
+
+
+
+
+ copyDirectory(
+    path.join(
+      process.cwd(),
+      "doc",
+      botname,
+      "response",
+      `${"default_fallback"}`
+    ),
+    path.join(
+      profileName,
+      `bot_${randomModel}`,
+      "response",
+      "default_fallback"
+    )
+  );
+
+
+
+
+
+
+
+
+
 
   for (const element of getUniqueList(response)) {
     try {
@@ -445,6 +476,23 @@ export default defineEventHandler(async (event) => {
         path.join(profileName, "models", body["model"])
       );
     } else if (body["buildType"] == "model_pack") {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       const maindir = path.join(process.cwd(), "build", "model_pack");
       const profileName = path.join(
         process.cwd(),
@@ -515,6 +563,27 @@ export default defineEventHandler(async (event) => {
         randomModel,
         botname
       );
+      zipFolder( path.join(
+        process.cwd(),
+        "build",
+        "model_pack",
+        botname,
+        `bot_${randomModel}`
+      ),path.join(
+        process.cwd(),
+        "build",
+        "model_pack",
+        botname,
+        `bot_${randomModel}.zip`
+      ))
+
+
+
+
+
+
+
+
     } else if (body["buildType"] == "without_controller") {
       const maindir = path.join(process.cwd(), "build", "without_controller");
       const profileName = path.join(

@@ -2,9 +2,11 @@
 import { useRouter } from "#app";
 import { onMounted, ref } from "vue";
 import CreatedialogView from "~/components/CreatdialogView/index.vue";
+import convertT from "~/network/convertTO/post";
 import postSelectItem from "~/network/createSelectItem/create";
 import deleteSelecteItem from "~/network/deleteSelector/delete";
 import getSelectItems from "~/network/get_intentes/get_intents";
+import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
 import SelectorItem2View from "../SelectorItem2View/SelectorItem2View.vue";
 const router = useRouter();
 const dialogToast1 = ref(null);
@@ -83,8 +85,6 @@ function exchangeTO() {
     }
   );
 }
-import AnimationdiglogboxView from "../Animation_diglog_box/AnimationdiglogboxView.vue";
-import convertT from "~/network/convertTO/post";
 function applyToExchange(convertTO) {
   if (!propertyInfo.value?.from_name) {
     return;
@@ -136,7 +136,7 @@ function applyToExchange(convertTO) {
       <div class="title-box">
         <div>{{ props.header }}</div>
 
-        <div class="icon-box" >
+        <div class="icon-box">
           <div
             class="icon"
             @click="
@@ -147,11 +147,11 @@ function applyToExchange(convertTO) {
           >
             <img src="../../assets/icon/other/Group 3.png" alt="" />
           </div>
-           <div
+          <div
             class="icon menu"
             @click="
               () => {
-                showDetails = !showDetails  
+                showDetails = !showDetails;
               }
             "
           >
@@ -192,13 +192,16 @@ function applyToExchange(convertTO) {
     </div>
     <div :class="showDetails ? 'details active' : 'details deactive'">
       <div class="title-box">
-        <span>Properties</span><span class="cross" 
-        @click="
-              () => {
-                showDetails = !showDetails  
-              }
-            " 
-        >Close</span>
+        <span>Properties</span
+        ><span
+          class="cross"
+          @click="
+            () => {
+              showDetails = !showDetails;
+            }
+          "
+          >Close</span
+        >
       </div>
       <div class="info-box">
         <div class="info-container">

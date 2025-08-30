@@ -23,6 +23,7 @@ function generateRandomCode(length = 32) {
   return result;
 }
 export default defineEventHandler(async (event) => {
+  console.log("@!23123123")
   if (event.method != "POST") {
     throw createError({ statusCode: 405, msg: "Method Not Allowed" });
   }
@@ -141,7 +142,6 @@ export default defineEventHandler(async (event) => {
             const mapArray = allAlterItems.map(
               (ele, indexx) => startIndex + indexx
             );
-            console.log(mapArray)
             newItems.push({
               targetIndex: mapArray,
               list_of_alter: [element2],

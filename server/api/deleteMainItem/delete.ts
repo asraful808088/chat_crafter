@@ -9,7 +9,6 @@ export default defineEventHandler((event) => {
   const botname = botinfo["name"];
  
   const query = getQuery(event);
-  
   try {
     const entitiesName = query["item"];
     let filePath = path.resolve(
@@ -37,6 +36,8 @@ export default defineEventHandler((event) => {
       (element, index) => element.mainsent != query["delete"]
     );
     parseData2.sents = parseData2.sents.filter((element, index) => {
+      // console.log(element.sent)
+      // console.log(query["delete"])
       return element.sent != query["delete"];
     });
     fs.writeFileSync(`${filePath}.json`, JSON.stringify(parseData, null, 2));

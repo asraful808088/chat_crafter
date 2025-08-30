@@ -318,6 +318,16 @@ function submitlayer() {
     }
   }, 3000);
 }
+
+
+
+const activeProgressbarView = ref(false)
+const changeActiveProgressbarView = ()=>{
+  activeProgressbarView.value = !activeProgressbarView.value
+}
+
+
+
 </script>
 <template>
   <div class="traning">
@@ -331,7 +341,13 @@ function submitlayer() {
 
     <div class="option">
       <div class="t-part">
-        <h2>Training-Model</h2>
+        <h2> Training-Model 
+
+<div class="icon"  @click="changeActiveProgressbarView" >
+                                <img src="../assets/icon/other/menu.png" alt="" />
+
+              </div>
+        </h2>
         <div class="loading-boxs" v-if="model_storage.model.fetching">
           <div class="loading">
             <LoadingRequestView />
@@ -993,7 +1009,20 @@ function submitlayer() {
           </div>
         </div>
       </div>
-      <div class="t-part">
+      <div :class="activeProgressbarView? `t-part  `:`t-part deactive-part `">
+
+
+        
+        <div class="icon-box" >
+              <div class="icon"  @click="changeActiveProgressbarView" >
+                                <img src="../assets/icon/other/cross_2.png" alt="" />
+
+              </div>
+        </div>
+
+
+
+
         <div class="anim-icon">
           <TraninganimationView />
         </div>
@@ -1056,6 +1085,9 @@ function submitlayer() {
 </template>
 
 <style scoped>
+
+
+
 .traning {
   width: 100%;
   height: calc(100vh - 150px);
@@ -1067,6 +1099,7 @@ function submitlayer() {
   margin-top: 50px;
   display: flex;
   position: relative;
+
 }
 .traning .graph-box .item {
   width: 50%;
@@ -1077,6 +1110,7 @@ function submitlayer() {
   padding: 0 20px;
   margin-top: 40px;
   font-family: "Fugaz One", sans-serif;
+
 }
 .traning .option {
   width: 100%;
@@ -1085,6 +1119,8 @@ function submitlayer() {
   padding: 0 20px;
   display: flex;
   justify-content: center;
+
+
 }
 .traning .option .t-part {
 }
@@ -1094,6 +1130,7 @@ function submitlayer() {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .traning .option .t-part .loading-boxs .loading {
   height: 560px;
@@ -1122,6 +1159,8 @@ function submitlayer() {
   width: 100%;
   padding: 10px 0;
   display: flex;
+
+
 }
 .traning .option .t-part .neural-network .layer-box {
   flex-grow: 1;
@@ -1178,16 +1217,20 @@ function submitlayer() {
 }
 .traning .option .t-part .option-box {
   width: 100%;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   margin-top: 10px;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 5px;
+
 }
 .traning .option .t-part .option-box .item {
-  width: 350px;
+  width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 100;
 
-  height: 300px;
+  aspect-ratio: 1/1;
+  max-height: 300px;
   margin-right: 10px;
   margin-bottom: 20px;
   align-items: flex-start;
@@ -1271,10 +1314,32 @@ function submitlayer() {
   flex-grow: 1;
   height: 100%;
 }
+.traning .option .t-part:nth-child(1) h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.traning .option .t-part:nth-child(1) h2 .icon{
+  height: 24px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  display: none;
+} 
 .traning .option .t-part:nth-child(2) {
   width: 500px;
   min-height: 800px;
   margin-top: 45px;
+}
+.traning .option .t-part:nth-child(2)  .icon-box{
+  width: 100%;
+  display: none;
+  justify-content: flex-end;
+
+}
+.traning .option .t-part:nth-child(2)  .icon-box .icon{
+  height: 24px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
 }
 .traning .option .t-part:nth-child(2) .anim-icon {
   height: 200px;
@@ -1329,4 +1394,46 @@ function submitlayer() {
 .traning .error p {
   margin-bottom: 10px;
 }
+
+
+@media (max-width:1022px) {
+.traning .option .t-part:nth-child(2){
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-left: 2px solid    orange;
+  border-top:  2px solid  orange;
+  padding: 10px;
+  padding-left: 15px;
+  padding-top: 20px;
+  margin-top: 0;
+  width: 100%;
+  max-width:500px ;
+  z-index: 1;
+  transition: .2s;
+}
+.traning .option .t-part:nth-child(2)  .icon-box{
+  display: flex;
+}
+.deactive-part {
+  right: -200% !important;
+}
+.traning .option .t-part:nth-child(1) h2 .icon{
+  display: block;
+}
+}
+
+
+
+@media (max-width:700px) {
+  .traning .graph-box {
+  flex-direction: column;
+}
+.traning .graph-box .item {
+  width: 100%;
+  margin-top: 10px;
+}
+}
+
 </style>

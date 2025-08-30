@@ -1,0 +1,1 @@
+{"name":"final_default_fallback","des":"The final_default_fallback is the last-resort response used when the entire topic or conversation flow breaks down completely. It’s used when no valid section, step, or recognized intent can be triggered, indicating the system has fully lost context or understanding of the user’s input.","time":1741634993575,"type":"default_fallback" }

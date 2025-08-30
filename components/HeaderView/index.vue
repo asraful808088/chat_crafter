@@ -166,6 +166,7 @@ watchEffect(() => {
     });
   }
 });
+
 const currentPathObj = computed(() => route.path);
 let currentPath = ref(currentPathObj.value);
 let mobile_nav_active = ref(false);
@@ -177,6 +178,9 @@ function routering(name = "") {
 function swtMobile_nav(){
   mobile_nav_active.value = !mobile_nav_active.value 
 }
+watchEffect(()=>{
+   currentPath.value = route.path;
+})
 </script>
 
 <template>
@@ -264,6 +268,78 @@ function swtMobile_nav(){
         <img src="`./../../assets/icon/other/Polygon 2.png`" alt="" />
       </div>
     </div>
+
+    <div class="more-option" >
+
+
+
+
+          <div :class="currentPath == '/entitiestraning'? 'item active-item':'item'" @click="routering('entitiestraning')" >
+        <img src="`./../../assets/icon/other/location-pin.png`" alt="" />
+
+          </div>
+  <div class="item" :class="currentPath == '/traning'? 'item active-item':'item'" @click="routering('traning')">
+        <img src="`./../../assets/icon/other/brain.png`" alt="" />
+
+          </div>
+
+
+            <div class="item" >
+        <img src="`./../../assets/icon/other/chatbot.png`" alt="" />
+
+          </div>
+
+
+            <div class="item" >
+        <img src="`./../../assets/icon/other/hammer.png`" alt="" />
+
+          </div>
+
+
+            <div class="item" >
+        <img src="`./../../assets/icon/other/logout.png`" alt="" />
+
+          </div>
+
+
+    </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </div>
   <div class="build-dialog-box" v-if="showBuild">
     <div class="dialog-box">
